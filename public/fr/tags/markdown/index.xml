@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Markdown - Balise - have_you_met_rahul</title>
+        <link>/fr/tags/markdown/</link>
+        <description>Markdown - Balise - have_you_met_rahul</description>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Mar 2020 16:30:05 &#43;0800</lastBuildDate><atom:link href="/fr/tags/markdown/" rel="self" type="application/rss+xml" /><item>
+    <title>Thème Documentation - Contenu</title>
+    <link>/fr/theme-documentation-content/</link>
+    <pubDate>Thu, 05 Mar 2020 16:30:05 &#43;0800</pubDate>
+    <author>Auteur</author>
+    <guid>/fr/theme-documentation-content/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/theme-documentation-content/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>Découvrez comment créer et organiser votre contenu rapidement et intuitivement dans le thème <strong>LoveIt</strong>.</p>]]></description>
+</item><item>
+    <title>Syntaxe de Markdown de Base</title>
+    <link>/fr/basic-markdown-syntax/</link>
+    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
+    <author>Auteur</author>
+    <guid>/fr/basic-markdown-syntax/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/basic-markdown-syntax/featured-image.png" referrerpolicy="no-referrer">
+            </div><p>Cet article propose un exemple de syntaxe Markdown de base qui peut être utilisée dans les fichiers de contenu Hugo.</p>]]></description>
+</item></channel>
+</rss>

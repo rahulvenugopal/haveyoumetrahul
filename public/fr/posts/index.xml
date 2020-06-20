@@ -1,0 +1,61 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tous Posts - have_you_met_rahul</title>
+        <link>/fr/posts/</link>
+        <description>Tous Posts | have_you_met_rahul</description>
+        <generator>Hugo -- gohugo.io</generator><language>fr</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Mar 2020 21:40:32 &#43;0800</lastBuildDate><atom:link href="/fr/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Thème Documentation - Concepts de Base</title>
+    <link>/fr/theme-documentation-basics/</link>
+    <pubDate>Fri, 06 Mar 2020 21:40:32 &#43;0800</pubDate>
+    <author>Auteur</author>
+    <guid>/fr/theme-documentation-basics/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/theme-documentation-basics/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>Découvrez en quoi consiste le thème Hugo - <strong>LoveIt</strong> et les concepts fondamentaux qui le sous-tendent.</p>]]></description>
+</item><item>
+    <title>Thème Documentation - Contenu</title>
+    <link>/fr/theme-documentation-content/</link>
+    <pubDate>Thu, 05 Mar 2020 16:30:05 &#43;0800</pubDate>
+    <author>Auteur</author>
+    <guid>/fr/theme-documentation-content/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/theme-documentation-content/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>Découvrez comment créer et organiser votre contenu rapidement et intuitivement dans le thème <strong>LoveIt</strong>.</p>]]></description>
+</item><item>
+    <title>Thème Documentation - Built-in Shortcodes</title>
+    <link>/fr/theme-documentation-built-in-shortcodes/</link>
+    <pubDate>Wed, 04 Mar 2020 16:29:59 &#43;0800</pubDate>
+    <author>Auteur</author>
+    <guid>/fr/theme-documentation-built-in-shortcodes/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/theme-documentation-built-in-shortcodes/featured-image.png" referrerpolicy="no-referrer">
+            </div><p><strong>Hugo</strong> fournit plusieurs shortcodes intégrés pour la commodité de l&rsquo;auteur et pour garder votre contenu de démarque propre.</p>]]></description>
+</item><item>
+    <title>Thème Documentation - Extended Shortcodes</title>
+    <link>/fr/theme-documentation-extended-shortcodes/</link>
+    <pubDate>Tue, 03 Mar 2020 16:29:59 &#43;0800</pubDate>
+    <author>Auteur</author>
+    <guid>/fr/theme-documentation-extended-shortcodes/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/theme-documentation-extended-shortcodes/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>Le thème <strong>LoveIt</strong> fournit plusieurs shortcodes en plus de ceux intégrés dans Hugo.</p>]]></description>
+</item><item>
+    <title>Syntaxe de Markdown de Base</title>
+    <link>/fr/basic-markdown-syntax/</link>
+    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
+    <author>Auteur</author>
+    <guid>/fr/basic-markdown-syntax/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/basic-markdown-syntax/featured-image.png" referrerpolicy="no-referrer">
+            </div><p>Cet article propose un exemple de syntaxe Markdown de base qui peut être utilisée dans les fichiers de contenu Hugo.</p>]]></description>
+</item><item>
+    <title>Emoji Support</title>
+    <link>/fr/emoji-support/</link>
+    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
+    <author>Auteur</author>
+    <guid>/fr/emoji-support/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/emoji-support/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>Emoji peut être activé dans un projet Hugo de plusieurs façons.</p>]]></description>
+</item></channel>
+</rss>

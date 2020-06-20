@@ -1,0 +1,67 @@
+# 001: Github
+github:
+  weight: 4
+  prefix: https://github.com/
+  title: GitHub
+  icon:
+    class: fab fa-github-alt fa-fw
+
+# 002: LinkedIn
+linkedin:
+  weight: 8
+  prefix: https://linkedin.com/in/
+  title: LinkedIn
+  icon:
+    class: fab fa-linkedin fa-fw
+
+# 003: Twitter
+  
+twitter:
+  weight: 2
+  prefix: https://twitter.com/
+  title: Twitter
+  icon:
+    class: fab fa-twitter fa-fw
+
+# 008: GitLab
+gitlab:
+  weight: 10
+  prefix: https://gitlab.com/
+  title: GitLab
+  icon:
+    class: fab fa-gitlab fa-fw
+
+
+# 013: Quora
+quora:
+  weight: 6
+  prefix: https://www.quora.com/profile/
+  title: Quora
+  icon:
+    class: fab fa-quora fa-fw
+
+# 054: Google Scholar
+googlescholar:
+  weight: 1
+  template: https://scholar.google.com/citations?%v
+  title: Google Scholar
+  icon:
+    simpleicons: googlescholar
+
+# 055: ResearchGate
+researchgate:
+  weight: 3
+  prefix: https://www.researchgate.net/profile/
+  title: ResearchGate
+  icon:
+    class: fab fa-researchgate fa-fw
+
+# 063: Email
+email:
+  weight: 7
+  template: mailto:%v
+  title: Email
+  icon:
+    class: far fa-envelope fa-fw
+
+
