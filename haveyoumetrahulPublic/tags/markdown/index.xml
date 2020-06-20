@@ -1,23 +1,23 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Markdown - Tag - have_you_met_rahul</title>
-        <link>/tags/markdown/</link>
+        <link>https://rahulvenugopal.github.io/haveyoumetrahul/tags/markdown/</link>
         <description>Markdown - Tag - have_you_met_rahul</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</lastBuildDate><atom:link href="/tags/markdown/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/tags/markdown/" rel="self" type="application/rss+xml" /><item>
     <title>Basic Neuorosciences</title>
-    <link>/neurosciences/</link>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/neurosciences/</link>
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>/neurosciences/</guid>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/neurosciences/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/basic-markdown-syntax/featured-image.png" referrerpolicy="no-referrer">
             </div><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
 </item><item>
     <title>Cube Basics</title>
-    <link>/cube/</link>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/cube/</link>
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>/cube/</guid>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/cube/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/basic-markdown-syntax/featured-image.png" referrerpolicy="no-referrer">
             </div>ajisha vadakkepattu , bangalore Tip  LoveIt theme has special shortcode for image, which provides more features.   ]]></description>
