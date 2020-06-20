@@ -24,7 +24,7 @@ enableEmoji = true
 #Punblish directory
 canonifyurls = true
 relativeURLs = true
-publishDir = "../haveyoumetrahulPublic"
+publishDir = "haveyoumetrahulPublic"
 
 [languages]
   [languages.en]
