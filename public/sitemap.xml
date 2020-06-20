@@ -2,20 +2,16 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>/neurosciences/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/cube/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/</loc><lastmod>2020-06-07T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/research/</loc><lastmod>2020-06-07T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/categories/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/tags/html/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/tags/markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/categories/neuorosciences/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/posts/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/categories/rubiks-cube/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/tags/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/about-old/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/tags/content/_index.fr/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/categories/documentation/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/tags/installation/_index.zh-cn/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>/tags/configuration/_index.zh-cn/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>/neurosciences/</loc><lastmod>2020-06-20T12:38:22&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/cube/</loc><lastmod>2020-06-20T12:38:22&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/</loc><lastmod>2020-06-20T12:38:22&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/research/</loc><lastmod>2020-06-20T12:38:22&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/categories/</loc><lastmod>2020-06-20T12:38:22&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/tags/html/</loc><lastmod>2020-06-20T12:38:22&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/tags/markdown/</loc><lastmod>2020-06-20T12:38:22&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/categories/neuorosciences/</loc><lastmod>2020-06-20T12:38:22&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/posts/</loc><lastmod>2020-06-20T12:38:22&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/categories/rubiks-cube/</loc><lastmod>2020-06-20T12:38:22&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/tags/</loc><lastmod>2020-06-20T12:38:22&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/about/</loc><lastmod>2020-06-20T12:38:22&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/categories/documentation/</loc><lastmod>2020-06-20T12:38:22&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
