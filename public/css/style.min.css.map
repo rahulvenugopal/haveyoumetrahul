@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "C:/Users/ajisha.vadakkepattu/Documents/Personal/Rahul-website",
+	"sourceRoot": "C:/Users/ajisha.vadakkepattu/Documents/Personal/Rahul_Website/git/haveyoumetrahul",
 	"sources": [
 		"themes/LoveIt/assets/css/style.scss",
 		"themes/LoveIt/assets/css/_variables.scss",
