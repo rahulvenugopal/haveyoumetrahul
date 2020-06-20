@@ -3,7 +3,7 @@
 <table table-layout= fixed style="text-align:justify; border:none; "> 
 <tr>
 	<td align=left style="border-right-style: none;" width = 35 px>
-		<img src="/images/Projects.png" style="height:35px">
+		<img src="/images/Project.png" style="height:35px">
 		</td>
 		<td style="font-family:Tahoma;font-size:30px;border-left-style: none;">
 		 Projects
