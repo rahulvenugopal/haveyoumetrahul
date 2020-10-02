@@ -10,7 +10,7 @@
   <td style="width: 85%;border-radius: 15px ; line-height:30px">
   :baby_symbol: 09/09/1988 <br/>
   
-  Hello World:studio_microphone:I am a graduate student pursuing my PhD under Center for consciousness studies at NIMHANS.  My work focuses on understanding working memory in humans and methods to improve the same. 
+  Hello World:studio_microphone: I am a graduate student pursuing my PhD under Center for consciousness studies at NIMHANS.  My work focuses on understanding working memory in humans and methods to improve the same. 
   I love traveling and trekking. I am married to a wonderful woman and my life is peaceful and happy.
   </td>
   
