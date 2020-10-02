@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>HTML - Tag - have_you_met_rahul</title>
-        <link>/tags/html/</link>
-        <description>HTML - Tag - have_you_met_rahul</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</lastBuildDate><atom:link href="/tags/html/" rel="self" type="application/rss+xml" /><item>
+        <title>House keeping - Category - have_you_met_rahul</title>
+        <link>/categories/house-keeping/</link>
+        <description>House keeping - Category - have_you_met_rahul</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</lastBuildDate><atom:link href="/categories/house-keeping/" rel="self" type="application/rss+xml" /><item>
     <title>House keeping</title>
     <link>/house_keeping/</link>
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>

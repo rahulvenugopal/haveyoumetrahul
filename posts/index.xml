@@ -3,30 +3,21 @@
         <title>All Posts - have_you_met_rahul</title>
         <link>/posts/</link>
         <description>All Posts | have_you_met_rahul</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 01 Jan 2020 21:57:40 &#43;0800</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 02 Oct 2020 21:57:40 &#43;0800</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Catharsis</title>
     <link>/catharsis/</link>
-    <pubDate>Wed, 01 Jan 2020 21:57:40 &#43;0800</pubDate>
+    <pubDate>Fri, 02 Oct 2020 21:57:40 &#43;0800</pubDate>
     <author>Author</author>
     <guid>/catharsis/</guid>
     <description><![CDATA[Teaching and research are two strands of my DNA I really love teaching and is my happy place I am a happy person who is slightly above average in multiple things Life was going downward spiral in my life till year 2010 That year I completed a bachelor&rsquo;s degree in engineering BUT, I had limited skills, poor confidence and was absolutely clueless about where I am heading I went around attending job interviews with some of my friends Nothing happened and decided to pack my bags and spent one year preapring for entrance exam towards a masters degree in engineering August 8th 2010 was my life&rsquo;s turning point at age 22!]]></description>
 </item><item>
-    <title>Basic Neuorosciences</title>
-    <link>/neurosciences/</link>
+    <title>House keeping</title>
+    <link>/house_keeping/</link>
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>/neurosciences/</guid>
+    <guid>/house_keeping/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/basic-markdown-syntax/featured-image.png" referrerpolicy="no-referrer">
             </div><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
-</item><item>
-    <title>Cube Basics</title>
-    <link>/cube/</link>
-    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>/cube/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/basic-markdown-syntax/featured-image.png" referrerpolicy="no-referrer">
-            </div>ajisha vadakkepattu , bangalore Tip  LoveIt theme has special shortcode for image, which provides more features.   ]]></description>
 </item></channel>
 </rss>
