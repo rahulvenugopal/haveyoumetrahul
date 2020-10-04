@@ -1,0 +1,48 @@
+	• Social links 
+		○ Link in config.toml
+		○ Weight in "C:\Users\ajisha.vadakkepattu\Documents\Personal\testsite\themes\LoveIt\assets\data"
+	• Footer
+		○ Edit footer content in En.toml (for english) -C:\Users\ajisha.vadakkepattu\Documents\Personal\testsite\themes\LoveIt\i18n
+		○ Copyright in [params.footer] in config.toml ->copyright = false
+	• Style homepage avatar image ,font size ,color etc 
+		○ C:\Users\ajisha.vadakkepattu\Documents\Personal\testsite\themes\LoveIt\assets\css\_page\_home.scss
+	• To disable widgets from homepage - disable it from posts on config.toml
+	  # Home page posts
+	        [languages.en.params.home.posts]
+	          enable = false -> should be false
+	• TO disable comments box from all pages - In config.toml
+	  [params.page.comment]
+	      enable = false - > should be false
+
+
+library:
+  css:
+    # someCSS = "some.css"
+    # located in "assets/"
+    # Or
+    # someCSS = "https://cdn.example.com/some.css"
+  js:
+    # someJS = "some.js"
+    # located in "assets/"
+    # Or
+    # someJS = "https://cdn.example.com/some.js"
+---
+
+https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+
+
+Host in git 
+
+	• Push to git 
+	• Delete public folder (not all )
+
+https://richardlent.github.io/post/how-i-deploy-my-website-to-github-using-rstudio-blogdown-and-hugo/
+
+
+Search
+
+Algolia /lunr
+https://www.bennet.org/blog/site-search-jamstack-hugo-algolia/
+
+Lunr
+https://janikvonrotz.ch/2019/06/10/2019-06-10-simple-hugo-page-search-with-lunrjs/
