@@ -1,0 +1,34 @@
+---
+author: Rahul
+authorLink: 
+categories: ["Career"]
+date: "2020-01-05T21:57:40+08:00"
+description: 
+draft: false
+images: []
+lightgallery: true
+resources:
+tags:
+title: How is the course? Part 1 | MPhil
+weight: 5
+---
+
+MPhil Neurophysiology and MPhil Neuroscience were two distinct courses with two distinct objectives. My MPhil was in Neurosciences, and I'm currently completing on my PhD in Neurophysiology
+
+Almost every academic and scientific event taking place on campus is open to students. Many students don't look into these possibilities. Some of them include mortality seminars, brain-cutting sessions, seminars, workshops, colloquia, journal and seminar clubs. Make sure that these activities don't conflict with the course's schedules. Plan in advance
+
+Students in the neurosciences are listed for monthly rotations in different departments. (Genetics, Neurochemistry, Pathology, Virology, Biophysics, Biostatistics, Neurophysiology, Neuropathology etc.) There will be a coordinator for each department. Although there is a sizable syllabus, topics might be added in response to requests. The schedule is incredibly flexible. This programme's objective is to introduce students coming from diverse academic backgrounds to the many branches of neuroscience. The Neurosciences course has a wide scope. During the MPhil, one should actively research any questions they may have. Consider your MPhil course as your PhD's litmus exam. You may pick up a lot of resources that would be useful for your PhD
+
+Meeting and interacting with PhD candidates and other departmental researchers is required for students to have an understanding of the numerous research projects being carried out in the lab. Observing and learning about research as they are conducting their studies is a very wonderful concept. Ask the scientists to let you know when they conduct their experiments. The timing is quite flexible. Don't anticipate a programme that runs exactly on time. Learning actively through interactions is the course's main goal. Attend as many departmental events as you can. Inform each faculty member of your academic background and research interests when you meet them. Faculty members were really helpful to me and taught the very basics so that I could follow along. (I came with zero neuroscience background from Engineering field)
+
+Many people have lamented the absence of a set schedule, and I have also heard this. When students come from such various backgrounds and there is just one year to finish rotation in eight areas, one cannot expect such a format! Every month, we are required to turn in assignments, give a seminar on a certain subject, and do an internal evaluation. Prepare to embrace your busy schedule. Get resources by meeting with seniors. Ask your professors for recommendations on books, powerpoints, or articles. I promise you'll pick up a lot of knowledge quickly
+
+The programme starts with a few introductory lectures that are spread out across several months. You will visit each lab during a rotation and spend a week or so watching the researchers at work. Peer to peer instruction is used. One seminar and one journal review are held each week. This is fairly demanding and calls for careful planning. Students are required to go above what is covered in the textbook when presenting. Consult the appropriate lab teams when getting ready
+
+Although the official hours are from 9 AM to 5 PM, one can stay late to learn. A dedicated space for MPhil Neurosciences is available at the NRC building around-the-clock and has a computer and a white board. For the first year, I used to reside there. On request, you can use the printer
+
+Departments of epidemiology and biostatistics used to hold a lot of workshops. Being a student also gives one the option to use contingencies or request permission to attend the courses for free. MPhil students receive INR 15,000 in addition to their stipend each year
+
+The department of neurophysiology uses a variety of methods, including cell culture, biochemistry, behavioural research, patch and electrophysiological rigs, stereoscopy, microscopy, EEG, and others. When one completes a PhD, they can learn about these methods and save a tonne of time in the future
+
+The second year is devoted to the dissertation, so there are few postings. Postings in clinical psychology for Neurosciences students can be fascinating if they are well thought out. It is an excellent chance to observe various test batteries in use. You can ask for approval to observe evaluations. Once we've decided on a lab and a research topic, we should endeavor to learn as much as we can about it. Examine the option of expanding the same work for a PhD thesis. Many people use their MPhil research to get admission to PhD programmes. Additionally, one might arrange and submit a research grant application to finance their PhD via outside fellowships. During this time, many of my classmates were studying for the UGC JRF exams. You will receive useful advice from seniors who are just beginning their PhDs

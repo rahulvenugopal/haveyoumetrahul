@@ -10,10 +10,16 @@ title: About me
 ---
 
 #### Who am I?
-I am a fifth year PhD scholar studying the neural oscillatory dynamics associated with working memory and neuromodulatory protocols (tACS) aimed at enhancing cognitive performance both in typical and atypical brains. My research interests include scientific studies of Consciousnes, Real time closed loop neuromodulation, Heart-Brain interactions, Inter brain synchrony, Dynamical systems & Chaos, Open science and Teaching
+{{< figure src="whoami.jpg">}}
+Greetings from my little corner of the cosmos. I'm a 34-year-old human who now resides in Bengaluru, India. I'm working towards the completion of a PhD in neuroscience from the Centre for Consciousness Studies, NIMHANS. My life has been quite exciting, and the path has been somewhat stormy, in my opinion (and I loved that). I transitioned from the engineering world to the study of the brain and the psyche. For fun, I engage in a variety of orthogonal activities. Fortunately, through time and effort, I was able to make a meaningful and satisfying connection between those random dots. I enjoy where science, technology, and human excitement converge
+
+I like developing things that benefit and improve human life as well as teaching, learning from, and mentoring others. I like to read, travel, go hiking, and eat well. I find the idea of "deep work" to be really intriguing. A skill that facilitates rapid learning and the production of high-quality outcomes under pressure. Working deeply raises performance and provides the actual satisfaction that comes from craftsmanship
+
 
 #### Values
-Inspiration to pen this post came from [Stonecharioteer's blog](https://stonecharioteer.com/posts/2021/personal-code.html). I came across this philosophical question somewhere in `2010` when I was in a limbo after completing my bachelor's degree in engineering. Finally, the time has arrived to write about my values
+{{< figure src="zen.jpg" title="With all the stones life throws at us, find that balance" >}}
+
+Inspiration to pen this post came from [Stonecharioteer's blog](https://stonecharioteer.com/posts/2021/personal-code.html). I came across this philosophical question somewhere in `2010` when I was in a limbo after completing my bachelor's degree in engineering. Finally, the time has arrived to write about my values. Do you have a personal code of honour?
 
 > You are not your job, you're not how much money you have in the bank. You are not the car you drive. You're not the contents of your wallet. You are not your fucking khakis. You are all singing, all dancing crap of the world.” ~ Fight Club
 
@@ -33,4 +39,4 @@ Finally, I do acknowledge that I was lucky to be born to my parents with a twin 
 
 I will forget all the extra baggage I used to carry (primarily from my shitty decisions, attitude at that time point, and random noise). I aspire to be at my best, which I think is still to come. I will continue to teach till my body holds its fort against entropy in the world. I was a happy kid and lost my happiness for a very long period. Around 2011, I recovered it, and ever since then, I have been pleased. I want to be content and at peace all the time
 
-Over all these years in this planet, I have glimpsed my Zen
+Over all these years in this planet, I have glimpsed my Zen :smiling_face_with_halo:
