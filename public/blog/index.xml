@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Know Thyself</title>
+    <link>https://example.com/blog/</link>
+    <description>Recent content in Blogs on Know Thyself</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theme Documentation - Basics</title>
+      <link>https://example.com/blog/two/theme-documentation-basics/</link>
+      <pubDate>Fri, 06 Mar 2020 21:29:01 +0800</pubDate>
+      
+      <guid>https://example.com/blog/two/theme-documentation-basics/</guid>
+      <description>&lt;p&gt;Discover what the Hugo - &lt;strong&gt;LoveIt&lt;/strong&gt; theme is all about and the core-concepts behind it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Basic Markdown Syntax</title>
+      <link>https://example.com/blog/one/basic-markdown-syntax/</link>
+      <pubDate>Sun, 01 Dec 2019 21:57:40 +0800</pubDate>
+      
+      <guid>https://example.com/blog/one/basic-markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://example.com/blog/one/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://example.com/blog/one/2020-12-01-r-rmarkdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.</description>
+    </item>
+    
+  </channel>
+</rss>
