@@ -175,4 +175,14 @@ The information provided in this thread was contributed by members in [this post
 3. [RiDo's Bonus Video - Rubik cube tips n tricks [HQ]](https://www.youtube.com/watch?v=yh_3DipZlYQ)
 
 ### Blindcubing
+I solved a 3*3 using Stefan pochmann method. The trick is to memorise the positions and just keep doing two cubies at a time
 
+![](https://www.stefan-pochmann.info/spocc/blindsolving/3x3/old.php)
+
+To memorise the cube, I used to follow Roman peg system. Checkout another video which was so helpful in remembering pieces and what goes where
+
+{{< youtube RjWMo3cCH1E >}}
+
+---
+
+{{< youtube xU5LRlH4XCQ >}}

@@ -1,10 +1,10 @@
-baseURL: https://example.com
+baseURL: https://rahulvenugopal.github.io/haveyoumetrahul/
 theme: LoveIt
 title: Know Thyself
 defaultContentLanguage: en
 languageCode: en
 languageName: English
-hasCJKLanguage: no
+hasCJKLanguage: yes
 paginate: 12
 googleAnalytics: ''
 copyright: ''
@@ -244,7 +244,7 @@ params:
       auto: yes
       enable: yes
       keepStatic: no
-    twemoji: no
+    twemoji: yes
   search:
     absoluteURL: no
     algolia:
