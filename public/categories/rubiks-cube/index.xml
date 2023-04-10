@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Rubiks cube - Category - Know Thyself</title>
+        <link>https://example.com/categories/rubiks-cube/</link>
+        <description>Rubiks cube - Category - Know Thyself</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 07 Jan 2020 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://example.com/categories/rubiks-cube/" rel="self" type="application/rss+xml" /><item>
+    <title>How to hit sub 20 in speedcubing</title>
+    <link>https://example.com/blog/rubiks-cube/road-to-sub-20/</link>
+    <pubDate>Tue, 07 Jan 2020 21:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://example.com/blog/rubiks-cube/road-to-sub-20/</guid>
+    <description><![CDATA[How to get faster🚅using the CFOP method I read Dan Knights&rsquo; blog, especially this post and couldn&rsquo;t sleep!
+I curated the below resources from speed cubing comment forum
+Here it goes
+Welcome! This thread will be a guide to help you get faster at solving the Rubik’s Cube using the popular Fridrich/CFOP method. Please read this thread and do some forum searching prior to asking questions about becoming faster
+First off, the most important factor is practice.]]></description>
+</item>
+</channel>
+</rss>

@@ -169,11 +169,11 @@ params:
         lightTheme: github-light
         repo: ''
       valine:
-        appId: QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI
-        appKey: WBmoGyJtbqUswvfLh6L8iEBr
+        appId: 
+        appKey: 
         avatar: mp
         emoji: ''
-        enable: yes
+        enable: no
         enableQQ: no
         highlight: yes
         lang: ''
@@ -181,8 +181,8 @@ params:
         pageSize: 10
         placeholder: ''
         recordIP: yes
-        serverURLs: https://leancloud.hugoloveit.com
-        visitor: yes
+        serverURLs: 
+        visitor: no
     fontawesome: yes
     fraction: yes
     hiddenFromHomePage: no

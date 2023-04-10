@@ -7,14 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jan 2020 21:57:40 +0800</lastBuildDate><atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Theme Documentation - Basics</title>
-      <link>https://example.com/blog/two/theme-documentation-basics/</link>
-      <pubDate>Fri, 06 Mar 2020 21:29:01 +0800</pubDate>
+      <title>How to hit sub 20 in speedcubing</title>
+      <link>https://example.com/blog/rubiks-cube/road-to-sub-20/</link>
+      <pubDate>Tue, 07 Jan 2020 21:57:40 +0800</pubDate>
       
-      <guid>https://example.com/blog/two/theme-documentation-basics/</guid>
-      <description>&lt;p&gt;Discover what the Hugo - &lt;strong&gt;LoveIt&lt;/strong&gt; theme is all about and the core-concepts behind it.&lt;/p&gt;</description>
+      <guid>https://example.com/blog/rubiks-cube/road-to-sub-20/</guid>
+      <description>How to get faster🚅using the CFOP method I read Dan Knights&amp;rsquo; blog, especially this post and couldn&amp;rsquo;t sleep!
+I curated the below resources from speed cubing comment forum
+Here it goes
+Welcome! This thread will be a guide to help you get faster at solving the Rubik’s Cube using the popular Fridrich/CFOP method. Please read this thread and do some forum searching prior to asking questions about becoming faster
+First off, the most important factor is practice.</description>
     </item>
     
     <item>
@@ -60,15 +64,6 @@ Get Instant notes in Neurosciences. Read from page first to last. If you get los
     </item>
     
     <item>
-      <title>Basic Markdown Syntax</title>
-      <link>https://example.com/blog/one/basic-markdown-syntax/</link>
-      <pubDate>Sun, 01 Dec 2019 21:57:40 +0800</pubDate>
-      
-      <guid>https://example.com/blog/one/basic-markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>How is the course? Part 1 | MPhil</title>
       <link>https://example.com/blog/career/how-is-the-course-1/</link>
       <pubDate>Sun, 05 Jan 2020 21:57:40 +0800</pubDate>
@@ -86,17 +81,6 @@ Almost every academic and scientific event taking place on campus is open to stu
       <guid>https://example.com/blog/career/how-is-the-course-2/</guid>
       <description>The first month after students enroll in the course is a habituation month. Coursework and training in animal handling and research start in the second month and last for about three months
 Doctoral students are placed in various labs during this time. They go to one seminar and one journal club meeting each week. Students are free to participate in additional teaching sessions held for MPhils. Each professor used to teach two or three sessions in their area of expertise.</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>https://example.com/blog/one/2020-12-01-r-rmarkdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      
-      <guid>https://example.com/blog/one/2020-12-01-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.</description>
     </item>
     
   </channel>
