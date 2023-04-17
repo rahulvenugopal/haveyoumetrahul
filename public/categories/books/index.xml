@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Books - Category - Know Thyself</title>
+        <link>https://rahulvenugopal.github.io/haveyoumetrahul/categories/books/</link>
+        <description>Books - Category - Know Thyself</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 06 Feb 2023 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/books/" rel="self" type="application/rss+xml" /><item>
+    <title>Top 10 books</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/blog/books/top-10-books/</link>
+    <pubDate>Mon, 06 Feb 2023 21:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/blog/books/top-10-books/</guid>
+    <description><![CDATA[NoteGödel, Escher, Bach: An Eternal Golden Braid NoteA Man Called Ove NoteThe Call of the Wild NoteOn the Move: A Life NoteAn Immense World: How Animal Senses Reveal the Hidden Realms Around Us NoteHarry potter series NoteTotto-chan: The Little Girl at the Window NoteTwenty Thousand Leagues Under the Sea ]]></description>
+</item>
+</channel>
+</rss>
