@@ -1,17 +1,5 @@
----
-author: Rahul
-authorLink: 
-categories: ["Net pickers"]
-date: "2023-05-03T21:57:40+08:00"
-description: 
-draft: false
-images: []
-lightgallery: true
-resources:
-tags:
-title: Inspiring humans
-weight: 3
----
+# Inspiring humans
+
 
 1. [Bartosz Ciechanowski](https://ciechanow.ski/archives/): In depth, very visual explanations about complex stuff
 2. [Bret Victor](http://worrydream.com/): One of the best website ever and design guru
@@ -48,6 +36,7 @@ weight: 3
 33. [](): 
 34. [](): 
 35. [](): 
+
 
 
 
