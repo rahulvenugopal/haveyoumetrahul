@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 06 Feb 2023 21:57:40 +0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 May 2023 21:57:40 +0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cool stuff</title>
+      <link>https://rahulvenugopal.github.io/haveyoumetrahul/blog/net-pickers/cool-stuff/</link>
+      <pubDate>Thu, 04 May 2023 21:57:40 +0800</pubDate>
+      
+      <guid>https://rahulvenugopal.github.io/haveyoumetrahul/blog/net-pickers/cool-stuff/</guid>
+      <description> Advent of Code: </description>
+    </item>
+    
     <item>
       <title>Top 10 books</title>
       <link>https://rahulvenugopal.github.io/haveyoumetrahul/blog/books/top-10-books/</link>
@@ -39,6 +48,15 @@ First off, the most important factor is practice.</description>
       <description>There are three ways to apply for a PhD admit
 Path 1: The institute itself funds the three seats in the department (Only some departments have these fellowship seats). Commonly referred to as an institution fellowship. To get this, you must pass both an exam and an interview. The hardest entry is this one. MCQ questions from the field of specific department are frequently found on entrance exams.
 Path 2: Having one&amp;rsquo;s own external fellowship (UGC, CSIR, ICMR, etc.</description>
+    </item>
+    
+    <item>
+      <title>Rack your brain</title>
+      <link>https://rahulvenugopal.github.io/haveyoumetrahul/blog/net-pickers/nerdy-stuff/</link>
+      <pubDate>Fri, 05 May 2023 21:57:40 +0800</pubDate>
+      
+      <guid>https://rahulvenugopal.github.io/haveyoumetrahul/blog/net-pickers/nerdy-stuff/</guid>
+      <description>Brain teasers - it&amp;rsquo;s a no-brainer wu riddles: Flex your mental muscles by solving puzzles. A great source of awesome puzzles How a Kalman filter works, in pictures </description>
     </item>
     
     <item>
