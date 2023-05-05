@@ -1,17 +1,5 @@
----
-author: Rahul
-authorLink: 
-categories: ["Net pickers"]
-date: "2023-05-03T21:57:40+08:00"
-description: 
-draft: false
-images: []
-lightgallery: true
-resources:
-tags:
-title: Inspiring humans
-weight: 3
----
+# Inspiring humans
+
 
 1. [Bartosz Ciechanowski](https://ciechanow.ski/archives/): In depth, very visual explanations about complex stuff
 2. [Bret Victor](http://worrydream.com/): One of the best website ever and design guru
@@ -44,10 +32,18 @@ weight: 3
 39. [Tom Donoghue](https://tomdonoghue.github.io/): 
 30. [Calvin C. Newport](https://calnewport.com/): 
 31. [Tim Urban](https://waitbutwhy.com/): 
-32. [](): 
-33. [](): 
-34. [](): 
-35. [](): 
+32. [Mark Humphries](https://medium.com/@drmdhumphries): 
+33. [Conor Rothschild](https://www.connorrothschild.com/): 
+34. [Fabio Votta](https://www.favstats.eu/): 
+35. [Yury Zablotski](https://yury-zablotski.netlify.app/): 
+36. [Thomas Andrillon](https://thomas-andrillon.wixsite.com/research): 
+37. [Vicki Boykis](https://vickiboykis.com/):
+38. [Erik Hoel](https://www.erikphoel.com/): 
+39. [Eiko Fried](https://eiko-fried.com/): 
+40. [Alyssa Frazee](http://alyssafrazee.com/): 
+41. [Aman Bhargava](https://aman-bhargava.com/): 
+42. [Esra Al ](https://www.esraal.com/): 
+
 
 
 
