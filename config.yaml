@@ -432,7 +432,7 @@ languages:
           url: /research
           weight: 2
         - identifier: gallery
-          name: Gallery
+          name: Frequently asked
           post: ''
           pre: ''
           title: ''
