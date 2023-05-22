@@ -1,4 +1,4 @@
-# A picture is worth thousand words
+# A picture is worth a thousand words
 
 
 

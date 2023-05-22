@@ -7,6 +7,6 @@ images:
 lightgallery: true
 math:
   enable: true
-title: A picture is worth thousand words
+title: A picture is worth a thousand words
 ---
 

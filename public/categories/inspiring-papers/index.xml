@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Inspiring papers - Category - Know Thyself</title>
+        <link>https://rahulvenugopal.github.io/haveyoumetrahul/categories/inspiring-papers/</link>
+        <description>Inspiring papers - Category - Know Thyself</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 05 Jan 2022 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/inspiring-papers/" rel="self" type="application/rss+xml" /><item>
+    <title>Coming soon</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/inspiring-papers/template/</link>
+    <pubDate>Wed, 05 Jan 2022 21:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/inspiring-papers/template/</guid>
+    <description><![CDATA[Lorem ipsum dibbadi dappam]]></description>
+</item>
+</channel>
+</rss>
