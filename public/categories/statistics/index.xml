@@ -3,13 +3,14 @@
         <title>Statistics - Category - Know Thyself</title>
         <link>https://rahulvenugopal.github.io/haveyoumetrahul/categories/statistics/</link>
         <description>Statistics - Category - Know Thyself</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 05 Jan 2022 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/statistics/" rel="self" type="application/rss+xml" /><item>
-    <title>Coming soon</title>
-    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/statistics/template/</link>
-    <pubDate>Wed, 05 Jan 2022 21:57:40 &#43;0800</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/statistics/" rel="self" type="application/rss+xml" /><item>
+    <title>Linear mixed models</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/statistics/linear-mixed-models/</link>
+    <pubDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</pubDate>
     <author>Rahul</author>
-    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/statistics/template/</guid>
-    <description><![CDATA[Lorem ipsum dibbadi dappam]]></description>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/statistics/linear-mixed-models/</guid>
+    <description><![CDATA[You will get a glimpse of my learning route. There might be better resources to learn mixed models. Please email me if you have taken this road and hit me up with blogs/papers/books/courses/whatever which was super helpful and made the learning fun, easier and efficient
+Bodo winter&rsquo;s two tutorials to revise linear models Learning Statistical Models Through Simulation in R chapter five is a good tutorial with a real word data.]]></description>
 </item>
 </channel>
 </rss>
