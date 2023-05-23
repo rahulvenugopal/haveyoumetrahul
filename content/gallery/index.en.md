@@ -1,9 +1,8 @@
 ---
-date: "2023-08-02T11:04:49+08:00"
+date: "2023-01-02T11:04:49+08:00"
 description: About LoveIt
 draft: false
 images:
-- /logo.png
 lightgallery: true
 math:
   enable: true
@@ -28,13 +27,13 @@ I used YouTube to watch every one of Robert Sapolsky's [lectures](https://www.yo
 
 > What skillsets were valued in your lab and how can someone pickup some skills even before starting to work in the lab?
 
-The ANTS book and [videos](https://www.youtube.com/@mikexcohen1/playlists?view=50&sort=dd&shelf_id=1) by Mike Cohen are excellent tools. Signal processing, logic, coding, neurobiology, and interpretation are all brought together in a seamless fashion in this book. If you want to skip the stories and get right to the meat of the matter, Andy Field's [Discovering Statistics using R](https://www.discoveringstatistics.com/faq/) is a great place to begin. Read through all of the [EEGLAB] tutorials(https://eeglab.org/tutorials/). Attend seminars, journal clubs, and public speeches and take notes. Connect, connect, and connect!
+The ANTS book and [videos](https://www.youtube.com/@mikexcohen1/playlists?view=50&sort=dd&shelf_id=1) by Mike Cohen are excellent tools. Signal processing, logic, coding, neurobiology, and interpretation are all brought together in a seamless fashion in this book. If you want to skip the stories and get right to the meat of the matter, Andy Field's [Discovering Statistics using R](https://www.discoveringstatistics.com/faq/) is a great place to begin. Read through all of the [EEGLAB](https://eeglab.org/tutorials/) tutorials. Attend seminars, journal clubs, and public speeches and take notes. Connect, connect, and connect!
 
 Cover [Automate the boring stuff with Python](https://jakevdp.github.io/WhirlwindTourOfPython/) and [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/)
 
 If you already have a programming background, get yourself familiarised with [MNE Python](https://mne.tools/stable/index.html), [YASA](https://github.com/raphaelvallat/yasa) and [Neurokit2](https://neuropsychology.github.io/NeuroKit/)
 
-> Show me some useful skills
+> Show me some useful skills/questions I can prepare
 
 {{< figure src="bullseye.jpg">}}
 
@@ -44,9 +43,9 @@ If you already have a programming background, get yourself familiarised with [MN
 4. Plot and save in a loop
 5. Fetch specific files from a folder (say csv sheets) and access third row, fifth column and write that value to a new csv sheet
 6. Where is your github/lab/whatever page (just show me anything that demonstrates your competence) if you say you can code?
-7. Resume says `knows R`. Tell me 10 things about R
-8. Tell me about your facourite research paper and why?
+7. Resume says *knows R*. Tell me 10 things about R
+8. Tell me about your favorite research paper and why?
 9. Name three researchers in the domain of your interest
-10. What do you want to study? How do we study that? If there is a 1000000 crore funding, what will you do?
+10. What do you want to study? How do we study that? If there is a `1000000` crore funding, what will you do?
 11. If you are interviewing for a `Meditation research study`, understand the phenomenology, main papers in the field, papers published from the lab
-12. Pick any concept in Neuroscience and explain it to me for 5 minutes in ELI5 format
+12. Pick any concept in Neuroscience and explain it to me for 5 minutes in `ELI5` format

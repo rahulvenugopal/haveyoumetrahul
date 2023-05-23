@@ -1,0 +1,55 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Self learning - Category - Know Thyself</title>
+        <link>https://rahulvenugopal.github.io/haveyoumetrahul/categories/self-learning/</link>
+        <description>Self learning - Category - Know Thyself</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 05 Jan 2022 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/self-learning/" rel="self" type="application/rss+xml" /><item>
+    <title>Basic stats</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/self-learning/basic-stats/</link>
+    <pubDate>Wed, 05 Jan 2022 21:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/self-learning/basic-stats/</guid>
+    <description><![CDATA[Lorem ipsum dibbadi dappam]]></description>
+</item>
+<item>
+    <title>MATLAB</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/self-learning/matlab/</link>
+    <pubDate>Wed, 05 Jan 2022 21:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/self-learning/matlab/</guid>
+    <description><![CDATA[Lorem ipsum dibbadi dappam]]></description>
+</item>
+<item>
+    <title>Neuroscience</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/self-learning/neuroscience/</link>
+    <pubDate>Wed, 05 Jan 2022 21:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/self-learning/neuroscience/</guid>
+    <description><![CDATA[Lorem ipsum dibbadi dappam]]></description>
+</item>
+<item>
+    <title>Python</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/self-learning/python/</link>
+    <pubDate>Wed, 05 Jan 2022 21:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/self-learning/python/</guid>
+    <description><![CDATA[Lorem ipsum dibbadi dappam]]></description>
+</item>
+<item>
+    <title>R</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/self-learning/r/</link>
+    <pubDate>Wed, 05 Jan 2022 21:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/self-learning/r/</guid>
+    <description><![CDATA[Lorem ipsum dibbadi dappam]]></description>
+</item>
+<item>
+    <title>Signal processing</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/self-learning/signal-processing/</link>
+    <pubDate>Wed, 05 Jan 2022 21:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/self-learning/signal-processing/</guid>
+    <description><![CDATA[Lorem ipsum dibbadi dappam]]></description>
+</item>
+</channel>
+</rss>
