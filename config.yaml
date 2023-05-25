@@ -422,7 +422,7 @@ languages:
           post: ''
           pre: ''
           title: ''
-          url: /categories
+          url: /blog
           weight: 3
         - identifier: research
           name: Research
@@ -431,12 +431,12 @@ languages:
           title: ''
           url: /research
           weight: 2
-        - identifier: gallery
-          name: Frequently asked
+        - identifier: FAQ
+          name: FAQ
           post: ''
           pre: ''
           title: ''
-          url: /gallery
+          url: /FAQ
           weight: 4
         - identifier: about
           name: About me

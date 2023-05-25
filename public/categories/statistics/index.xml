@@ -3,7 +3,7 @@
         <title>Statistics - Category - Know Thyself</title>
         <link>https://rahulvenugopal.github.io/haveyoumetrahul/categories/statistics/</link>
         <description>Statistics - Category - Know Thyself</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/statistics/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 05 Feb 2023 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/statistics/" rel="self" type="application/rss+xml" /><item>
     <title>Linear mixed models</title>
     <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/statistics/linear-mixed-models/</link>
     <pubDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</pubDate>
@@ -11,6 +11,15 @@
     <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/statistics/linear-mixed-models/</guid>
     <description><![CDATA[You will get a glimpse of my learning route. There might be better resources to learn mixed models. Please email me if you have taken this road and hit me up with blogs/papers/books/courses/whatever which was super helpful and made the learning fun, easier and efficient
 Bodo winter&rsquo;s two tutorials to revise linear models Learning Statistical Models Through Simulation in R chapter five is a good tutorial with a real word data.]]></description>
+</item>
+<item>
+    <title>Key concepts wrt study design</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/statistics/research-design-and-reviewer-starter-pack/</link>
+    <pubDate>Sun, 05 Feb 2023 21:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/statistics/research-design-and-reviewer-starter-pack/</guid>
+    <description><![CDATA[These conceptual papers make it simple to grasp the meaning of common statistical terms used in scientific studies
+Understanding Relative Risk, Odds Ratio, and Related Terms: As Simple as It Can Get Why Odds Ratios Can Be Tricky Statistics: The Case of Finasteride, Dutasteride, and Sexual Dysfunction The Numbers Needed to Treat and Harm (NNT, NNH) Statistics: What They Tell Us and What They Do Not Likelihood of Being Helped or Harmed as a Measure of Clinical Outcomes in Psychopharmacology A Primer on Confidence Intervals in Psychopharmacology Mean difference, standardized mean difference (SMD) and their use in meta-analysis: as simple as it gets Understanding the basics of meta-analysis and how to read a forest plot: as simple as it gets A student’s guide to the classification and operationalization of variables in the conceptualization and design of a clinical study: Part 1 A student’s guide to the classification and operationalization of variables in the conceptualization and design of a clinical study: Part 2 Cause Versus Association in Observational Studies in Psychopharmacology Describing Research Design Designing and Conducting Knowledge, Attitude, and Practice Surveys in Psychiatry: Practical Guidance The P Value and Statistical Significance: Misunderstandings, Explanations, Challenges, and Alternatives Sample Size and its Importance in Research Internal, External, and Ecological Validity in Research Design, Conduct, and Evaluation How to write a good abstract for a scientific paper or conference presentation Courtesy: Dr.]]></description>
 </item>
 </channel>
 </rss>

@@ -3,6 +3,8 @@
 
 > You will get a glimpse of my learning route. There might be better resources to learn mixed models. Please email me if you have taken this road and hit me up with blogs/papers/books/courses/whatever which was super helpful and made the learning fun, easier and efficient
 
+{{< figure src="mixed_models_verse.jpg">}}
+
 1. Bodo winter's two tutorials to revise linear models
 2. [Learning Statistical Models Through Simulation in R](https://psyteachr.github.io/stat-models-v1/introducing-linear-mixed-effects-models.html) chapter five is a good tutorial with a real word data. We will get to know the motivations to switch to mixed models
 3. For the very first time we hear the terms `complete pooling`, `no pooling`, and `partial pooling`. If you are not very careful, you will miss `dummy coding`. Run and revise coding schemes from Andy Field's `DSUR` if this is not ringing any bell
