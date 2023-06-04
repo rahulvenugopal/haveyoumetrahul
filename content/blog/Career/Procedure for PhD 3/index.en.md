@@ -1,6 +1,6 @@
 ---
 author: Rahul
-authorLink: 
+authorLink: https://rahulvenugopal.github.io/haveyoumetrahul/
 categories: ["Career"]
 date: "2020-01-03T21:57:40+08:00"
 description: 

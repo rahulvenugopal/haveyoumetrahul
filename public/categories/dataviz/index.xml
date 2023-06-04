@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Dataviz - Category - Know Thyself</title>
+        <link>https://rahulvenugopal.github.io/haveyoumetrahul/categories/dataviz/</link>
+        <description>Dataviz - Category - Know Thyself</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/dataviz/" rel="self" type="application/rss+xml" /><item>
+    <title>Data visualisation portfolio</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/data-viz/portfolio/</link>
+    <pubDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/data-viz/portfolio/</guid>
+    <description><![CDATA[❌ No photoshop was harmed during the making of these visualizations
+Electrophysiology data Demonstration of long term potentiation from rat brain slicesReplicate a famous illustration in R using ggplot Global warming's Six AmericasReplicate another famous illustration in R using ggplot Leonardo Decaprio's dating storyCustom coloring of title and rainbow cloud plots Raincloud plotsCount number at the end of the bar and horizontal flip for more space Survey countsTemplate for correlation plot Rug, dot and regression lineStatistics results onto the plot Comprehensive viz for linear modelsOffice visualisation for pending tickets autolabelled Line plotsConnected lines for paired data Ladder plotComparison using radar plot.]]></description>
+</item>
+</channel>
+</rss>
