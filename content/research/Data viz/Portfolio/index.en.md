@@ -46,3 +46,5 @@ weight: 1
 ![Alt text](https://raw.githubusercontent.com/rahulvenugopal/Harry-Potter-Book-Analysis/main/images/HowBigisHP.png "Harry potter books word count viz")
 ### Word cloud
 ![Alt text](https://raw.githubusercontent.com/rahulvenugopal/Harry-Potter-Book-Analysis/main/images/gridplot/HP_Grid.jpg "Custom clouds")
+### Consistency in batting
+![Alt text](https://raw.githubusercontent.com/rahulvenugopal/Cricket/main/images/CricInfo.png "Coefficient of variance")
