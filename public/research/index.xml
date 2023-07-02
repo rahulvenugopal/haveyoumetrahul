@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 05 Mar 2023 21:57:40 +0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Jun 2023 21:57:40 +0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Principal Component Analysis</title>
+      <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/eli5/peeseeyeah/</link>
+      <pubDate>Mon, 05 Jun 2023 21:57:40 +0800</pubDate>
+      
+      <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/eli5/peeseeyeah/</guid>
+      <description>Lorem ipsum dibbadi dappam</description>
+    </item>
+    
     <item>
       <title>Data visualisation portfolio</title>
       <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/data-viz/portfolio/</link>
@@ -16,6 +25,15 @@
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/data-viz/portfolio/</guid>
       <description>❌ No photoshop was harmed during the making of these visualizations
 Electrophysiology data Demonstration of long term potentiation from rat brain slicesReplicate a famous illustration in R using ggplot Global warming&#39;s Six AmericasReplicate another famous illustration in R using ggplot Leonardo Decaprio&#39;s dating storyCustom coloring of title and rainbow cloud plots Raincloud plotsCount number at the end of the bar and horizontal flip for more space Survey countsTemplate for correlation plot Rug, dot and regression lineStatistics results onto the plot Comprehensive viz for linear modelsOffice visualisation for pending tickets autolabelled Line plotsConnected lines for paired data Ladder plotComparison using radar plot.</description>
+    </item>
+    
+    <item>
+      <title>Do HRV right</title>
+      <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/heart-rate-variablity/template/</link>
+      <pubDate>Thu, 05 Jan 2023 21:57:40 +0800</pubDate>
+      
+      <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/heart-rate-variablity/template/</guid>
+      <description> ECG Time Series Variability Analysis Engineering and Medicine by Cornforth, David Jelinek, Herbert Franz Khandoker, Ahsan Habib, 2018 </description>
     </item>
     
     <item>
@@ -52,15 +70,6 @@ Bodo winter&amp;rsquo;s two tutorials to revise linear models Learning Statistic
       <pubDate>Wed, 05 Jan 2022 21:57:40 +0800</pubDate>
       
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/dream-research/template/</guid>
-      <description>Lorem ipsum dibbadi dappam</description>
-    </item>
-    
-    <item>
-      <title>Coming soon</title>
-      <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/heart-rate-variablity/template/</link>
-      <pubDate>Wed, 05 Jan 2022 21:57:40 +0800</pubDate>
-      
-      <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/heart-rate-variablity/template/</guid>
       <description>Lorem ipsum dibbadi dappam</description>
     </item>
     
