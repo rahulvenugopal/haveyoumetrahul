@@ -28,9 +28,9 @@ weight: 1
 13. [Text to speech naturally](https://www.naturalreaders.com/online/)
 14. [Every tool you could want to edit images in bulk](https://www.iloveimg.com/)
 15. [Online PDF editor](https://www.sejda.com/pdf-editor)
-16. []()
-17. []()
-18. []()
+16. [This is how I did it: created the best reference manager set up for research & writing](https://www.nrel.colostate.edu/set-up-best-reference-manager/)
+17. [Remove Object from photo](https://snapedit.app/)
+18. [Cleanup pictures](https://cleanup.pictures/)
 19. []()
 20. []()
 
