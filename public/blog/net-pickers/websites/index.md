@@ -23,12 +23,14 @@
 - [Fabio Votta](https://www.favstats.eu/):
 - [Georgios Karamanis](https://karaman.is/):
 - [Gurman Bhatia](https://www.gurmanbhatia.com/): Data stories
+- [Harish Katti](https://sites.google.com/view/harish-katti/home):
 - [Henrik Singmann](http://singmann.org/):
 - [Hillhacks](https://hillhacks.in/): Hacking and making in the Himalayas
 - [Indrajeet Patil](https://sites.google.com/site/indrajeetspatilmorality/):
 - [Irena Arslanova](https://www.irena-arslanova.com/):
 - [Jaseem Abid](https://blog.jabid.in/): Start with "What did I do at Recurse Center?""
 - [Mark Humphries](https://medium.com/@drmdhumphries):
+- [Maxine T Sherman](https://maxinetsherman.weebly.com/):
 - [Michael Lee](https://faculty.sites.uci.edu/mdlee/):
 - [Patrick Mineault](https://xcorr.net/): Good code handbook
 - [Praneeth Namburi](https://praneethnamburi.com/):
@@ -45,6 +47,17 @@
 - [Tom Donoghue](https://tomdonoghue.github.io/):
 - [Tom Mock](https://themockup.blog/about.html):
 - [Vicki Boykis](https://vickiboykis.com/):
+- [Vishwesha Guttal](https://teelabiisc.wordpress.com/):
 - [Wolfgang Viechtbauer](https://www.wvbauer.com/doku.php/home): metafor package professor. Teaches stats 
-- [Yury Zablotski](https://yury-zablotski.netlify.app/): 
+- [Yury Zablotski](https://yury-zablotski.netlify.app/):
+
+
+- []():
+- []():
+- []():
+- []():
+- []():
+- []():
+- []():
+- []():
 
