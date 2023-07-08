@@ -23,16 +23,16 @@
       <pubDate>Mon, 05 Jun 2023 21:57:40 +0800</pubDate>
       
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/if-i-were-to-build-a-lab/template/</guid>
-      <description> Research Culture: Why every lab needs a handbook | eLife </description>
+      <description> Research Culture: Why every lab needs a handbook | eLife List of fellowships Teaching Computational Neuroscience Across the Globe Blohm Lab Wiki The Good Research Code Handbook Materials for Mathematical Tools for Neuroscience course at Harvard (Neurobio 212) </description>
     </item>
     
     <item>
-      <title>Cool labs in the world of interoception and metacognition</title>
+      <title>Cool labs and resources in interoception and metacognition</title>
       <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/interoception/template/</link>
       <pubDate>Mon, 05 Jun 2023 21:57:40 +0800</pubDate>
       
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/interoception/template/</guid>
-      <description> the metalab Action &amp;amp; Body lab </description>
+      <description> the metalab Action &amp;amp; Body lab Interoception in REM microstates </description>
     </item>
     
     <item>
@@ -59,8 +59,8 @@
       <pubDate>Sun, 05 Feb 2023 21:57:40 +0800</pubDate>
       
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/statistics/concepts/</guid>
-      <description> The fundamentals should be strong like an oak tree
-Kernel Density Estimation Intuitive Guide to Understanding KL Divergence What are, why use and how to get marginal means Understanding Bayes: Visualization of the Bayes Factor Two-way ANOVA - the basics | interaction | two-way vs one-way Contrast coding in R </description>
+      <description>The fundamentals should be strong like an oak tree
+Kernel Density Estimation Intuitive Guide to Understanding KL Divergence What are, why use and how to get marginal means Understanding Bayes: Visualization of the Bayes Factor Two-way ANOVA - the basics | interaction | two-way vs one-way Contrast coding in R Bayes&amp;rsquo; Theorem Intuition Exploratory Factor Analysis A Practical Introduction to Factor Analysis: Exploratory Factor Analysis Custom R Regression Functions You Might Find Useful Rules of thumb on magnitudes of effect sizes Decomposing, Probing, and Plotting Interactions in R Plot One Variable: Frequency Graph, Density Distribution and More Analysis, Plotting, &amp;amp; Statistics Script Common statistical tests are linear models (or: how to teach stats) tmap : the easy way to plot thematic maps and show them interactively in R Why testing positive for a disease may not mean you are sick.</description>
     </item>
     
     <item>
@@ -69,7 +69,7 @@ Kernel Density Estimation Intuitive Guide to Understanding KL Divergence What ar
       <pubDate>Thu, 05 Jan 2023 21:57:40 +0800</pubDate>
       
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/summer-schools-confs-workshops/</guid>
-      <description> https://modelbasedneurosci.com/ Annual JAGS Workshop: Bayesian Modeling for Cognitive Science ESCoP 2019 workshop Fundamentals of Statistics and Computation for Neuroscientists fMRI course </description>
+      <description> https://modelbasedneurosci.com/ Annual JAGS Workshop: Bayesian Modeling for Cognitive Science ESCoP 2019 workshop Fundamentals of Statistics and Computation for Neuroscientists fMRI course Bayesian Statistics | Zero to Hero CS231 | CNN for visual recognition Neurohack academy Computational Psychiatry Course Zurich Python Tutorials | Opensesame Virtual ERP Boot Camp Introduction to Git and GitHub Python for neuroscience resouRces: Database of Resources to Learn &amp;amp; Teach R Learning Statistical Models Through Simulation in R QuantDev Methodology R Bootcamp: Introduction to Multilevel Model and Interactions Hyperscanning Academy Jamovi Assignments for Introductory Statistics: Instructor Site </description>
     </item>
     
     <item>
@@ -148,15 +148,6 @@ Bodo winter&amp;rsquo;s two tutorials to revise linear models Learning Statistic
     
     <item>
       <title>Coming soon</title>
-      <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/research-productivity/template/</link>
-      <pubDate>Wed, 05 Jan 2022 21:57:40 +0800</pubDate>
-      
-      <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/research-productivity/template/</guid>
-      <description>Lorem ipsum dibbadi dappam</description>
-    </item>
-    
-    <item>
-      <title>Coming soon</title>
       <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/working-memory/template/</link>
       <pubDate>Wed, 05 Jan 2022 21:57:40 +0800</pubDate>
       
@@ -183,12 +174,12 @@ Bodo winter&amp;rsquo;s two tutorials to revise linear models Learning Statistic
     </item>
     
     <item>
-      <title>EEG related</title>
+      <title>EEG and its analysis</title>
       <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/eeg-things/</link>
       <pubDate>Wed, 05 Jan 2022 21:57:40 +0800</pubDate>
       
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/eeg-things/</guid>
-      <description> </description>
+      <description> How to capture and analyze EEG Compute Signal Detection Theory Indices with R Pipeline To Calculate D-Prime in R Tutorial Introduction to PyMVPA On the application of decoding/classification/MVPA approaches to ERP data Decoding over time EEG-Notebooks Demystifying Louvain’s Algorithm and Its implementation in GPU A Python library for detecting community structure in graphs PIEL | Control File: Survey Information A Gentle Introduction To Graph Theory | by Vaidehi Joshi | basecs | Medium How to think in graphs: An illustrative introduction to Graph Theory and its applications Notes on graph theory — Centrality measures </description>
     </item>
     
     <item>
@@ -207,7 +198,7 @@ If you want to learn MATLAB from an awesome teacher who wrote the above quote, g
       <pubDate>Wed, 05 Jan 2022 21:57:40 +0800</pubDate>
       
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/inspiring-papers/template/</guid>
-      <description>Are forward and backward recall the same? A dual-task study of digit recall Real-time estimation of phase and amplitude with application to neural data Automated real-time EEG sleep spindle detection for brain state-dependent brain stimulation Spatial Working Memory in Humans Depends on Theta and High Gamma Synchronization in the Prefrontal Cortex [https://journals.physiology.org/doi/full/10.1152/jn.00978.2009](Contralateral Delay Activity Provides a Neural Measure of the Number of Representations in Visual Working Memory) Bayesian adaptive estimation of psychometric slope and threshold Patricia S.</description>
+      <description>Are forward and backward recall the same? A dual-task study of digit recall Real-time estimation of phase and amplitude with application to neural data Automated real-time EEG sleep spindle detection for brain state-dependent brain stimulation Spatial Working Memory in Humans Depends on Theta and High Gamma Synchronization in the Prefrontal Cortex Contralateral Delay Activity Provides a Neural Measure of the Number of Representations in Visual Working Memory Bayesian adaptive estimation of psychometric slope and threshold Patricia S.</description>
     </item>
     
     <item>
