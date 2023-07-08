@@ -1,4 +1,4 @@
-# Coming soon
+# Sleep research
 
 
-Lorem ipsum dibbadi dappam
+- [Virtual Seminar Series: Computational Approaches to Signal Processing for Sleep](https://prerau.bwh.harvard.edu/seminar/)

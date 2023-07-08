@@ -1,4 +1,4 @@
-# Rack your brain
+# Cool blog posts
 
 
 1. [wu riddles](https://www.ocf.berkeley.edu/~wwu/riddles/intro.shtml): Flex your mental muscles by solving puzzles. A great source of awesome puzzles

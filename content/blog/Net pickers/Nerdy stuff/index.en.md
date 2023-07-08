@@ -9,7 +9,7 @@ images: []
 lightgallery: true
 resources:
 tags:
-title: Rack your brain
+title: Cool blog posts
 weight: 2
 ---
 

@@ -1,53 +1,50 @@
 # Inspiring humans
 
 
-1. [Bartosz Ciechanowski](https://ciechanow.ski/archives/): In depth, very visual explanations about complex stuff
-2. [Bret Victor](http://worrydream.com/): One of the best website ever and design guru
-3. [Jaseem Abid](https://blog.jabid.in/): Start with "What did I do at Recurse Center?""
-4. [Captain Nemo](https://captnemo.in/archive.html): Tech and lots of tech
-5. [Sundeep Agarwal](https://learnbyexample.github.io/about/): Start with "Paying my bills with 'free' ebooks"
-6. [Hillhacks](https://hillhacks.in/): Hacking and making in the Himalayas
-7. [Cédric Scherer](https://www.cedricscherer.com/): Dataviz guru
-8. [Patrick Mineault](https://xcorr.net/): Good code handbook
-9. [Richard Gao](http://www.rdgao.com/):
-10. [Tanya Shapiro](https://www.tanyashapiro.com/): Dataviz and beyond
-11. [Indrajeet Patil](https://sites.google.com/site/indrajeetspatilmorality/):
-12. [Tom Mock](https://themockup.blog/about.html):
-13. [Claus O. Wilke](https://clauswilke.com/): The cow plot
-14. [Sushrut Thorat](https://sushrutthorat.com/):
-15. [Wolfgang Viechtbauer](https://www.wvbauer.com/doku.php/home): metafor package professor. Teaches stats
-16. [Allison Horst](https://allisonhorst.com/): Illustration goddess
-17. [Georgios Karamanis](https://karaman.is/):
-18. [Henrik Singmann](http://singmann.org/): 
-19. [Ryo Nakagawara](https://ryo-n7.github.io/): Football viz
-20. [Gurman Bhatia](https://www.gurmanbhatia.com/): Data stories
-21. [Russ Poldrack](https://poldrack.github.io/):
-22. [Alex Galvez-Pol](https://alexgalvezpol.com/):
-23. [Irena Arslanova](https://www.irena-arslanova.com/):
-24. [Praneeth Namburi](https://praneethnamburi.com/):
-25. [Benedikt V Ehinger](https://benediktehinger.de/blog/science/):
-26. [Sebastian Mathot](https://www.cogsci.nl/):
-27. [Raphael Vallat](https://raphaelvallat.com/): 
-28. [Abhiram R](https://abhiramr.com/): 
-39. [Tom Donoghue](https://tomdonoghue.github.io/): 
-30. [Calvin C. Newport](https://calnewport.com/): 
-31. [Tim Urban](https://waitbutwhy.com/): 
-32. [Mark Humphries](https://medium.com/@drmdhumphries): 
-33. [Conor Rothschild](https://www.connorrothschild.com/): 
-34. [Fabio Votta](https://www.favstats.eu/): 
-35. [Yury Zablotski](https://yury-zablotski.netlify.app/): 
-36. [Thomas Andrillon](https://thomas-andrillon.wixsite.com/research): 
-37. [Vicki Boykis](https://vickiboykis.com/):
-38. [Erik Hoel](https://www.erikphoel.com/): 
-39. [Eiko Fried](https://eiko-fried.com/): 
-40. [Alyssa Frazee](http://alyssafrazee.com/): 
-41. [Aman Bhargava](https://aman-bhargava.com/): 
-42. [Esra Al ](https://www.esraal.com/): 
-
-
-
-
-
-
-
+- [Abhiram R](https://abhiramr.com/):
+- [Alex Galvez-Pol](https://alexgalvezpol.com/):
+- [Allison Horst](https://allisonhorst.com/): Illustration goddess
+- [Alyssa Frazee](http://alyssafrazee.com/):
+- [Aman Bhargava](https://aman-bhargava.com/):
+- [Andrew J Arnold](https://www.andyjarnold.com/research): Social psychology
+- [Bartosz Ciechanowski](https://ciechanow.ski/archives/): In depth, very visual explanations about complex stuff
+- [Benedikt V Ehinger](https://benediktehinger.de/blog/science/):
+- [Bret Victor](http://worrydream.com/): One of the best website ever and design guru
+- [Calvin C Newport](https://calnewport.com/): 
+- [Captain Nemo](https://captnemo.in/archive.html): Tech and lots of tech
+- [Cédric Scherer](https://www.cedricscherer.com/): Dataviz guru
+- [Chris Mathys](https://chrismathys.com/#content):
+- [Claus O. Wilke](https://clauswilke.com/): The cow plot
+- [Conor Rothschild](https://www.connorrothschild.com/):
+- [Eiko Fried](https://eiko-fried.com/):
+- [Eric Jan Wagenmakers](http://www.ejwagenmakers.com/): JASP and more
+- [Erik Hoel](https://www.erikphoel.com/): 
+- [Esra Al](https://www.esraal.com/):
+- [Fabio Votta](https://www.favstats.eu/):
+- [Georgios Karamanis](https://karaman.is/):
+- [Gurman Bhatia](https://www.gurmanbhatia.com/): Data stories
+- [Henrik Singmann](http://singmann.org/):
+- [Hillhacks](https://hillhacks.in/): Hacking and making in the Himalayas
+- [Indrajeet Patil](https://sites.google.com/site/indrajeetspatilmorality/):
+- [Irena Arslanova](https://www.irena-arslanova.com/):
+- [Jaseem Abid](https://blog.jabid.in/): Start with "What did I do at Recurse Center?""
+- [Mark Humphries](https://medium.com/@drmdhumphries):
+- [Michael Lee](https://faculty.sites.uci.edu/mdlee/):
+- [Patrick Mineault](https://xcorr.net/): Good code handbook
+- [Praneeth Namburi](https://praneethnamburi.com/):
+- [Raphael Vallat](https://raphaelvallat.com/):
+- [Richard Gao](http://www.rdgao.com/):
+- [Russ Poldrack](https://poldrack.github.io/):
+- [Ryo Nakagawara](https://ryo-n7.github.io/): Football viz
+- [Sebastian Mathot](https://www.cogsci.nl/):
+- [Sundeep Agarwal](https://learnbyexample.github.io/about/): Start with "Paying my bills with 'free' ebooks"
+- [Sushrut Thorat](https://sushrutthorat.com/):
+- [Tanya Shapiro](https://www.tanyashapiro.com/): Dataviz and beyond
+- [Thomas Andrillon](https://thomas-andrillon.wixsite.com/research):
+- [Tim Urban](https://waitbutwhy.com/):
+- [Tom Donoghue](https://tomdonoghue.github.io/):
+- [Tom Mock](https://themockup.blog/about.html):
+- [Vicki Boykis](https://vickiboykis.com/):
+- [Wolfgang Viechtbauer](https://www.wvbauer.com/doku.php/home): metafor package professor. Teaches stats 
+- [Yury Zablotski](https://yury-zablotski.netlify.app/): 
 

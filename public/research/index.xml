@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 05 Jun 2023 21:57:40 +0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Jul 2023 21:57:40 +0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Databases</title>
+      <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/databases/template/</link>
+      <pubDate>Wed, 05 Jul 2023 21:57:40 +0800</pubDate>
+      
+      <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/databases/template/</guid>
+      <description> Harry Potter Dataset </description>
+    </item>
+    
     <item>
       <title>Principal Component Analysis</title>
       <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/eli5/peeseeyeah/</link>
@@ -15,6 +24,15 @@
       
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/eli5/peeseeyeah/</guid>
       <description>Lorem ipsum dibbadi dappam</description>
+    </item>
+    
+    <item>
+      <title>Sleep research</title>
+      <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/sleep-research/template/</link>
+      <pubDate>Mon, 05 Jun 2023 21:57:40 +0800</pubDate>
+      
+      <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/sleep-research/template/</guid>
+      <description> Virtual Seminar Series: Computational Approaches to Signal Processing for Sleep </description>
     </item>
     
     <item>
@@ -52,15 +70,6 @@ Bodo winter&amp;rsquo;s two tutorials to revise linear models Learning Statistic
       <pubDate>Wed, 05 Jan 2022 21:57:40 +0800</pubDate>
       
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/computing/template/</guid>
-      <description>Lorem ipsum dibbadi dappam</description>
-    </item>
-    
-    <item>
-      <title>Coming soon</title>
-      <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/databases/template/</link>
-      <pubDate>Wed, 05 Jan 2022 21:57:40 +0800</pubDate>
-      
-      <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/databases/template/</guid>
       <description>Lorem ipsum dibbadi dappam</description>
     </item>
     
@@ -106,15 +115,6 @@ Bodo winter&amp;rsquo;s two tutorials to revise linear models Learning Statistic
       <pubDate>Wed, 05 Jan 2022 21:57:40 +0800</pubDate>
       
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/research-productivity/template/</guid>
-      <description>Lorem ipsum dibbadi dappam</description>
-    </item>
-    
-    <item>
-      <title>Coming soon</title>
-      <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/sleep-research/template/</link>
-      <pubDate>Wed, 05 Jan 2022 21:57:40 +0800</pubDate>
-      
-      <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/sleep-research/template/</guid>
       <description>Lorem ipsum dibbadi dappam</description>
     </item>
     
