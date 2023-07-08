@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>EEG things - Category - Know Thyself</title>
+        <link>https://rahulvenugopal.github.io/haveyoumetrahul/categories/eeg-things/</link>
+        <description>EEG things - Category - Know Thyself</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/eeg-things/" rel="self" type="application/rss+xml" /><item>
+    <title>Cool tools/methods/repos for doing neuroscience</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/neuro-toolkit/</link>
+    <pubDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/neuro-toolkit/</guid>
+    <description><![CDATA[ CSD toolbox ePRIME tips and tricks Brain Electrophysiological recording and STimulation (BEST) Toolbox ]]></description>
+</item>
+<item>
+    <title>EEG related</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/eeg-things/</link>
+    <pubDate>Wed, 05 Jan 2022 21:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/eeg-things/</guid>
+    <description><![CDATA[ ]]></description>
+</item>
+</channel>
+</rss>

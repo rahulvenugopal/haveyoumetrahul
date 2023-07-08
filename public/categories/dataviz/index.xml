@@ -12,13 +12,5 @@
     <description><![CDATA[❌ No photoshop was harmed during the making of these visualizations
 Electrophysiology data Demonstration of long term potentiation from rat brain slicesReplicate a famous illustration in R using ggplot Global warming's Six AmericasReplicate another famous illustration in R using ggplot Leonardo Decaprio's dating storyCustom coloring of title and rainbow cloud plots Raincloud plotsCount number at the end of the bar and horizontal flip for more space Survey countsTemplate for correlation plot Rug, dot and regression lineStatistics results onto the plot Comprehensive viz for linear modelsOffice visualisation for pending tickets autolabelled Line plotsConnected lines for paired data Ladder plotComparison using radar plot.]]></description>
 </item>
-<item>
-    <title>Let your data tell stories</title>
-    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/data-viz/data-stories/</link>
-    <pubDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</pubDate>
-    <author>Rahul</author>
-    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/data-viz/data-stories/</guid>
-    <description><![CDATA[ Theming in ggplot How to insert pictures into each individual bar in a ggplot graph Tidy Tuesday fun from Hudson Jamie Genetic family tree creation Visualizing Family Trees Plotting Points as Images in ggplot geom_bar() + pictograms, how to? Seaborn Styling, Part 1: Figure Style and Scale Choosing Colormaps Scheme color | Palette Carto colors | Palette Modify components of a theme Plotting with markdown text 30DayChartChallenge 2022 How to add color to axis tick labels: Hint – element_markdown() in ggtext How to Create Engaging and Complex Visualizations in R Data stories portfolio correlation matrix and survival plots Data visualisation course chapters ]]></description>
-</item>
 </channel>
 </rss>

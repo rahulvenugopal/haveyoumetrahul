@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Data stories - Category - Know Thyself</title>
+        <link>https://rahulvenugopal.github.io/haveyoumetrahul/categories/data-stories/</link>
+        <description>Data stories - Category - Know Thyself</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/data-stories/" rel="self" type="application/rss+xml" /><item>
+    <title>Let your data tell stories</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/data-viz/data-stories/</link>
+    <pubDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/data-viz/data-stories/</guid>
+    <description><![CDATA[ Theming in ggplot How to insert pictures into each individual bar in a ggplot graph Tidy Tuesday fun from Hudson Jamie Genetic family tree creation Visualizing Family Trees Plotting Points as Images in ggplot geom_bar() + pictograms, how to? Seaborn Styling, Part 1: Figure Style and Scale Choosing Colormaps Scheme color | Palette Carto colors | Palette Modify components of a theme Plotting with markdown text 30DayChartChallenge 2022 How to add color to axis tick labels: Hint – element_markdown() in ggtext How to Create Engaging and Complex Visualizations in R Data stories portfolio correlation matrix and survival plots Data visualisation course chapters Art lessons from a year as RStudio&rsquo;s artist in residence Color Palette from food table ]]></description>
+</item>
+</channel>
+</rss>

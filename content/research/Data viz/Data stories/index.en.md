@@ -1,7 +1,7 @@
 ---
 author: Rahul
 authorLink: https://rahulvenugopal.github.io/haveyoumetrahul/
-categories: ["Dataviz"]
+categories: ["Data stories"]
 date: "2023-01-05T21:57:40+08:00"
 description: 
 draft: false
@@ -32,8 +32,8 @@ weight: 1
 17. [Data stories portfolio](https://tobias-stalder.netlify.app/dataviz/)
 18. [ correlation matrix and survival plots](http://www.sthda.com/english/wiki/ggally-r-package-extension-to-ggplot2-for-correlation-matrix-and-survival-plots-r-software-and-data-visualization)
 19. [Data visualisation course chapters](https://yongyeol.com/teaching/)
-20. []()
-21. []()
+20. [Art lessons from a year as RStudio's artist in residence](https://docs.google.com/presentation/d/e/2PACX-1vSUhCl0kXyxRdX6fv24SwloIOaL9LH6oRD-g0tU7Ee9NDSWZt0ozixnKdcSxuEhzB7tbRBkBZzcNROx/pub?start=false&loop=false&delayms=3000#slide=id.gac64caf619_0_0)
+21. [Color Palette from food table](https://colorpalettes.net/color-palette-4138/)
 22. []()
 23. []()
 24. []()

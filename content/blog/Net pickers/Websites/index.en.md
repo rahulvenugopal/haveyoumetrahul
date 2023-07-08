@@ -27,6 +27,7 @@ weight: 3
 - [Cédric Scherer](https://www.cedricscherer.com/): Dataviz guru
 - [Chris Mathys](https://chrismathys.com/#content):
 - [Claus O. Wilke](https://clauswilke.com/): The cow plot
+- [Clemens Brunner](https://cbrnr.github.io/): 
 - [Conor Rothschild](https://www.connorrothschild.com/):
 - [Eiko Fried](https://eiko-fried.com/):
 - [Eric Jan Wagenmakers](http://www.ejwagenmakers.com/): JASP and more
@@ -40,8 +41,10 @@ weight: 3
 - [Hillhacks](https://hillhacks.in/): Hacking and making in the Himalayas
 - [Indrajeet Patil](https://sites.google.com/site/indrajeetspatilmorality/):
 - [Irena Arslanova](https://www.irena-arslanova.com/):
+- [Irene Vigue Guix](https://irenevigueguix.wordpress.com/)
 - [Jaseem Abid](https://blog.jabid.in/): Start with "What did I do at Recurse Center?""
 - [Mark Humphries](https://medium.com/@drmdhumphries):
+- [Mattan S Ben Shachar](https://home.msbstats.info/): 
 - [Maxine T Sherman](https://maxinetsherman.weebly.com/):
 - [Michael Lee](https://faculty.sites.uci.edu/mdlee/):
 - [Patrick Mineault](https://xcorr.net/): Good code handbook

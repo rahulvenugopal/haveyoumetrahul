@@ -14,7 +14,7 @@
       <pubDate>Wed, 05 Jul 2023 21:57:40 +0800</pubDate>
       
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/databases/template/</guid>
-      <description> Harry Potter Dataset </description>
+      <description> Harry Potter Dataset Stimulus sets | Curated by Opensesame </description>
     </item>
     
     <item>
@@ -51,7 +51,25 @@
       
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/statistics/concepts/</guid>
       <description> The fundamentals should be strong like an oak tree
-Kernel Density Estimation Intuitive Guide to Understanding KL Divergence What are, why use and how to get marginal means </description>
+Kernel Density Estimation Intuitive Guide to Understanding KL Divergence What are, why use and how to get marginal means Understanding Bayes: Visualization of the Bayes Factor Two-way ANOVA - the basics | interaction | two-way vs one-way Contrast coding in R </description>
+    </item>
+    
+    <item>
+      <title>Conferences | Workshops | Summer schools | Courses</title>
+      <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/summer-schools-confs-workshops/</link>
+      <pubDate>Thu, 05 Jan 2023 21:57:40 +0800</pubDate>
+      
+      <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/summer-schools-confs-workshops/</guid>
+      <description> https://modelbasedneurosci.com/ Annual JAGS Workshop: Bayesian Modeling for Cognitive Science ESCoP 2019 workshop Fundamentals of Statistics and Computation for Neuroscientists fMRI course </description>
+    </item>
+    
+    <item>
+      <title>Cool tools/methods/repos for doing neuroscience</title>
+      <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/neuro-toolkit/</link>
+      <pubDate>Thu, 05 Jan 2023 21:57:40 +0800</pubDate>
+      
+      <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/neuro-toolkit/</guid>
+      <description> CSD toolbox ePRIME tips and tricks Brain Electrophysiological recording and STimulation (BEST) Toolbox </description>
     </item>
     
     <item>
@@ -79,7 +97,7 @@ Electrophysiology data Demonstration of long term potentiation from rat brain sl
       <pubDate>Thu, 05 Jan 2023 21:57:40 +0800</pubDate>
       
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/data-viz/data-stories/</guid>
-      <description> Theming in ggplot How to insert pictures into each individual bar in a ggplot graph Tidy Tuesday fun from Hudson Jamie Genetic family tree creation Visualizing Family Trees Plotting Points as Images in ggplot geom_bar() + pictograms, how to? Seaborn Styling, Part 1: Figure Style and Scale Choosing Colormaps Scheme color | Palette Carto colors | Palette Modify components of a theme Plotting with markdown text 30DayChartChallenge 2022 How to add color to axis tick labels: Hint – element_markdown() in ggtext How to Create Engaging and Complex Visualizations in R Data stories portfolio correlation matrix and survival plots Data visualisation course chapters </description>
+      <description> Theming in ggplot How to insert pictures into each individual bar in a ggplot graph Tidy Tuesday fun from Hudson Jamie Genetic family tree creation Visualizing Family Trees Plotting Points as Images in ggplot geom_bar() + pictograms, how to? Seaborn Styling, Part 1: Figure Style and Scale Choosing Colormaps Scheme color | Palette Carto colors | Palette Modify components of a theme Plotting with markdown text 30DayChartChallenge 2022 How to add color to axis tick labels: Hint – element_markdown() in ggtext How to Create Engaging and Complex Visualizations in R Data stories portfolio correlation matrix and survival plots Data visualisation course chapters Art lessons from a year as RStudio&amp;rsquo;s artist in residence Color Palette from food table </description>
     </item>
     
     <item>
@@ -107,15 +125,6 @@ Bodo winter&amp;rsquo;s two tutorials to revise linear models Learning Statistic
       <pubDate>Wed, 05 Jan 2022 21:57:40 +0800</pubDate>
       
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/dream-research/template/</guid>
-      <description>Lorem ipsum dibbadi dappam</description>
-    </item>
-    
-    <item>
-      <title>Coming soon</title>
-      <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/inspiring-papers/template/</link>
-      <pubDate>Wed, 05 Jan 2022 21:57:40 +0800</pubDate>
-      
-      <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/inspiring-papers/template/</guid>
       <description>Lorem ipsum dibbadi dappam</description>
     </item>
     
@@ -165,6 +174,15 @@ Bodo winter&amp;rsquo;s two tutorials to revise linear models Learning Statistic
     </item>
     
     <item>
+      <title>EEG related</title>
+      <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/eeg-things/</link>
+      <pubDate>Wed, 05 Jan 2022 21:57:40 +0800</pubDate>
+      
+      <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/eeg-things/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
       <title>Learning MATLAB</title>
       <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/programming/matlab-starter-kit/</link>
       <pubDate>Wed, 05 Jan 2022 21:57:40 +0800</pubDate>
@@ -172,6 +190,15 @@ Bodo winter&amp;rsquo;s two tutorials to revise linear models Learning Statistic
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/programming/matlab-starter-kit/</guid>
       <description>I have come here to chew bubblegum and teach MATLAB. And I am all out of bubblegum. So let&amp;rsquo;s start
 If you want to learn MATLAB from an awesome teacher who wrote the above quote, get MATLAB for Brain and Cognitive Scientists Master MATLAB through Guided Problem Solving MATLAB onramp: Learn scientific coding with ChatGPT&amp;rsquo;s help Learn image processing and GUIs while having fun in MATLAB Generate and visualize data in Python and MATLAB Above courses are very affordable and give you a strong boost (especially when you come from non technical background) Learning MATLAB may be little more than a practical means to an end for some of you (which is great, by the way; I&amp;rsquo;ve seen people in ivory towers (read: Pythonistas) sneer at MATLAB users).</description>
+    </item>
+    
+    <item>
+      <title>Research papers</title>
+      <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/inspiring-papers/template/</link>
+      <pubDate>Wed, 05 Jan 2022 21:57:40 +0800</pubDate>
+      
+      <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/inspiring-papers/template/</guid>
+      <description> Are forward and backward recall the same? A dual-task study of digit recall Real-time estimation of phase and amplitude with application to neural data Automated real-time EEG sleep spindle detection for brain state-dependent brain stimulation Spatial Working Memory in Humans Depends on Theta and High Gamma Synchronization in the Prefrontal Cortex [https://journals.physiology.org/doi/full/10.1152/jn.00978.2009](Contralateral Delay Activity Provides a Neural Measure of the Number of Representations in Visual Working Memory) </description>
     </item>
     
     <item>
