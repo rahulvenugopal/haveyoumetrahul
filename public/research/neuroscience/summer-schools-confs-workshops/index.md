@@ -20,7 +20,7 @@
 - [ R Bootcamp: Introduction to Multilevel Model and Interactions](https://quantdev.ssri.psu.edu/tutorials/r-bootcamp-introduction-multilevel-model-and-interactions)
 - [Hyperscanning Academy](https://www.youtube.com/watch?v=E3z5dcxLMww)
 - [Jamovi Assignments for Introductory Statistics: Instructor Site](https://osf.io/h2at5/)
-- []()
+- [The open handbook of experience sampling methodology: A step-by-step guide to designing, conducting, and analyzing ESM studies](https://www.kuleuven.be/samenwerking/real/real-book)
 - []()
 - []()
 - []()
