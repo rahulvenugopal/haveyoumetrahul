@@ -6,6 +6,7 @@
 - [Allison Horst](https://allisonhorst.com/): Illustration goddess
 - [Alyssa Frazee](http://alyssafrazee.com/):
 - [Aman Bhargava](https://aman-bhargava.com/):
+- [Aman Bhargava](https://thedivtagguy.com/): Digital art, design, photography
 - [Andrew J Arnold](https://www.andyjarnold.com/research): Social psychology
 - [Bartosz Ciechanowski](https://ciechanow.ski/archives/): In depth, very visual explanations about complex stuff
 - [Benedikt V Ehinger](https://benediktehinger.de/blog/science/):
