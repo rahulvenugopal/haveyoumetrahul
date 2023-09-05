@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Papers - Category - Know Thyself</title>
+        <link>https://rahulvenugopal.github.io/haveyoumetrahul/categories/papers/</link>
+        <description>Papers - Category - Know Thyself</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/papers/" rel="self" type="application/rss+xml" /><item>
+    <title>Research papers</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/my-phd/key-papers/</link>
+    <pubDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/my-phd/key-papers/</guid>
+    <description><![CDATA[Realtime and closed loops Closed-loop Auditory Stimulation of Sleep Slow Oscillations: Basic Principles and Best Practices ]]></description>
+</item>
+</channel>
+</rss>
