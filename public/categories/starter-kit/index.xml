@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Starter Kit - Category - Know Thyself</title>
+        <link>https://rahulvenugopal.github.io/haveyoumetrahul/categories/starter-kit/</link>
+        <description>Starter Kit - Category - Know Thyself</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 17 Sep 2023 13:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/starter-kit/" rel="self" type="application/rss+xml" /><item>
+    <title>Cover to cover</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/starter-kit/papers-to-read/</link>
+    <pubDate>Sun, 17 Sep 2023 13:57:40 &#43;0800</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/starter-kit/papers-to-read/</guid>
+    <description><![CDATA[ Managing EEG studies: How to prepare and what to do once data collection has begun ]]></description>
+</item>
+</channel>
+</rss>
