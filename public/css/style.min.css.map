@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "D:/IceAge/Rahul_Windows/Desktop/haveyoumetrahul",
+	"sourceRoot": "C:/Users/Administrator/Desktop/haveyoumetrahul",
 	"sources": [
 		"assets/css/style.scss",
 		"assets/lib/normalize/normalize.css",

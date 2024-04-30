@@ -1,9 +1,9 @@
-# About me
+# Hello World
 
 
 #### Who am I?
 {{< figure src="whoami.jpg">}}
-Greetings from my little corner of the cosmos. I'm a 35-year-old human who now resides in Bengaluru, India. I'm working towards the completion of a PhD in neuroscience from the Centre for Consciousness Studies, NIMHANS. My life has been quite exciting, and the path has been somewhat stormy, in my opinion (and I loved that). I transitioned from the engineering world to the study of the brain and the psyche. For fun, I engage in a variety of orthogonal activities. Fortunately, through time and effort, I was able to make a meaningful and satisfying connection between those random dots. I enjoy where science, technology, and human excitement converge.
+Greetings from my little corner of the cosmos. I'm a 35-year-old human who now resides in Bengaluru, India. I am an engineer, neuroscientist and mental health professional holding masters in the three disciplines all from top three institutes in the country. As a neuroscientist with over a decade of expertise, I specialised in the domains of cognition, neuromodulation, meditation, mind-body interactions and sleep & dreaming. I have guided teams through the conceptualisation and execution of cutting-edge brain computer interfaces, cognitive profile development, sleep stability assessments, real time neuro feedback systems and AI based models for health analytics. My expertise and passion are at the convergence of wearable technology, neuroscience, productivity, artificial intelligence and proactive solutions for physical and mental health and wellbeing. I am actively building innovative, personalised, affordable and scalable solutions in this space..
 
 I like developing things that benefit and improve human life as well as teaching, learning from, and mentoring others. I like to read, travel, go hiking, and eat well. I find the idea of "deep work" to be really intriguing. A skill that facilitates rapid learning and the production of high-quality outcomes under pressure. Working deeply raises performance and provides the actual satisfaction that comes from craftsmanship
 
