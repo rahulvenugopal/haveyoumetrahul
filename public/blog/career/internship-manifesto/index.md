@@ -69,4 +69,7 @@ immediately. We can’t thrive in an environment we aren’t comfortable in, and
 # Code of conduct
 - Unless otherwise stated, everybody is on a first name basis
 - No sir and madam (the feudalistic habits don't encourage free science)
-- Lewd language and behavior have no palce in the lab
+- Lewd language and behavior have no place in the lab
+
+# Disclaimer
+The views and opinions expressed in this blog post are solely my own and do not reflect an official stance.
