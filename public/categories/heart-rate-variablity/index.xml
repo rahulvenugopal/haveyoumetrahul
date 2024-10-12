@@ -5,10 +5,10 @@
         <description>Heart rate variablity - Category - Know Thyself</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/heart-rate-variablity/" rel="self" type="application/rss+xml" /><item>
     <title>Do HRV right</title>
-    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/heart-rate-variablity/template/</link>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/blog/heart-rate-variablity/template/</link>
     <pubDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</pubDate>
     <author>Rahul</author>
-    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/heart-rate-variablity/template/</guid>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/blog/heart-rate-variablity/template/</guid>
     <description><![CDATA[ECG Time Series Variability Analysis Engineering and Medicine by Cornforth, David Jelinek, Herbert Franz Khandoker, Ahsan Habib, 2018 Considerations in the assessment of heart rate variability in biobehavioral research Simple HRV analysis pipeline and documentation from Neurokit2 Water intake increases HRV in a dose dependent manner Water consumption as a source of error in the measurement of heart rate variability Caffeine intake, some medications, alcohol consumption, time of day, exercise, food inatake, water intake and bladder filling influence HRV]]></description>
 </item>
 </channel>

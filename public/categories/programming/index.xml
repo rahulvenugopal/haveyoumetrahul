@@ -5,19 +5,19 @@
         <description>Programming - Category - Know Thyself</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 05 Mar 2023 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/programming/" rel="self" type="application/rss+xml" /><item>
     <title>Learning MATLAB</title>
-    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/programming/matlab-starter-kit/</link>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/blog/programming/matlab-starter-kit/</link>
     <pubDate>Wed, 05 Jan 2022 21:57:40 &#43;0800</pubDate>
     <author>Rahul</author>
-    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/programming/matlab-starter-kit/</guid>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/blog/programming/matlab-starter-kit/</guid>
     <description><![CDATA[I have come here to chew bubblegum and teach MATLAB. And I am all out of bubblegum. So let&rsquo;s start
 If you want to learn MATLAB from an awesome teacher who wrote the above quote, get MATLAB for Brain and Cognitive Scientists Master MATLAB through Guided Problem Solving MATLAB onramp: Learn scientific coding with ChatGPT&rsquo;s help Learn image processing and GUIs while having fun in MATLAB Generate and visualize data in Python and MATLAB Above courses are very affordable and give you a strong boost (especially when you come from non technical background) Learning MATLAB may be little more than a practical means to an end for some of you (which is great, by the way; I&rsquo;ve seen people in ivory towers (read: Pythonistas) sneer at MATLAB users).]]></description>
 </item>
 <item>
     <title>I hear you speak parseltongue</title>
-    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/programming/python-starter-kit/</link>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/blog/programming/python-starter-kit/</link>
     <pubDate>Sun, 05 Mar 2023 21:57:40 &#43;0800</pubDate>
     <author>Rahul</author>
-    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/programming/python-starter-kit/</guid>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/blog/programming/python-starter-kit/</guid>
     <description><![CDATA[I have come here to chew bubblegum and teach Python. And I am all out of bubblegum. So let&rsquo;s start]]></description>
 </item>
 </channel>

@@ -9,26 +9,10 @@ math:
 title: Do you think that's air you're breathing now?
 ---
 
-#### Who am I?
-Greetings from my little corner of the cosmos. I am an engineer, neuroscientist and mental health professional holding masters in the three disciplines all from top three institutes in the country (India). As a neuroscientist with over a decade of expertise, I specialised in the domains of cognition, neuromodulation, meditation, mind-body interactions and sleep & dreaming. I have guided small teams through the conceptualisation and execution of cutting-edge brain computer interfaces, cognitive profile development, sleep stability assessments, real time neuro feedback systems and AI based models for health analytics. My expertise and passion are at the convergence of wearable technology, neuroscience, productivity, artificial intelligence and proactive solutions for physical and mental health and well being. I am actively seeking opportunities to build a tribe dedicated to crafting innovative, personalised and scalable solutions in this space.
+I work at the Centre for Consciousness Studies, NIMHANS, India. I recently defended my thesis and am currently determining my next career steps before the end of 2024.
 
-#### What am I looking for?
-- Working with founders who are building/aims to build a core team
-- Be the team who is going to build the core engine which fuels the company for the next 10 years
-- Fast work cycles
-- Working on high risk - high rewards projects involving deep tech
-- Founders who are level headed at the same time with `whatever it takes` attitude
-- Remote or hybrid work
+I am a jack of all trades and have a non-linear career track. I hold degrees in Electronics and Communication Engineering (BTech), Neuroscience (MPhil and PhD), and Mental Health (PG Diploma). I am a mentor and builder at heart who loves technology, neuroscience in general, and non-ordinary states of consciousness in particular. I have a decade of experience in the research areas of `working memory`, `neural oscillations`, `neuromodulation', 'meditation research`, `cardiac dynamics` and `sleep & dreaming`. I have built communities around edtech, productivity, blogging, and self-growth. I have taught schoolchildren and coached underprivileged people to get jobs; I have also worked as a career counselor, placement officer, and science lead for an early-stage education startup. I have a substantial amount of experience working closely with the founding team of deep tech startups. My expertise and passion are at the intersection of neuroscience, productivity, team building, artificial intelligence, and wearable technology. I am keen on building sustainable and scalable products and solutions for skill development and mental health plus wellbeing.
 
-#### What am I `not` looking for?
-- Working with founders who are planning to toss this for the next highest bidder
-- Running the company on `marketing muscles` alone and literally no `deeptech` wings
+I am crafting my career in three parts. I am focusing 50% of my career on `Consciousness research`, 25% on developing impactful solutions in the field of `Personal growth and skill development`, and 25% on being `an explorer`. If you are someone with a similar thought process or totally orthogonal to the above, please send an email to me at rhlvenugopal@gmail.com.
 
-#### What can you expect from me?
-- All chips in, fast learner
-- Expertise, learn new things at a faster pace
-- Own the work, teach and build a team
-
-> Shoot me an email at `rhlvenugopal@gmail.com`
-
-{{< figure src="time_to_fly.png">}}
+I had lots of fun, learnt a lot and made great friends at [BAMB2024](https://www.bambschool.org/), [MESEC 2024](https://mesec.co/event/workshop_2024). I live online [here.](https://rahulvenugopal.github.io/haveyoumetrahul/)

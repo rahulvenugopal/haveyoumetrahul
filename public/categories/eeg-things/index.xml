@@ -5,18 +5,18 @@
         <description>EEG things - Category - Know Thyself</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/eeg-things/" rel="self" type="application/rss+xml" /><item>
     <title>Cool tools/methods/repos for doing neuroscience</title>
-    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/neuro-toolkit/</link>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/blog/neuroscience/neuro-toolkit/</link>
     <pubDate>Thu, 05 Jan 2023 21:57:40 &#43;0800</pubDate>
     <author>Rahul</author>
-    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/neuro-toolkit/</guid>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/blog/neuroscience/neuro-toolkit/</guid>
     <description><![CDATA[ CSD toolbox ePRIME tips and tricks Brain Electrophysiological recording and STimulation (BEST) Toolbox ]]></description>
 </item>
 <item>
     <title>EEG and its analysis</title>
-    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/eeg-things/</link>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/blog/neuroscience/eeg-things/</link>
     <pubDate>Wed, 05 Jan 2022 21:57:40 &#43;0800</pubDate>
     <author>Rahul</author>
-    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/neuroscience/eeg-things/</guid>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/blog/neuroscience/eeg-things/</guid>
     <description><![CDATA[ How to capture and analyze EEG Compute Signal Detection Theory Indices with R Pipeline To Calculate D-Prime in R Tutorial Introduction to PyMVPA On the application of decoding/classification/MVPA approaches to ERP data Decoding over time EEG-Notebooks Demystifying Louvain’s Algorithm and Its implementation in GPU A Python library for detecting community structure in graphs PIEL | Control File: Survey Information A Gentle Introduction To Graph Theory | by Vaidehi Joshi | basecs | Medium How to think in graphs: An illustrative introduction to Graph Theory and its applications Notes on graph theory — Centrality measures ]]></description>
 </item>
 </channel>
