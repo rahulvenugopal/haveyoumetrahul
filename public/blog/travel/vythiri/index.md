@@ -9,7 +9,6 @@ We had an early check-in around 8 AM and freshen up and was ready for breakfast.
 
 The charming hanging wooden bridge that spanned a vibrant natural waterfall and a river was our gateway to the nature's womb. Homely spread of Kerala cuisine and a bunch of friendly smiling faces welcomed us to the restaurant. We knew we had to top up our fuel tank to a full tank for the upcoming resort tour
 
-We planned our Day 1 atop the tree house and Day 2 in a cottage heaven. It was raining cats and dogs. Our tree house wa literally nestled inside the forest. The sound of the forest was scary and the waterfall sound amplified the rain sound. The walls were of glass so that we don't miss the view from tree top. It was cosy inside and it was beyond words to describe the experience. 
+We planned our Day 1 atop the tree house and Day 2 in a cottage heaven. It was raining cats and dogs. Our tree house wa literally nestled inside the forest. The sound of the forest was scary and the waterfall sound amplified the rain sound. The walls were of glass so that we don't miss the view from tree top. It was cosy inside and it was beyond words to describe the experience.
 
-
-
+{{< figure src="vythiry-large.jpg">}}

@@ -36,6 +36,9 @@ Scientific research is a collaborative effort and it is a journey through unknow
 - Basic writing skills to communicate ideas
 - Updated with current status if the research topic
 
+# How not to be a supervisor and become a mentor
+- [Read](https://oro.open.ac.uk/100811/) `Doctoral Supervision Guide` published by The Open University
+
 # List of research topics at CCS
 > Meditation | Sleep | Dreaming | Cognition | Neuromodulation | Metacognition | Heart-Brain interactions | Emotion-Cognition | Interoception | Phenomenology | Novel paradigm design | Dreaming | Wearables | Consciousness off course
 

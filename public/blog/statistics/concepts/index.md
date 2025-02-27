@@ -27,6 +27,3 @@
 22. [Data Wrangling in R](https://rpubs.com/bradleyboehmke/data_processing)
 23. [ R Tutorial: Linear mixed-effects models part 1- Repeated measures ANOVA](https://www.youtube.com/watch?v=AWInLxpiZuA)
 24. [Choosing the Correct Statistical Test in SAS, Stata, SPSS and R](https://stats.idre.ucla.edu/other/mult-pkg/whatstat/)
-25. []()
-
-

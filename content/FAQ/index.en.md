@@ -9,15 +9,15 @@ math:
 title: My two cents
 ---
 
-I get a lot of emails and texts from possible interns, job searchers, PhD candidates, industry to academia transitioners, and so on. What follows is a condensed version of my adventure. I am interested in the recommendations you provide for such a group, and I am more than willing to accommodate valid and valuable suggestions. Let's get started.
+I get a lot of emails and texts from aspiring interns, job searchers, PhD candidates, industry to academia transitioners, and so on. Let's get started.
 
 > I have no training in neuroscience, but I appreciate the work you perform. I'd like to change careers. What are my options, and what should I do?
 
 {{< figure src="choice.jpg">}}
 
-The grass always seems to be greener on the other side. Before you abandon ship, you might want to do a litmus test. Spend at least three months as an intern learning the ropes of the academic research field. If you want to see every island in the Caribbean before choosing one to call home, a master's degree may be in order. Look up the research facilities focusing on your preferred area of study (human cognitive research, for example). Do you know that until the project funds arrive, the vast majority of Indian research academics go without pay? Some laboratories are downright toxic. Do you consider yourself a self-learner? Find former lab members and have a chat with them. Make your choice. 
+The grass always seems to be greener on the other side. Before you abandon ship, you might want to do a litmus test. Spend at least three months as an intern learning the ropes of the academic research field. Look up the research facilities focusing on your preferred area of study (human cognitive research, for example). Do you know that until the project funds arrive, the vast majority of Indian research academics go without pay? Some laboratories are downright toxic. Do you consider yourself a self-learner? Find former lab members and have a chat with them. Make your choice. Research topic and mentors are really important, talk to potential mentors before you join. Figure out if their style of mentoring matches your work style. 
 
-When I found myself in a similar circumstance, I decided to pursue an MPhil in Neurosciences I had two SRF interviews lined up, but decided not to go that route. If I don't feel like I'm making progress towards mastery of the material and interest drops below 25%, I decided to call it quits. In addition, I told myself not to beat up on myself over the choice, wallow in misery for two weeks, and then ~~try to~~ move on.
+When I found myself in a similar circumstance, I decided to pursue an MPhil in Neurosciences I had two SRF interviews lined up, but decided not to go that route. If I don't feel like I'm making progress towards mastery of the material and interest drops below 25%, I decided to call it quits. In addition, I told myself not to beat up on myself over the choice, wallow in misery for two weeks, and then ~~try to~~ move on. I transitioned from engineering to Neuroscience and thanks to hell lot of people who made the journey smoother.
 
 > What to read, what to prepare
 
@@ -35,9 +35,7 @@ If you already have a programming background, get yourself familiarised with [MN
 
 > Show me some useful skills/questions I can prepare
 
-{{< figure src="bullseye.jpg">}}
-
-1. How to plot a topogram for power spectral values
+1. Basic data analysis skills
 2. Indexing, slicing and dicing. Pick up the third row, fifth to 128th column
 3. Data visualisation for time series, counts
 4. Plot and save in a loop
@@ -47,5 +45,5 @@ If you already have a programming background, get yourself familiarised with [MN
 8. Tell me about your favorite research paper and why?
 9. Name three researchers in the domain of your interest.
 10. What do you want to study? How do we study that? If there is a `10` crore funding, what will you do?
-11. If you are interviewing for a `Meditation research study`, understand the phenomenology, main papers in the field, papers published from the lab
+11. If you are interviewing for a `Meditation research study`, understand the phenomenology, main papers in the field, previous papers published from the lab
 12. Pick any concept in Neuroscience and explain it to me for 5 minutes in `ELI5` format

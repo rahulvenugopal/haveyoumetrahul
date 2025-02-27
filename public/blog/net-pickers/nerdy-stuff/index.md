@@ -66,9 +66,3 @@
 63. [engineuring | Scihub](https://engineuring.wordpress.com/)
 64. [The Biologist Blowing Our Minds - Nautilus](https://nautil.us/the-biologist-blowing-our-minds-323905/)
 65. [Brain Waves Synchronize when People Interact](https://www.scientificamerican.com/article/brain-waves-synchronize-when-people-interact/#)
-66. []()
-67. []()
-68. []()
-69. []()
-70. []()
-
