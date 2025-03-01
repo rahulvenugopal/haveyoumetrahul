@@ -424,7 +424,7 @@ languages:
           title: ''
           url: /blog
           weight: 3
-        - identifier: research
+        - identifier: "research"
           name: Research
           post: ''
           pre: ''
