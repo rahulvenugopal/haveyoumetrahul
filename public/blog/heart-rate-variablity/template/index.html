@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/rahulvenugopal.github.io\/haveyoumetrahul\/blog\/heart-rate-variablity\/template\/"
-        },"image": ["https:\/\/rahulvenugopal.github.io\/images\/Apple-Devices-Preview.png"],"genre": "blog","wordcount":  106 ,
+        },"image": ["https:\/\/rahulvenugopal.github.io\/images\/Apple-Devices-Preview.png"],"genre": "blog","wordcount":  586 ,
         "url": "https:\/\/rahulvenugopal.github.io\/haveyoumetrahul\/blog\/heart-rate-variablity\/template\/","datePublished": "2023-01-05T21:57:40+08:00","dateModified": "2024-10-12T11:29:08+05:30","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -116,6 +116,95 @@ Caffeine intake, some medications, alcohol consumption, time of day, exercise, f
 <li><a href="https://pubmed.ncbi.nlm.nih.gov/27914167/" target="_blank" rel="noopener noreffer ">Statistical considerations for reporting and planning heart rate variability case-control studies</a></li>
 <li><a href="https://www.nature.com/articles/tp201673" target="_blank" rel="noopener noreffer ">Guidelines for Reporting Articles on Psychiatry and Heart rate variability (GRAPH): recommendations to advance research communication</a></li>
 </ol>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>Note<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">So, I collected ECG data using lead I and Neurokit2 failed to pickup the R peaks correctly and ended up picking up S! Deep diving to know why</div>
+        </div>
+    </div>
+<p>Let us look at what happens to the ECG data once it enters the pipeline.</p>
+<h4 id="stop-1-ecg_clean">Stop 1: <code>ecg_clean</code></h4>
+<ul>
+<li>Default method to clean ECG is <code>neurokit</code></li>
+<li>Check for any <code>nan</code> in the data and returns missing datapoints</li>
+<li>If there are gaps, they are filled with last available value (forward filling method)</li>
+<li>There is a high pass filter set at <code>0.5</code> Hz butterworth filter (order = 5), followed by a powerline filtering (By default, <code>powerline = 50</code>)</li>
+</ul>
+<h4 id="stop-2-ecg_peaks">Stop 2: <code>ecg_peaks</code></h4>
+<ul>
+<li>Default method to identify peaks is <code>neurokit</code></li>
+<li>QRS complexes are detected based on the steepness of the absolute gradient of the ECG signal. Subsequently, R-peaks are detected as local maxima in the QRS complexes. Refer this <a href="https://joss.theoj.org/papers/10.21105/joss.02621" target="_blank" rel="noopener noreffer ">paper</a> for details</li>
+</ul>
+<h4 id="in-short">In short</h4>
+<ol>
+<li>Compute the ECG gradient to detect rapid changes in slope (rate of change)
+<figure><img src="1%20Raw%20data.png"/>
+</figure>
+
+<figure><img src="2%20Gradient.png"/>
+</figure>
+
+Take absolute values of gradient so that we don&rsquo;t miss out negative going waves
+<figure><img src="3%20Abs%20Gradient.png"/>
+</figure>
+</li>
+<li>Smooth the absolute gradient to reduce noise using one tenth of a second long <code>boxcar</code> kernel
+<figure><img src="4%20Smooth%20grad.png"/>
+</figure>
+
+One more level of smoothing using 75 percent of a second long kernel. This would be ultra smooth
+<figure><img src="5%20avggrad.png"/>
+</figure>
+
+3.Set a dynamic threshold to identify QRS complexes using the double smooth signal. The threshold is set at 1.5 times the smooth curve optimised for finding peaks
+<figure><img src="6%20DynamicThreshold.png"/>
+</figure>
+</li>
+<li>Detect QRS start and end points based on threshold crossing
+<figure><img src="8%20Start%20and%20End%20of%20QRS%20Detection.png"/>
+</figure>
+</li>
+<li>Filter out short QRS complexes that are likely noise
+The values are set at one third of a second</li>
+<li>Find the most prominent peak within each QRS complex. <strong>This happens via the</strong> <code>locmax[np.argmax(props[&quot;prominences&quot;])]</code>. <code>locmax</code> <strong>sees only peaks and not troughs</strong>
+<figure><img src="9%20QRS%20Complex.png"/>
+</figure>
+</li>
+</ol>
+<blockquote>
+<p>This is really critical for R peak detection. If our ECG waveform is flipped (R peaks pointing down), the algorithm would pick the S peak (falling end of R) instead of the peak! See the final comparisons</p>
+</blockquote>
+<ol start="7">
+<li>Apply a refractory period to prevent false detections. Once a peak is detected for identified <code>QRS</code> complex, it compares its proximity to previously identified peak of previous <code>QRS</code> complex. If it is within one third of a second, the current peak is dropped. More like a refractory period idea implemeneted</li>
+<li>See the identified peaks
+<figure><img src="10%20Overlay%20identified%20R%20peak.png"/>
+</figure>
+</li>
+</ol>
+<h3 id="see-what-happens-when-we-flip-the-ecg-waveform">See what happens when we flip the ECG waveform</h3>
+<p>R peaks pointing up
+<figure><img src="Positive.png"/>
+</figure>
+
+R peaks pointing down
+<figure><img src="Negative.png"/>
+</figure>
+</p>
+<blockquote>
+<p>Observations</p>
+</blockquote>
+<ul>
+<li>The delay in R peak (time from R peak to S peak)</li>
+<li>The whole interval gets shifted</li>
+<li>The numbers above red dots in panel 1 are the locations of R peak detections</li>
+<li>The algorithm becomes an S peak detector</li>
+<li>Should we be worries? YES offcourse</li>
+<li>The RR interval remains more or less similar in both the scenarios</li>
+</ul>
+<p><strong>Positive:</strong> 664, 680, 723, 732, 711, 707, 737, 738, 734, 713, 726, 752, 718</p>
+<p><strong>Negative:</strong> 664, 680, 722, 732, 712, 706, 737, 738, 734, 713, 726, 752, 719</p>
 </div><div id="comments"></div></div></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Maintained by Boodiee</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2023 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/haveyoumetrahul/" target="_blank">xxxx</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
