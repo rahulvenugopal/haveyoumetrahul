@@ -9,7 +9,7 @@ math:
 title: Do you think that's air you're breathing now?
 ---
 
-Hey, Hope you are having a good day :rocket:
+Hey, Hope you are having a good day.
 
 I am working as a `Cognitive Scientist` at the Centre for Consciousness
 Studies, NIMHANS, India. I am an engineer turned neuroscientist.
