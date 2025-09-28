@@ -14,7 +14,7 @@
 7. Get a feel of `shrinkage`. Tristan Mahr's blog (point no: 4) has a neat diagram which shows shrinkage. ![](https://www.tjmahr.com/figs/2017-06-22-plotting-partial-pooling-in-mixed-effects-models/shrinkage-plot-1.png)
 > The average intercept and slope act like a center of gravity, pulling values parameter estimates towards it. Hmm, maybe gravity is not quite the right analogy, because the pull is greater for more extreme values. The lines near that center point are very short; they get adjusted very little. The lines in general get longer as we move away from the complete pooling estimate
 
-> Douglas Bates (The wizard who wrothe THE book) says somewhere in his `lme4` package vignette that `shrinkage` is the process via estimates for individual subjects “borrow strength” from each other
+> Douglas Bates (The wizard who wrote the THE book) says somewhere in his `lme4` package vignette that `shrinkage` is the process via estimates for individual subjects “borrow strength” from each other
 
 8. Ahhh, the mandatory books links. Andrew Gelman and Jennifer presents Data Analysis Using Regression and Multilevel/Hierarchical Models. Statistical Rethinking: A Bayesian Course with Examples in R and Stan from Richard McElreath
 9. If you never really bothered to figure out the incest between t test, regression, correlation etc. you would be lost amidst previous links. Don't worry. Here is a beacon of light, [from coding club's **Introduction to linear models**](https://ourcodingclub.github.io/tutorials/mixed-models/). Have fun with dinosaurs and their body lengths
@@ -23,3 +23,6 @@
 ### Want more to hit it off the roof?
 1. [Mixed Models with R](https://m-clark.github.io/mixed-models-with-R/)
 2. [PSYC 575 Multilevel Modeling (2022 Fall)](https://psyc575-2022fall.netlify.app/)
+3. [An Introduction to Mixed Models for Experimental Psychology](http://singmann.org/download/publications/singmann_kellen-introduction-mixed-models.pdf)
+4. [Statistical Modeling in R](https://singmann.github.io/mixed_model_workshop_2day/part1-statistical-modeling-in-r/statistical_modeling.html#1)
+5. [Mixed Models in R](https://singmann.github.io/mixed_model_workshop_2day/part2-mixed-models-in-r/mixed_models.html#1)
