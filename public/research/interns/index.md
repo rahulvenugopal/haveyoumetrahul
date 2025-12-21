@@ -12,7 +12,6 @@ through science, life and stories.
 1. Sriya Veerapaneni
 2. Sruthi Kuriakose
 3. Aishwarya Swamy
-4. Rahul Ramarao
 5. Kankana Bhowmick
 6. Gayatri Nerpagar
 7. Adla Zubair
@@ -20,6 +19,6 @@ through science, life and stories.
 9. Abin Jacob
 10. Neetu M
 11. Deepshik Sharma
-12. Siddharth Rajesj
+12. Siddharth Rajesh
 13. Manasa Marthala
 14. Chinmayi Vaidya
