@@ -1,24 +1,21 @@
 # Mentor Mentee
 
 
-Thank you for reaching out to me to know more about opportunities for
-working together. Here is everything you need to know.
-
-As a freshly minted scientist and a long term resident at Centre for
-Consciousness Studies, NIMHANS my five year goal (2026-2030) is to establish a
-new research area **Sense of Self** at the same time teach and train existing
-and new members and contribute meaningfully to all the great projects happening
-at the centre. I picked this place because of the work ethic and
-culture passed on to me by my mentors - a lab that is not only scientifically
-rigorous but also a positive, offered freedom, engaging, hostility-free, challenging, and
-rewarding environment for every member.
+Thank you for reaching out to me. As a freshly minted scientist and a long term
+resident at the **Centre for Consciousness Studies, NIMHANS** my five year goal
+(2026-2030) is to establish a new research niche focused on the **Sense of Self**.
+Simultaneously, I aim to mentor and up skill the members and contribute
+meaningfully to all the great projects happening at the centre.
+I picked this work place because of the work ethic and culture passed down
+by my mentors: a lab environemnt that is scientifically rigorous yet positive,
+free, engaging, challenging, and rewarding.
 
 ### Science is a Team Sport
 We are a collaborative, not a competitive, group.
 We celebrate each other's successes, help each other through challenges, 
 and believe that the best ideas emerge when we share our knowledge freely.
 We support our lab mates, helping them out when they need it and letting
-them vent when they need to. I am pro open source.
+them vent when they need to. I am a staunch advocate for Open Source science.
 
 ### Embrace the Growth Mindset
 We are all here to learn. It is okay to not know things. It is double okay to
@@ -201,15 +198,14 @@ Point is, I do not know you and there are 5 other applications from people
 like you. Unfortunately, I can take only handful. Make your case, show me 
 something tangible (a GitHub repo if you can code) apart from a CV statement.
 
-Thank you for considering me as a potential mentor. I look forward to the 
-possibility of working together!
+Thank you for considering me as a potential mentor. I look forward to the
+possibility of exploring the mysteries of consciousness with you!
 
 ### What will I work on with you?
 > Oh, lots of interesting topics. Well, I am in the process of creating modules
 around topics like heart evoked potentials, data modeling, peripersonal space,
 [heart-brain models](https://arxiv.org/pdf/2409.15835), virtual reality 
 paradigms, respiratory cycles and EEG and lot more.
-Will have a list here by 1st of June, 2026
 
 ### Formalities of the internship
 Internship application can be found [here](https://training.nimhans.ac.in/Training/index.jsp). 

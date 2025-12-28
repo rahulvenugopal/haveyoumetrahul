@@ -1,13 +1,12 @@
 # Mentees
 
 
-Below are the brave souls currently or previously undergoing `Wax On, Wax Off` 
-with me. All of them not only mastered the science but also survived my
-`Jack of all, Master of None` approach to supervision, which involved a 
-heavy dose of discussions and the occasional hour long tangential journey
-through science, life and stories.
+Below are the brave souls (past and present) who have undergone the
+`Wax On, Wax Off` journey with me. Each of them has not only mastered the science
+but also survived my `Jack of all, Master of None` approach to supervision -
+a path that involves a heavy dose of rigorous discussion and the occasional
+hour-long tangential journey through science, life, and stories.
 
-[Name | Where did they come from | Where are they now | What are you up-to]
 
 1. Sriya Veerapaneni
 2. Sruthi Kuriakose
