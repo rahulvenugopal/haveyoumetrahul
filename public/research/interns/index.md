@@ -8,7 +8,21 @@ a path that involves a heavy dose of rigorous discussion and the occasional
 hour-long tangential journey through science, life, and stories.
 
 
-1. Sriya Veerapaneni
+1. Sriya Veerapaneni (1st Intern at CCS)
+
+Sriya obtained her integrated bachelor’s and master’s degree in Biological
+Sciences from the IIT, Madras. Her research experiences have spanned various
+fields, including neuroscience and cancer biology. 
+
+Currently, Sriya is pursuing a PhD at University of Texas Southwestern Medical
+Center  concentrating on utilizing deep learning techniques to analyze
+histopathological and multiplexed images in the study of rectal cancer.
+Her goal is to leverage tissue morphology information to advance our
+understanding of rectal cancer pathology. 
+
+*Sriya explored aperiodic components of EEG from Vipassana meditators and
+created computationaly efficient batch pipeline for the same during her time at
+CCS*
 
 ---
 
@@ -31,7 +45,7 @@ midline theta, EEG based neuromodulation, ML for neurotech*
 
 <img src="kankana.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Kankana Bhowmick ](https://www.linkedin.com/in/sruthikuriakose/) `2025`. B.Tech CSE and MS, UCL, London
+##### [Kankana Bhowmick ]() `2025`. BS-MS IISER Mohali
 
 Kankana worked as Research assistant at IIT, Jodhpur: Cognitive Engineering
 Lab under Dr. Dipanjan Roy. 
@@ -55,7 +69,8 @@ effects of tACS on working memory performance and learning EEG analysis*
 
 <img src="nandani.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Nandani Kundal ](https://www.linkedin.com/in/nandani-kundal-a2164227b) `2022`. Master's Thesis student at the Centre for Brain Research, IISc  
+##### [Nandani Kundal ](https://www.linkedin.com/in/nandani-kundal-a2164227b) `2022`. BS-MS, IISER Mohali. 
+Master's Thesis student at the Centre for Brain Research, IISc  
 
 Nandani was a BS-MS student at IISER Mohali. Her major interests lie in
 Neuroscience, Biochemistry and Molecular Biology. 
@@ -67,22 +82,10 @@ using FOOOF toolbox*
 
 ##### [Neetu M](https://www.linkedin.com/in/neetu--m) `2024`. Project staff in Dept. Of Psychiatry
 
-Abin has interests in Translational Science, 
-Brain-Computer Interfaces and Entrepreneurship.
+Neetu has interests in analytics, microstates in EEG
 
-*Neetu did her masters dissertation on EEG Microstates, Schizophrenia and Polysomnography*
-
----
-
-<img src="nandani.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
-
-##### [Nandani Kundal ](https://www.linkedin.com/in/nandani-kundal-a2164227b) `2022`. Master's Thesis student at the Centre for Brain Research, IISc  
-
-Nandani was a BS-MS student at IISER Mohali. Her major interests lie in
-Neuroscience, Biochemistry and Molecular Biology. 
-
-*Nandani Investigated aperiodic brain activity in sleep in Vipassana Meditators
-using FOOOF toolbox*
+*Neetu did her masters dissertation on EEG Microstates, Schizophrenia and
+Polysomnography*
 
 ---
 
@@ -134,4 +137,6 @@ like AI can help reveal subtle patterns in behaviour and brain signals.
 
 ---
 
-14. Chinmayi Vaidya
+##### [Chinmayi Vaidya](linkedin.com/in/) `2025`. MSc. Neuropsychology student at CHRIST University
+
+
