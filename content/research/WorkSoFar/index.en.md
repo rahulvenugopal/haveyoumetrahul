@@ -19,16 +19,17 @@ Welcome to my journey so far from the world of electronics and communication
 engineering to Consciousness research. 
 
 I began my career designing logic on circuit boards, only to realise the most
-complex operating system runs on wetware. I traded silicon for synapses, and
+complex operating system runs on wetware where there is no clear demarkation
+of the data, hardware and software. I traded silicon for synapses, and
 today, as a Cognitive Scientist at the Centre for Consciousness Studies (NIMHANS),
 my work revolves around multiple states of Consciousness across illness and
-wellness in wake, sleeping and dreaming brains.
+wellness in wake, sleeping, meditating and dreaming brains.
 
 I am establishing a research niche on "Sense of Self" exploring how it emerges,
 fragments, and can be altered in various states like Schizophrenia, Autism, 
-Depression, Lucid dreaming etc. This work integrates neuroscience, psychiatry,
-technology, and contemplative science to understand the shifts of selfhood and
-their impact on mental health.
+Depression, Lucid dreaming, altered states in meditation etc. This work integrates
+neuroscience, psychiatry, technology, and contemplative science to understand 
+the shifts of selfhood and their impact on mental health.
 
 > The Quiet Mind: Contemplative Science & Non-Linear Dynamics
 
