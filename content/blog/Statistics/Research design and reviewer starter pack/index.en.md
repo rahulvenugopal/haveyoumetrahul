@@ -34,4 +34,12 @@ weight: 2
 15. [Internal, External, and Ecological Validity in Research Design, Conduct, and Evaluation](https://journals.sagepub.com/doi/10.4103/IJPSYM.IJPSYM_334_18)
 16. [How to write a good abstract for a scientific paper or conference presentation](https://journals.lww.com/indianjpsychiatry/Fulltext/2011/53020/How_to_write_a_good_abstract_for_a_scientific.19.aspx)
 
+### Foundation articles _ 2026
+1. [A Student’s Guide to the Classification and Operationalization of Variables in the Conceptualization and Design of a Clinical Study: Part 1](https://journals.sagepub.com/doi/full/10.1177/0253717621994334)
+2. [A Student’s Guide to the Classification and Operationalization of Variables in the Conceptualization and Design of a Clinical Study: Part 2](https://journals.sagepub.com/doi/10.1177/0253717621996151)
+3. [Confounding by Indication, Confounding Variables, Covariates, and Independent Variables: Knowing What These Terms Mean and When to Use Which Term](https://journals.sagepub.com/doi/10.1177/02537176241227586)
+4. [How to Understand the 95% Confidence Interval Around the Relative Risk, Odds Ratio, and Hazard Ratio: As Simple as It Gets](https://www.psychiatrist.com/jcp/confidence-intervals-for-relative-risk-odds-ratio-hazard-ratio/)
+5. [Regression: Understanding What Covariates and Confounds Do in Adjusted Analyses](https://www.psychiatrist.com/jcp/regression-covariates-confounds-in-adjusted-analyses/)
+6. [Survival Analysis, Kaplan-Meier Curves, and Cox Regression: Basic Concepts](https://journals.sagepub.com/doi/10.1177/02537176231176986)
+
 Courtesy: Dr. Chittaranjan Andrade. This was shared over an email in e journal club that I am a member of
