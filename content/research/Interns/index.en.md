@@ -20,27 +20,29 @@ a path that involves a heavy dose of rigorous discussion and the occasional
 hour-long tangential journey through science, life, and stories.
 
 
-1. Sriya Veerapaneni (1st Intern at CCS)
+<img src="sriya.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
+
+##### [Sriya Veerapaneni](https://www.linkedin.com/in/sriyav) `2021` PhD candidate at UT Southwestern Medical Center, US `(1st Intern at CCS)`
 
 Sriya obtained her integrated bachelor’s and master’s degree in Biological
-Sciences from the IIT, Madras. Her research experiences have spanned various
-fields, including neuroscience and cancer biology. 
+Sciences from the IIT, Madras. 
 
-Currently, Sriya is pursuing a PhD at University of Texas Southwestern Medical
-Center  concentrating on utilizing deep learning techniques to analyze
-histopathological and multiplexed images in the study of rectal cancer.
-Her goal is to leverage tissue morphology information to advance our
-understanding of rectal cancer pathology. 
+For my undergraduate studies, I majored in Biological Sciences at IIT Madras.
+Through coursework and research projects at IIT Madras and CCS at NIMHANS,
+I built a strong foundation in computational biology and cancer research.
+I currently work on projects that integrate computer vision and tissue image
+analysis to study pathology in rectal cancer.
 
 *Sriya explored aperiodic components of EEG from Vipassana meditators and
 created computationaly efficient batch pipeline for the same during her time at
-CCS*
+CCS. She also worked on the automation of slow wave extraction from EEG data
+using YASA module.*
 
 ---
 
 <img src="sruthi.JPG" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Sruthi Kuriakose](https://www.linkedin.com/in/sruthikuriakose/) `2025`. B.Tech CSE and MS, UCL, London
+##### [Sruthi Kuriakose](https://www.linkedin.com/in/sruthikuriakose/) `2025` B.Tech CSE and MS, UCL, London
 
 CS, ML
 
@@ -57,10 +59,19 @@ midline theta, EEG based neuromodulation, ML for neurotech*
 
 <img src="kankana.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Kankana Bhowmick ]() `2025`. BS-MS IISER Mohali
+##### [Kankana Bhowmick ]() `2025` BS-MS IISER Mohali
 
-Kankana worked as Research assistant at IIT, Jodhpur: Cognitive Engineering
-Lab under Dr. Dipanjan Roy. 
+I graduated from IISER Mohali with a BS-MS degree in biological sciences.
+Although I had no initial experience in coding or data sciences,
+I found my passion in physiological data analysis of various kinds through my
+internship at CCS. I have also gone on to work on heart data (HRV) synchrony
+analysis for my Master's thesis at Universität Konstanz in collaboration with
+Max Planck Institute of Animal Behaviour. I worked as Research
+assistant at IIT Jodhpur, Cognitive Engineering Lab under Dr. Dipanjan Roy.
+
+`Rahul is one of the people who made me fall in love with my subject
+for which I'm forever grateful 🙂`
+
 
 *Kankana did a first observership at CCS picking up basics of neurophysiology,
 EEG acquisition and analysis, sleep and polysomnography. She came for a second
@@ -81,7 +92,7 @@ effects of tACS on working memory performance and learning EEG analysis*
 
 <img src="nandani.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Nandani Kundal ](https://www.linkedin.com/in/nandani-kundal-a2164227b) `2022`. BS-MS, IISER Mohali. 
+##### [Nandani Kundal ](https://www.linkedin.com/in/nandani-kundal-a2164227b) `2022` BS-MS, IISER Mohali 
 Master's Thesis student at the Centre for Brain Research, IISc  
 
 Nandani was a BS-MS student at IISER Mohali. Her major interests lie in
@@ -92,9 +103,9 @@ using FOOOF toolbox*
 
 ---
 
-##### [Neetu M](https://www.linkedin.com/in/neetu--m) `2024`. Project staff in Dept. Of Psychiatry
+##### [Neetu M](https://www.linkedin.com/in/neetu--m) `2024` Project staff in Dept. of Psychiatry, NIMHANS
 
-Neetu has interests in analytics, microstates in EEG
+Neetu has interests in analytics, microstates in EEG.
 
 *Neetu did her masters dissertation on EEG Microstates, Schizophrenia and
 Polysomnography*
@@ -103,7 +114,7 @@ Polysomnography*
 
 <img src="deepshik.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Deepshik Sharma](https://www.linkedin.com/in/deepshiksharma/) `2025`. B.Tech CSE
+##### [Deepshik Sharma](https://www.linkedin.com/in/deepshiksharma/) `2025` B.Tech CSE
 
 Deepshik has major interest in maching learning, from Bhutan.
 
@@ -117,7 +128,7 @@ teamed up with Siddharth to deepen brain age index project*
 
 <img src="sid.jpeg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Siddharth Rajesh](https://www.linkedin.com/in/siddharth-rajesh-744b811b7/) `2025`. BSc Neuroscience & Psychology graduate 
+##### [Siddharth Rajesh](https://www.linkedin.com/in/siddharth-rajesh-744b811b7/) `2025` BSc Neuroscience & Psychology graduate 
 
 Siddharth is a partial Engineer and
 switched to Neuroscience and an aspiring Neurophilopher. While he pursued
@@ -135,7 +146,7 @@ building ML/DL models to better predict brain age from EEG data*
 
 <img src="manasa.jpeg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Manasa Marthala](linkedin.com/in/manasa-marthala) `2025`. MSc. Neuropsychology student at CHRIST University
+##### [Manasa Marthala](linkedin.com/in/manasa-marthala) `2025` MSc. Neuropsychology student at CHRIST University
 
 Manasa is a neuropsychology student looking to build stronger hands-on
 experience with EEG and research methods. Her interests span how people think,
@@ -149,5 +160,5 @@ like AI can help reveal subtle patterns in behaviour and brain signals.
 
 ---
 
-##### [Chinmayi Vaidya](linkedin.com/in/) `2025`. MSc. Neuropsychology student at CHRIST University
+##### [Chinmayi Vaidya](linkedin.com/in/) `2025` MSc. Neuropsychology student at CHRIST University
 
