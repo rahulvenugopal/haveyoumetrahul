@@ -22,7 +22,7 @@ hour-long tangential journey through science, life, and stories.
 
 <img src="sriya.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Sriya Veerapaneni](https://www.linkedin.com/in/sriyav) `2021` PhD candidate at UT Southwestern Medical Center, US `(1st Intern at CCS)`
+##### [Sriya Veerapaneni](https://www.linkedin.com/in/sriyav) `2021` PhD candidate at UT Southwestern Medical Center, US `(1st Intern at CCS)` `Omnivisor`
 
 Sriya obtained her integrated bachelor’s and master’s degree in Biological
 Sciences from the IIT, Madras. 
@@ -42,7 +42,7 @@ using YASA module.*
 
 <img src="sruthi.JPG" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Sruthi Kuriakose](https://www.linkedin.com/in/sruthikuriakose/) `2025` B.Tech CSE and MS, UCL, London
+##### [Sruthi Kuriakose](https://www.linkedin.com/in/sruthikuriakose/) `2022` B.Tech CSE and MS, UCL, London `Co-mentored with Dr. Arun`
 
 CS, ML
 
@@ -59,7 +59,7 @@ midline theta, EEG based neuromodulation, ML for neurotech*
 
 <img src="kankana.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Kankana Bhowmick ]() `2025` BS-MS IISER Mohali
+##### [Kankana Bhowmick ]() `2022` BS-MS IISER Mohali `Omnivisor`
 
 I graduated from IISER Mohali with a BS-MS degree in biological sciences.
 Although I had no initial experience in coding or data sciences,
@@ -92,8 +92,8 @@ effects of tACS on working memory performance and learning EEG analysis*
 
 <img src="nandani.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Nandani Kundal ](https://www.linkedin.com/in/nandani-kundal-a2164227b) `2022` BS-MS, IISER Mohali 
-Master's Thesis student at the Centre for Brain Research, IISc  
+##### [Nandani Kundal](https://www.linkedin.com/in/nandani-kundal-a2164227b) `2023` BS-MS, IISER Mohali `Omnivisor`
+Master's Thesis student at the Centre for Brain Research, IISc
 
 Nandani was a BS-MS student at IISER Mohali. Her major interests lie in
 Neuroscience, Biochemistry and Molecular Biology. 
@@ -103,7 +103,16 @@ using FOOOF toolbox*
 
 ---
 
-##### [Neetu M](https://www.linkedin.com/in/neetu--m) `2024` Project staff in Dept. of Psychiatry, NIMHANS
+<img src="abin.jpeg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
+
+##### [Abin Jacob](https://www.linkedin.com/in/abinjacob) `2023` PhD Scholar at UoL & Founder of CalypsoBCI `Co-mentored with Dr. Arun`
+
+I am interested Interested in Translational Science, Brain-Computer Interfaces
+and Entrepreneurship
+
+*Abin worked on mental state detection from EEG using wearable devices*
+
+##### [Neetu M](https://www.linkedin.com/in/neetu--m) `2024` Project staff in Dept. of Psychiatry, NIMHANS `Co-mentored with Dr. Arun`
 
 Neetu has interests in analytics, microstates in EEG.
 
@@ -114,9 +123,9 @@ Polysomnography*
 
 <img src="deepshik.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Deepshik Sharma](https://www.linkedin.com/in/deepshiksharma/) `2025` B.Tech CSE
+##### [Deepshik Sharma](https://www.linkedin.com/in/deepshiksharma/) `2025` B.Tech CSE `Collaborated with Dr. Arun and Dr. Ravindra`
 
-Deepshik has major interest in maching learning, from Bhutan.
+Deepshik has major interest in maching learning and diving to the bottom of things.
 
 *Deepshik spent days around Tobii Eyetracker and built Python frameworks
 to run eye tracking experiments with PyGame and generate heatmaps of gaze. He
@@ -128,7 +137,7 @@ teamed up with Siddharth to deepen brain age index project*
 
 <img src="sid.jpeg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Siddharth Rajesh](https://www.linkedin.com/in/siddharth-rajesh-744b811b7/) `2025` BSc Neuroscience & Psychology graduate 
+##### [Siddharth Rajesh](https://www.linkedin.com/in/siddharth-rajesh-744b811b7/) `2025` BSc Neuroscience & Psychology graduate (Sydney Univ) `Omnivisor`
 
 Siddharth is a partial Engineer and
 switched to Neuroscience and an aspiring Neurophilopher. While he pursued
@@ -146,7 +155,7 @@ building ML/DL models to better predict brain age from EEG data*
 
 <img src="manasa.jpeg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Manasa Marthala](linkedin.com/in/manasa-marthala) `2025` MSc. Neuropsychology student at CHRIST University
+##### [Manasa Marthala](linkedin.com/in/manasa-marthala) `2025` MSc. Neuropsychology student at CHRIST University `Omnivisor`
 
 Manasa is a neuropsychology student looking to build stronger hands-on
 experience with EEG and research methods. Her interests span how people think,
@@ -160,5 +169,5 @@ like AI can help reveal subtle patterns in behaviour and brain signals.
 
 ---
 
-##### [Chinmayi Vaidya](linkedin.com/in/) `2025` MSc. Neuropsychology student at CHRIST University
+##### [Chinmayi Vaidya](linkedin.com/in/) `2025` MSc. Neuropsychology student at CHRIST University `Omnivisor`
 
