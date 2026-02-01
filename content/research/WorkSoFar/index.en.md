@@ -35,12 +35,12 @@ the shifts of selfhood and their impact on mental health.
 
 During my MPhil research at NIMHANS and subsequent collaborations, I moved
 beyond conventional EEG analysis to understand the "texture" of a meditating mind.
-Standard EEG analysis often misses the nuance of meditative states. 
-I applied non-linear methods like `Permutation Entropy and Fractal Dimension`
-to high-density EEG data to capture these inherent structures.
+Standard EEG analysis often misses the nuance of multiple meditative states in
+[Vipassana meditation](https://www.sciencedirect.com/science/article/abs/pii/S0301051118301728). I applied non-linear methods like `Permutation Entropy and
+Fractal Dimension` to high-density EEG data to capture these inherent structures.
 
 More recently, we deployed ML based appraoches to understand how different 
-meditation techniques lead to "Similar States but Different Paths"
+meditation techniques lead to [Similar States but Different Paths](https://www.biorxiv.org/content/10.1101/2025.06.20.660652v1.abstract)
 
 > The Sleeping Brain: Stability, Spindles, and Sound
 
@@ -50,7 +50,7 @@ and healthy controls. I conducted over 125 whole-night polysomnography (PSG)
 studies, using auditory stimulation and transcranial Alternating Current
 Stimulation (tACS) to "shake" the sleep architecture and test its stability.
 We identified that sleep ERPs and tACS-induced spectral changes could serve
-as reliable markers for sleep stability. More recently, I have prototyped
+as reliable markers for [sleep stability](https://onlinelibrary.wiley.com/doi/abs/10.1111/ner.12847). More recently, I have prototyped
 MVPA pipelines to decode dream states from sleep data using machine learning
 classifiers.
 
@@ -68,8 +68,8 @@ My PhD work focused on the "executive" of the brain: Working Memory.
 I wanted to know if we could map its limits and then push them using transcranial
 alternating current protocols. I designed a real-time adaptive working memory
 paradigm paired with high-density EEG to study the brain at its optimal capacity
-rather than at rest. Using tACS, I demonstrated that we could differentially 
-modulate resting and task-related EEG data. By targeting specific frequencies
+rather than at rest. Using tACS, I demonstrated that we could [differentially 
+modulate](https://www.sciencedirect.com/science/article/pii/S1094715924006731) resting and task-related EEG data. By targeting specific frequencies
 (Theta and Gamma), we could influence the oscillatory dynamics underlying working
 memory. A significant portion of this work involved studying patients with
 Schizophrenia, using graph theory to identify specific profiles for targeted 
@@ -78,7 +78,8 @@ non-invasive neuromodulation.
 > The Cardiac Signature: Heart Rate Variability (HRV) & Heart-Brain Interaction
 
 I am exploring Heart-Brain Connection using computational models of brain-heart
-interactions, and utilising robust and geometric versions of HRV analysis.
+interactions, and utilising robust and geometric versions of HRV analysis. We
+applied [ultra short term heart rate variablity](https://www.sciencedirect.com/science/article/abs/pii/S0954611126000223) to understand OSA brains.
 
 > Teaching and Mentoring: Building the Lab
 
