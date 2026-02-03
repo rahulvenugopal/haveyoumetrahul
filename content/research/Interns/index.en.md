@@ -171,6 +171,8 @@ like AI can help reveal subtle patterns in behaviour and brain signals.
 
 ---
 
+<img src="chinmayi.jpeg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
+
 ##### [Chinmayi Vaidya](linkedin.com/in/) `2025` MSc. Neuropsychology student at CHRIST University `Omnivisor`
 
 I am a postgraduate student in Neuropsychology working with EEG and
