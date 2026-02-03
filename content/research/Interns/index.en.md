@@ -114,7 +114,9 @@ and Entrepreneurship
 
 ##### [Neetu M](https://www.linkedin.com/in/neetu--m) `2024` Project staff in Dept. of Psychiatry, NIMHANS `Co-mentored with Dr. Arun`
 
-Neetu has interests in analytics, microstates in EEG.
+Manipal Institute of Regenerative Medicine, Manipal Academy of Higher Education
+(MAHE), Bengaluru. Neetu has interests in analytics, microstates in EEG and did her
+masters dissertation analysing Schizophrenia dataset.
 
 *Neetu did her masters dissertation on EEG Microstates, Schizophrenia and
 Polysomnography*
@@ -140,7 +142,7 @@ teamed up with Siddharth to deepen brain age index project*
 ##### [Siddharth Rajesh](https://www.linkedin.com/in/siddharth-rajesh-744b811b7/) `2025` BSc Neuroscience & Psychology graduate (Sydney Univ) `Omnivisor`
 
 Siddharth is a partial Engineer and
-switched to Neuroscience and an aspiring Neurophilopher. While he pursued
+switched to Neuroscience and an aspiring Neurophilosopher. While he pursued
 Neuroscience in his bachelors, he see himself as a philosopher at heart. His
 core drive for philosophy and a deeper sense of curiosity comes from his
 pursuit of truth. Truth of the self, the universe, and everything between
@@ -171,3 +173,11 @@ like AI can help reveal subtle patterns in behaviour and brain signals.
 
 ##### [Chinmayi Vaidya](linkedin.com/in/) `2025` MSc. Neuropsychology student at CHRIST University `Omnivisor`
 
+I am a postgraduate student in Neuropsychology working with EEG and
+psychophysiological signals to study attention, engagement, and implicit
+decision-making. I am interested in extending these methods to user-centered
+research and applied experimental design.
+
+*Chinmayi is exploring EEG data preprocessing, event coding, epoching,
+and metadata annotation. She is also reviewing literature on heart-evoked
+potentials and its implications in  brain–body interactions*
