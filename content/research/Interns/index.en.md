@@ -82,14 +82,6 @@ effects of tACS on working memory performance and learning EEG analysis*
 
 ---
 
-6. Gayatri Nerpagar
-
----
-
-7. Adla Zubair
-
----
-
 <img src="nandani.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
 ##### [Nandani Kundal](https://www.linkedin.com/in/nandani-kundal-a2164227b) `2023` BS-MS, IISER Mohali `Omnivisor`
