@@ -53,10 +53,6 @@ midline theta, EEG based neuromodulation, ML for neurotech*
 
 ---
 
-3. Aishwarya Swamy
-
----
-
 <img src="kankana.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
 ##### [Kankana Bhowmick ]() `2022` BS-MS IISER Mohali `Omnivisor`

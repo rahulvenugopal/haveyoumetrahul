@@ -31,6 +31,20 @@ Depression, Lucid dreaming, altered states in meditation etc. This work integrat
 neuroscience, psychiatry, technology, and contemplative science to understand 
 the shifts of selfhood and their impact on mental health.
 
+> Foundations
+
+My professional journey began with a mediocre, boring technical education in a private
+college where I did not learn anything! I took a break year post Tech figuring out life.
+It turned my world upside down and landed me in a decent institute for a masters. I would
+say that I learned B Tech and M Tech together in 2 years! I loved working in the domain
+of neurotechnology building brain computer interfaces for stroke patients. The research
+focused on Brain-Computer Interface (BCI) applications for clinical rehabilitation,
+specifically investigating the feasibility of using Motor Imagery (MI) EEG features to
+predict movement intentions in patients with hemiplegia. By collecting EEG data
+during left versus right-hand motor imagery, the study demonstrated that 
+imagery-related desynchronization from frontal sensors could reliably predict 
+intended hand movement. 
+
 > The Quiet Mind: Contemplative Science & Non-Linear Dynamics
 
 During my MPhil research at NIMHANS and subsequent collaborations, I moved
@@ -84,6 +98,7 @@ memory. A significant portion of this work involved studying patients with
 Schizophrenia, using graph theory to identify specific profiles for targeted 
 non-invasive neuromodulation.
 
+
 > The Cardiac Signature: Heart Rate Variability (HRV) & Heart-Brain Interaction
 
 We are exploring Heart-Brain interactions using computational models of brain-heart
@@ -95,6 +110,21 @@ the three way interaction across nervous, cardiac and respiratory systems and ho
 does respiratory/cardiac/neural phases modulate/influence behavior and mental states.
 I really got inspired by the works like [this](https://www.sciencedirect.com/science/article/pii/S0301051123001606),
 and [this](https://www.sciencedirect.com/science/article/pii/S1053811922006632/).
+
+Cross-Modal Modeling: The study "Unveiling the Heart-Brain Connection" explored
+whether ECG signals could reliably reflect cognitive load. By extracting time-domain
+HRV metrics and "Catch22" descriptors from ECG and spectral power from EEG, 
+we built a cross-modal XGBoost framework. This framework projects ECG features
+onto EEG-representative cognitive spaces, allowing mental workload inferences using only ECG.  
+
+Synthetic Data Augmentation: To address data sparsity and model brain-heart interactions,
+we integrated the Poincaré Sympathetic-Vagal Synthetic Data Generation (PSV-SDG) model.
+This algorithm combines EEG and cardiac sympathetic-vagal dynamics to provide bidirectional
+estimators of the mutual interplay between the central and autonomic nervous systems.
+
+Further multimodal inquiry has investigated pupillometry as a non-invasive indicator of cognitive effort.
+Using the OpenNeuro dataset, we integrated feature-based and model-driven approaches
+to classify cognitive load from EEG and pupillometry.
 
 > Teaching and Mentoring: Building the Lab
 
