@@ -4,7 +4,7 @@
         <link>https://rahulvenugopal.github.io/haveyoumetrahul/categories/career/</link>
         <description>Career - Category - Know Thyself</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>rhlvenugopal@gmail.com (xxxx)</managingEditor>
-            <webMaster>rhlvenugopal@gmail.com (xxxx)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 14 Jan 2026 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/career/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>rhlvenugopal@gmail.com (xxxx)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Mar 2026 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/categories/career/" rel="self" type="application/rss+xml" /><item>
     <title>What is the procedure for getting a PhD in NIMHANS? Part 1</title>
     <link>https://rahulvenugopal.github.io/haveyoumetrahul/blog/career/procedure-for-phd-1/</link>
     <pubDate>Wed, 01 Jan 2020 21:57:40 &#43;0800</pubDate>
@@ -61,13 +61,14 @@ Almost every academic and scientific event taking place on campus is open to stu
 Doctoral students are placed in various labs during this time. They go to one seminar and one journal club meeting each week. Students are free to participate in additional teaching sessions held for MPhils. Each professor used to teach two or three sessions in their area of expertise.]]></description>
 </item>
 <item>
-    <title>Whirlwind tour of my research work</title>
-    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/worksofar/</link>
-    <pubDate>Wed, 14 Jan 2026 21:57:40 &#43;0800</pubDate>
+    <title>Sense of Self</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/sense-of-self/</link>
+    <pubDate>Fri, 06 Mar 2026 21:57:40 &#43;0800</pubDate>
     <author>Rahul</author>
-    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/worksofar/</guid>
-    <description><![CDATA[From Circuits to Consciousness Welcome to my journey so far from the world of electronics and communication engineering to Consciousness research.
-I began my career designing logic on circuit boards, only to realise the most complex operating system runs on wetware where there is no clear demarkation of the data, hardware and software. I traded silicon for synapses, and today, as a Cognitive Scientist at the Centre for Consciousness Studies (NIMHANS), my work revolves around multiple states of Consciousness across illness and wellness in waking, sleeping, tasking, meditating and dreaming brains.]]></description>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/sense-of-self/</guid>
+    <description><![CDATA[What turns an information processing living thing into something which experiences? What is this entity having these experiences? Why there is always someone having the experiences?
+It turns out that the experience of being a self—of being &ldquo;someone&rdquo; rather than &ldquo;something&rdquo; is not just an abstract idea. It is inextricably rooted in having and inhabiting a physical body. This is known as Bodily Self-Consciousness (BSC).
+Bodily self-consciousness is a multidimensional construct made up of several independent components.]]></description>
 </item>
 <item>
     <title>Mentees</title>
@@ -87,14 +88,13 @@ Sriya Veerapaneni 2021 PhD candidate at UT Southwestern Medical Center, US (1st 
     <description><![CDATA[Thank you for reaching out to me. As a freshly minted scientist and a long term resident at the Centre for Consciousness Studies, NIMHANS my five year goal (2026-2030) is to establish a new research niche focused on the Sense of Self. Simultaneously, I aim to mentor and up skill the members and contribute meaningfully to all the great projects happening at the centre. I picked this work place because of the work ethic and culture passed down by my mentors: a lab environemnt that is scientifically rigorous yet positive, free, engaging, challenging, and rewarding.]]></description>
 </item>
 <item>
-    <title>Sense of Self</title>
-    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/sense-of-self/</link>
-    <pubDate>Mon, 06 Jan 2025 21:57:40 &#43;0800</pubDate>
+    <title>Whirlwind tour of my research work</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/research/worksofar/</link>
+    <pubDate>Mon, 14 Jul 2025 21:57:40 &#43;0800</pubDate>
     <author>Rahul</author>
-    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/sense-of-self/</guid>
-    <description><![CDATA[What turns an information processing living thing into something which experiences? What is this entity having these experiences? Why there is always someone having the experiences?
-It turns out that the experience of being a self—of being &ldquo;someone&rdquo; rather than &ldquo;something&rdquo; is not just an abstract idea. It is inextricably rooted in having and inhabiting a physical body. This is known as Bodily Self-Consciousness (BSC).
-Bodily self-consciousness is a multidimensional construct made up of several independent components.]]></description>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/research/worksofar/</guid>
+    <description><![CDATA[From Circuits to Consciousness Welcome to my journey so far from the world of electronics and communication engineering to Consciousness research.
+I began my career designing logic on circuit boards, only to realise the most complex operating system runs on wetware where there is no clear demarkation of the data, hardware and software. I traded silicon for synapses, and today, as a Cognitive Scientist at the Centre for Consciousness Studies (NIMHANS), my work revolves around multiple states of Consciousness across illness and wellness in waking, sleeping, tasking, meditating and dreaming brains.]]></description>
 </item>
 </channel>
 </rss>

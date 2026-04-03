@@ -2,7 +2,7 @@
 author: Rahul
 authorLink: https://rahulvenugopal.github.io/haveyoumetrahul/
 categories: ["Career"]
-date: "2026-01-14T21:57:40+08:00"
+date: "2025-07-14T21:57:40+08:00"
 description: 
 draft: false
 images: []
