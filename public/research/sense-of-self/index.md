@@ -39,4 +39,6 @@ tested on how rapidly they can detect a weak tactile stimulus on their hand
 while an auditory or visual stimulus is simultaneously presented near (looming in)
 or far (looming out) from the body.
 
+<img src="SoS.png" style="float: left; height: 400px; border-radius: 10%; margin-right: 20px; margin-bottom: 40px;">
+
 
