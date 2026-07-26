@@ -13,6 +13,8 @@ today, as a Cognitive Scientist at the Centre for Consciousness Studies (NIMHANS
 my work revolves around multiple states of Consciousness across illness and
 wellness in waking, sleeping, tasking, meditating and dreaming brains.
 
+<img src="education.png" style="float: left; height: 400px; border-radius: 10%; margin-right: 20px; margin-bottom: 10px;">
+
 I am establishing a research niche on "Sense of Self" exploring how it emerges,
 fragments, and can be altered in various states like Schizophrenia, Autism, 
 Depression, Lucid dreaming, altered states in meditation etc. This work integrates
@@ -125,17 +127,18 @@ I collaborated with a bunch of hardware and software engineers to extend wireles
 wearable EEG devices with single-board computers for real-time neurofeedback and
 seizure prediction.
 
-> What's cooking now?
+<img src="posters.png" style="float: left; height: 400px; border-radius: 10%; margin-right: 20px; margin-bottom: 40px;">
 
-a) We are working on applying 10 (ML an DL) models to a large chunk (26,000 subjects+)
-of data to predict brain age index (chronological age minus brain age). One of the
-goals is to come up with a cool paper (code and cookbook) in the domain of brain
-age.
+### What's happening new?
 
-b) By undersatnding how the brain responds to the heart's rhythmic signals,
+a) Phase 1 of predicting brain age index (chronological age minus brain age) from
+EEG is completed. One of the goals is to come up with a cool pipeline paper in
+the domain of brain age. Siddharth and Deepshik was heading this work.
+
+b) By understanding how the brain responds to the heart's rhythmic signals,
 we can unlock new insights into interoception, cognitive load, and consciousness.
 Does the Heart Race with the Mind when we do a tough mental task? The brain doesn't
 stop listening to the heart when we fall asleep. How do sleep stages modulate
-these HEPs? Can we track meditative depth with HEPs?
-What is being captured by HEPs? Lot more in this direction
-
+these HEPs? Can we track meditative depth with HEPs? What is being captured by HEPs? Lot more in this direction
+We did a detailed literature survey on this and an intern is gearing up to pick 
+this up for her master's dissertation.

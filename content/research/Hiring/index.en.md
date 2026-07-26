@@ -23,11 +23,11 @@ by my mentors: a lab environemnt that is scientifically rigorous yet positive,
 free, engaging, challenging, and rewarding.
 
 ### Science is a Team Sport
-We are a collaborative, not a competitive, group.
-We celebrate each other's successes, help each other through challenges, 
-and believe that the best ideas emerge when we share our knowledge freely.
-We support our lab mates, helping them out when they need it and letting
-them vent when they need to. I am a staunch advocate for Open Source science.
+Science is a collaborative (not a competitive) event, we should celebrate 
+each other's successes, help each other through challenges and believe that
+the best ideas emerge when we share our knowledge freely. We support our lab
+mates, helping them out when they need it and letting them vent when they 
+need to. I am a staunch advocate for Open Source science.
 
 ### Embrace the Growth Mindset
 We are all here to learn. It is okay to not know things. It is double okay to
@@ -43,13 +43,14 @@ the problems you solve yourself. See if the project inspires you.
 Since, the projects are primarily ideated inside my head it would be super
 interesting to be, but ultra boring for you. Be honest and let me know
 your opinion. I appreciate that.
-For example: Simulating [Conway's Game of Life](https://www.youtube.com/watch?v=R9Plq-D1gEk) is still ubercool and meaningful
-to me whereas someone might consider that utter waste of time (How dare you!).
-I have lots of side projects which are done to quench the wanderer inside me.
-Part of this is coming from my personal philosphy that science should be fun
-and not always meant to solve a problem (applied science).
-It is quite difficult to think through potential applications of something
-which can seem trivial. I keep thinking about discovery of Pencilin.
+For example: Simulating [Conway's Game of Life](https://www.youtube.com/watch?v=R9Plq-D1gEk) 
+is still ubercool and meaningful to me whereas someone might consider that
+utter waste of time (How dare you!). I have lots of side projects which are 
+done to quench the wanderer inside me. Part of this is coming from my personal 
+philosphy that science should be fun and not always meant to solve a problem
+(applied science). It is quite difficult to think through potential applications
+of something which can seem trivial. I keep thinking about discovery of 
+Pencilin.
 
 > In 1928, Scottish bacteriologist Alexander Fleming returned to his laboratory
 at St. Mary's Hospital in London after a summer vacation.
@@ -73,7 +74,9 @@ and stabilizing penicillin. Their work was driven by the urgent need for
 treatments for battlefield injuries during World War II.
 
 ### Open and Reproducible Science
-We are committed to transparency in our research. This means meticulous documentation, well-commented code, and sharing our methods and data. Good science is science that others can trust and build upon.
+We are committed to transparency in our research. This means meticulous documentation,
+well-commented code, and sharing our methods and data. Good science is science 
+that others can trust and build upon.
 
 ### People and Science First
 Your well-being is a top priority. Science is hard, but it should also be fun.
@@ -89,25 +92,24 @@ Beyond specific technical skills (which you can learn!), I look for a certain
 mindset and a set of personal qualities that will help you thrive through our
 journey together as a mentor and mentee.
 
-1. I am **not** looking for the smartest, passionate student.
-You should be curious, have a learner mindset and have strong work ethic.
-I strongly belive that hardwork can beat talent (most of the times).
-You should be the first person to pop up the hood of the car when it is broken
-than waiting for someone else.
+1. I am **not** looking for the smartest, passionate student. You should be curious,
+have a learner mindset and have strong work ethic. I strongly belive that 
+hardwork can beat talent (most of the times). You should be the first person to 
+pop up the hood of the car when it is broken than waiting for someone else.
 
-2. Show up. It is a pain to work with people who don't show up on time.
-The fact that you show up is one way to showcase your enthusiasm. 
-I want to you to knock again and again until the door opens. 
+2. Show up. It is a pain to work with people who don't show up on time. The fact
+that you show up is one way to showcase your enthusiasm. I want to you to knock 
+again and again until the door opens. 
 
 3. Be nice, be respectful. Be respectful of everyone, regardless of their 
 position or background. Respect their strengths and weaknesses, their culture,
 their beliefs, and their identity.
 
-4. Research is hard, experiments fail, papers get rejected.
-We are working at the boundaries of what is known and what is unknown. 
-Failures are our occupational hazard. I am champion of failures.
-I am looking for individuals who can bounce back from setbacks with a positive
-attitude and a determination to try again. I would be your loudest cheerer.
+4. Research is hard, experiments fail, papers get rejected. We are working at 
+the boundaries of what is known and what is unknown. Failures are our occupational
+hazard. I am champion of failures. I am looking for individuals who can bounce
+back from setbacks with a positive attitude and a determination to try again.
+I would be your loudest cheerer.
 
 5. Do not take short cuts. Be meticulousness. The details matter. 
 Scientists have to be careful. Don't rush your work. Think about it. 
@@ -214,10 +216,16 @@ Thank you for considering me as a potential mentor. I look forward to the
 possibility of exploring the mysteries of consciousness with you!
 
 ### What will I work on with you?
-> Oh, lots of interesting topics. Well, I am in the process of creating modules
-around topics like heart evoked potentials, data modeling, peripersonal space,
-[heart-brain models](https://arxiv.org/pdf/2409.15835), virtual reality 
-paradigms, respiratory cycles and EEG and lot more.
+At this point, there are three projects.
+1. How do we study sense of self in sleep experimentally? Explore and tell me :)
+2. Setting up the [peripersonal space](https://www.youtube.com/watch?v=elfbiCzUVSA)
+experiment
+3. [Neural speech tracking](https://cnspworkshop.net/index.html)
+
+It would be great if you can intern for your dissertation project. But, if you
+want to learn and get a good sense of broader works happening at our centre for
+consciouness studies, you may do an internship for 3 months.
 
 ### Formalities of the internship
-Internship application can be found [here](https://training.nimhans.ac.in/Training/index.jsp). 
+Internship application can be found [here](https://training.nimhans.ac.in/Training/index.jsp).
+There is a fee charged by NIMHANS. You may find the details in the previous page.
