@@ -4,8 +4,8 @@
 Hey, Hope you are having a good day.
 
 I am a `Cognitive Scientist` at the Centre for Consciousness Studies, NIMHANS,
-and an engineer-turned-neuroscientist. With over a decade of experience across
-`working memory` `neuromodulation` `meditation` and `sleep` research.
+and an engineer-turned-neuroscientist. My research spans over a decade
+across `working memory` `neuromodulation` `meditation` and `sleep` research.
 I enjoy continuous learning in general, reading, good food, and traveling
 occasionally to observe the changes in the world. Recently, I have developed
 an interest in physical fitness and breath work.

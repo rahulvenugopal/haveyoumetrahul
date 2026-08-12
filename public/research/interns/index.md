@@ -159,3 +159,17 @@ research and applied experimental design.
 *Chinmayi is exploring EEG data preprocessing, event coding, epoching,
 and metadata annotation. She is also reviewing literature on heart-evoked
 potentials and its implications in  brain–body interactions*
+
+---
+
+<img src="srinivasan.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
+
+##### [Srinivasan R](https://srinivasan12042004-a11y.github.io/My-portfolio/) `2026` MSc Cognitive Sciences University of Hyderabad `Omnivisor`
+
+Srinivasan is an engineering graduate (CS) and pursuing his masters in Cognitive Sciences.
+
+*Srinivasan implemented three paradigms in PsychoPy to estimate Sense of Agency and incorporated the same with EEG using LSL framework*
+
+<div style="clear: both;"></div>
+
+---

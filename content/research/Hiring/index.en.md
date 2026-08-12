@@ -172,11 +172,10 @@ results are still important. Research misconduct is a disservice to the field
 and risks your entire career. Don't do it.
 
 ### Authorship: We will follow [CRediT](https://www.elsevier.com/en-in/researcher/author/policies-and-guidelines/credit-author-statement) 
-guidelines for authorship. At the start of a project, we will discuss and come
-to an agreement which is documented via an email. 
+At the start of a project, we will discuss and come to an agreement which is documented via an email. 
 
 ### Privacy (Photos & Videos): Please get explicit consent from lab members 
-before taking their photo, and get consent again before posting on social media.
+Before taking their photo, and get consent again before posting on social media.
 This is to foster an environment where everyone feels safe, privacy is respected
 and people are comfortable.
 
@@ -200,13 +199,14 @@ If this guide resonates with you, and you are excited by the research we do,
 I would love to hear from you. Please send me an email with:
 
 1. Your CV (2 pages maximum). 
-2. 500 words on why you want me as a mentor? My work is awesome is not an answer!
+2. 500 words on what you seek from the internship (Is it a skill or EEG analysis or ...)
 3. A description of a past project (academic, personal, or professional) that 
 you are proud of and what you learned from it.
 4. What skill sets do you bring with you? 
 For example: Programming in Python/MATLAB/R, Inferential statistics, 
 Previous work with EEG, Have spend reviewing some papers on working memory 
 and have written a blog on this, Have taken a course on something etc etc.
+5. Start date and end date of internship, do you have any other commitments (say online class, some interim presentations etc) during the internship period?
 
 Point is, I do not know you and there are 5 other applications from people 
 like you. Unfortunately, I can take only handful. Make your case, show me 
@@ -217,9 +217,10 @@ possibility of exploring the mysteries of consciousness with you!
 
 ### What will I work on with you?
 At this point, there are three projects.
-1. How do we study sense of self in sleep experimentally? Explore and tell me :)
-2. Setting up the [peripersonal space](https://www.youtube.com/watch?v=elfbiCzUVSA)
+1. Setting up the [peripersonal space](https://www.youtube.com/watch?v=elfbiCzUVSA)
 experiment
+2. High density Neuromodulation and perception. What are some perceptual phenomena which can be
+altered via electricity!
 3. [Neural speech tracking](https://cnspworkshop.net/index.html)
 
 It would be great if you can intern for your dissertation project. But, if you
