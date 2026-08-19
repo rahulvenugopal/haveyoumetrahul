@@ -4,24 +4,21 @@
 Hey, Hope you are having a good day.
 
 I am a `Cognitive Scientist` at the Centre for Consciousness Studies, NIMHANS,
-and an engineer-turned-neuroscientist. My research spans over a decade
-across `working memory` `neuromodulation` `meditation` and `sleep` research.
-I enjoy continuous learning in general, reading, good food, and traveling
-occasionally to observe the changes in the world. Recently, I have developed
-an interest in physical fitness and breath work.
+and an engineer-turned-neuroscientist. I enjoy continuous learning in general,
+reading, good food, and traveling occasionally to observe the changes in the world.
+Recently, I have developed an interest in physical fitness and breath work.
 
-I am establishing a research niche **Sense of Self**, exploring how
+I am establishing a research niche around **Sense of Self**, exploring how
 it emerges with a rich phenomenology and how it fragments in various states 
-such as schizophrenia, autism, depression and lucid dreaming. This work
-integrates neuroscience, psychiatry, technology, and contemplative
+such as schizophrenia, autism, depression, perceptual symptoms associated with some neurological conditions
+and lucid dreaming. This work integrates neuroscience, psychiatry, neurology, technology, and contemplative
 science to understand the shifts of selfhood and their impact on mental health.
 A whirlwind tour of my research so far can be found [here](https://rahulvenugopal.github.io/haveyoumetrahul/research/worksofar/).
 
-On a typical day, I spend half my time (I wish) on Sense of Self research.
+On a typical day, I spend half my time on Sense of Self research.
 The other half is spread across multiple cool projects happening at the
 [Centre for Consciousness Studies](https://www.ccsnimhans.com) mostly tackling
-technical, signal processing, statistical and other blocks scholars run
-into.
+conceptual, technical, signal processing, statistical and other blocks scholars run into.
 
 I also mentor and lead a handful of intern-led [projects](https://rahulvenugopal.github.io/haveyoumetrahul/research/interns/), where we play around
 with datasets exploring new methods and concepts. Ah, I love teaching.
@@ -33,9 +30,9 @@ lab members and contribute to broader upskilling beyond academia. I taught
 I care deeply about how science is conducted and loathe the obsession with
 impact factors and pseudo-prestige in academia. I believe in flat hierarchies,
 open science and the elimination of subtle "-isms". I am a proponent of
-[deep work](https://calnewport.com/some-notes-on-deep-working/) and I value
-mental health and highly value physical-mental health, relationships, and 
-core values. I enjoy working with people who are self driven, possess a 
+[deep work](https://calnewport.com/some-notes-on-deep-working/) and highly value
+physical-mental health, relationships, and core [values](https://rahulvenugopal.github.io/haveyoumetrahul/blog/career/whoami/).
+I enjoy working with people who are self driven, possess a 
 growth mindset and are reflective and collaborative. If you are someone with
 a similar thought process and/or want to work with me,please send an email 
 to me at `rhlvenugopal@gmail.com`
