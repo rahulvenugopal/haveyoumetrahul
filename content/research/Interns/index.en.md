@@ -174,11 +174,13 @@ potentials and its implications in  brain–body interactions*
 
 ---
 
-<img src="" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
+<img src="neha.jpeg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Neha H Nair]() `2026` BS-MS IISER-Pune `Omnivisor`
+##### [Neha H Nair](www.linkedin.com/in/neha-nair-87623b42b) `2026` BS-MS IISER-Pune `Omnivisor`
 
-Neha is BS-MS student.
+I am a Biology student at IISER-Pune with varied coursework in mathematics,
+physics and data science. I have experience using mathematical modelling
+and data analysis to study biological systems.  
 
 *Neha worked on `Neural Field Models` and replicated the findings from [Real-time automated EEG tracking of brain states using neural field theory](https://www.sciencedirect.com/science/article/pii/S0165027015003593?) paper. The GitHub [repo](https://github.com/nehanair44/predicting_eeg_power_spectra) has all the code and some useful info*
 

@@ -222,6 +222,9 @@ experiment
 2. High density Neuromodulation and perception. What are some perceptual phenomena which can be
 altered via electricity!
 3. [Neural speech tracking](https://cnspworkshop.net/index.html)
+4. We have TBs of EEG data sitting in our server and waiting a data wizard to unlock
+information hidden in them. We have two A100 wands as well!
+
 
 It would be great if you can intern for your dissertation project. But, if you
 want to learn and get a good sense of broader works happening at our centre for
