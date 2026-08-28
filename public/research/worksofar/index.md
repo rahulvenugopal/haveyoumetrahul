@@ -18,8 +18,8 @@ wellness in waking, sleeping, tasking, meditating and dreaming brains.
 I am establishing a research niche on "Sense of Self" exploring how it emerges,
 fragments, and can be altered in various states like Schizophrenia, Autism, 
 Depression, Lucid dreaming, altered states in meditation etc. This work integrates
-neuroscience, psychiatry, technology, indian knowledge system based frameworks and contemplative science to understand 
-the shifts of selfhood and their impact on mental health.
+neuroscience, psychiatry, technology, indian knowledge system based frameworks and contemplative science
+to understand the shifts of selfhood and their impact on mental health.
 
 > Foundations
 
@@ -150,3 +150,11 @@ this up for her master's dissertation.
 
 c) I am back to where it all began - BCI work in stroke. I am exploring imagined speech
 tracking with Dr. Subasree's team at Stroke lab, Dept. of Neurology, NIMHANS.
+
+d) I am really inspired by this [work](https://www.biorxiv.org/content/10.64898/2026.08.07.743470v1) and
+wrote up a draft to study brain criticality measures from our
+larger EEG database from expert meditators across four traditions. Hoping to
+rope in couple of MESEC friends for expert collab.
+
+e) Well, the `Sense of Self` reading is coming along. Glad that the hibernation
+phase is over. By 2027, all internships would be moved to this topic.
