@@ -1,8 +1,8 @@
 ---
 author: Rahul
 authorLink: https://rahulvenugopal.github.io/haveyoumetrahul/
-categories: ["Career"]
-date: "2026-01-06T21:57:40+08:00"
+categories: ["Papers"]
+date: "2026-08-06T21:57:40+08:00"
 description: 
 draft: false
 images: []
@@ -13,10 +13,14 @@ title: Must read you are planning to work with me
 weight: 7
 ---
 
-# Curated synthesis of key papers in the field
-
-> The mind is not a vessel to be filled, but a fire to be kindled. Can first-person
-experience ever be fully translated into third-person scientific discourse?
+> God wanted to hide his secrets in a secure place. 
+‘Would I put them on the moon?’ He reflected. ‘But then, one day human beings
+could get there, and it could be that those who would arrive there would not be
+worthy of the secret knowledge. Or perhaps I should hide them in the depths of
+the ocean,’ God entertained another possibility. But, again, for the same 
+reasons, he dismissed it. Then the solution occurred to Him—‘I shall put my 
+secrets in the inner sanctum of man’s own mind. Then only those who really 
+deserve it will be able to get to it.’
 
 ---
 

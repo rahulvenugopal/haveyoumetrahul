@@ -2,3 +2,9 @@
 // Custom style
 // 自定义样式
 // ==============================
+
+/* Make text justification default for all blog posts */
+.single .content p {
+    text-align: justify;
+    text-justify: inter-word;
+}
