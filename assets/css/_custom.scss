@@ -8,3 +8,21 @@
     text-align: justify;
     text-justify: inter-word;
 }
+
+.admonition.note {
+    background-color: #f5f0e8;
+    border-left-color: #8b6f47;
+}
+
+.admonition.note .admonition-title {
+    color: #6b5235;
+}
+
+.admonition.tip {
+    background-color: #f3f0f7;
+    border-left-color: #80699b;
+}
+
+.admonition.tip .admonition-title {
+    color: #6b5235;
+}

@@ -198,5 +198,6 @@ wrote a draft to study brain criticality measures from our larger EEG database
 from expert meditators across four traditions. Hoping to rope in couple of 
 [MESEC](https://www.mesec.co/) friends for expert collab.
 
-f) Well, the `Sense of Self` readings are picking pace. Glad that the hibernation
-phase is over. By 2027, all internships would be moved to this topic.
+f) Well, the `Sense of Self` readings are picking pace. Will take a shot at ANRF-
+ECR grant of 2026. Will cut down some breadth to go deep into `Sense of Self` 
+projects.
