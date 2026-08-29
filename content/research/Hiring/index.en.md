@@ -17,9 +17,9 @@ Thank you for reaching out to me. As a freshly minted scientist and a long term
 resident at the **Centre for Consciousness Studies, NIMHANS** my five year goal
 (2026-2030) is to establish a new research niche focused on the **Sense of Self**.
 Simultaneously, I aim to mentor and up skill the members and contribute
-meaningfully to all the great projects happening at the centre.
+meaningfully to all the great projects happening at our centre.
 I picked this work place because of the work ethic and culture passed down
-by my mentors: a lab environemnt that is scientifically rigorous yet positive,
+by my mentors: a lab environment that is scientifically rigorous yet positive,
 free, engaging, challenging, and rewarding.
 
 ### Science is a Team Sport
@@ -27,7 +27,7 @@ Science is a collaborative (not a competitive) event, we should celebrate
 each other's successes, help each other through challenges and believe that
 the best ideas emerge when we share our knowledge freely. We support our lab
 mates, helping them out when they need it and letting them vent when they 
-need to. I am a staunch advocate for Open Source science.
+need to. I am a staunch advocate for Collective Open Source science.
 
 ### Embrace the Growth Mindset
 We are all here to learn. It is okay to not know things. It is double okay to
@@ -76,7 +76,8 @@ treatments for battlefield injuries during World War II.
 ### Open and Reproducible Science
 We are committed to transparency in our research. This means meticulous documentation,
 well-commented code, and sharing our methods and data. Good science is science 
-that others can trust and build upon.
+that others can trust and build upon. Citations are supposed to reflect the reach
+of the work, but hacked in various ways!
 
 ### People and Science First
 Your well-being is a top priority. Science is hard, but it should also be fun.
@@ -84,7 +85,8 @@ We work hard, but we also value a life outside the lab. Taking time for your
 mental and physical health is important. Burnout is not a badge of honor.
 If you are struggling, please tell me. I want you to be productive and healthy.
 Number of hours warming the lab chair is not a metric of good science (many 
-believe and practise such arcane cult)
+believe and practise such arcane cult). Having said that, do not take things
+for granted. 
 
 ### My expectations
 
@@ -93,17 +95,17 @@ mindset and a set of personal qualities that will help you thrive through our
 journey together as a mentor and mentee.
 
 1. I am **not** looking for the smartest, passionate student. You should be curious,
-have a learner mindset and have strong work ethic. I strongly belive that 
+have a learner mindset and have strong work ethic. I strongly believe that 
 hardwork can beat talent (most of the times). You should be the first person to 
 pop up the hood of the car when it is broken than waiting for someone else.
 
-2. Show up. It is a pain to work with people who don't show up on time. The fact
+2. Show up. It is a **pain** to work with people who don't show up on time. The fact
 that you show up is one way to showcase your enthusiasm. I want to you to knock 
 again and again until the door opens. 
 
-3. Be nice, be respectful. Be respectful of everyone, regardless of their 
+3. BNBR - Be Nice, Be Respectful. Be respectful of everyone, regardless of their 
 position or background. Respect their strengths and weaknesses, their culture,
-their beliefs, and their identity.
+their beliefs and their identity.
 
 4. Research is hard, experiments fail, papers get rejected. We are working at 
 the boundaries of what is known and what is unknown. Failures are our occupational
@@ -115,31 +117,31 @@ I would be your loudest cheerer.
 Scientists have to be careful. Don't rush your work. Think about it. 
 Implement it. Double and triple-check it. Incorporate sanity checks. 
 Ask others to look at your code or data regardless of what you think about
-yourself.
+yourself. Do not assume that it might work because I told so.
 
-6. Your primary goal is to learn, read papers, take online courses, 
-ask questions - lots of them and work. Schedule time for deep work and focused
-learning.
+6. Your primary goal is to learn, read papers, take online courses, troubleshoot 
+things, ask questions - lots of them and work. Schedule time for deep work and 
+focused learning.
 
 7. Communicate Proactively. Keep me updated on your progress, your challenges,
-and your successes. I can't help you if I don't know you are stuck.
-I do check in on a regular basis. But I don't micromanage. 
-You are an adult and will be treated like one. We are co-investigators of 
-the mysteries of Consciousness.
+and your successes. I can't help you if I don't know you are stuck. I do check 
+in on a regular basis. But I don't micromanage. You are an adult and will be
+treated like one.
 
 8. Drive your project. Set your own deadlines, identify the next steps.
 When you present your work, you should be the world's leading expert on that
-specific topic (embody that, questions are going to fly with that assumption)
+specific topic (embody that, questions are going to fly with that assumption).
 
 9. Be a good lab citizen. Keep common areas tidy. Clean up food waste, crumbs,
 and spills. Be on time for meetings. Turn off the lights if you are the last one
-leaving for the day and make sure the door is locked.
+leaving for the day and make sure the door is locked. Do not spill personal
+life into professional life (tough ask though). 
 
-10. Mentorship is a two-way street. You have a right to expect certain things
+10. Mentorship is a two-way street. You have the right to expect certain things
 from me as your mentor. I make the following promises to you:
 
 	- I Will Support You: I am committed to supporting you scientifically.
-	My goal is more like Morpheus in movie Matrix. I can only show you the path,
+	My goal is more like Morpheus in the movie Matrix. I can only show you the path,
 	you have to walk it.
 	- I will be Honest with my feedback. I will provide constructive feedback on
 	your work, ideas, experiments and presentations in a timely manner.
@@ -148,15 +150,15 @@ from me as your mentor. I make the following promises to you:
 	brainstorming.
 	- You don't have to knock unless there is another person in the room or I am
 	in a meeting, But, if something is urgent knock thrice and I will get back to
-	you at the earliest possible
+	you at the earliest.
 	-  I will actively look for opportunities to help you grow like presenting 
 	at conferences, applying for fellowships, learning new skills and expanding
 	your professional network. I will help you prepare for the next step of your
-	career, whether it is an academic one or outside of academia.
-
+	career, whether it is an academic one or outside of academia (including goat 
+	farming)
 
 ### Respect, Safety, and Inclusion
-Our workpalce must be an environment free of harassment and discrimination.
+Our workplace must be an environment free of harassment and discrimination.
 I will not tolerate any verbal or physical harassment, intimidation, or 
 discrimination on the basis of gender, gender identity and expression, sexual
 orientation, disability, physical appearance, body size, race, or religion. 
@@ -172,10 +174,12 @@ results are still important. Research misconduct is a disservice to the field
 and risks your entire career. Don't do it.
 
 ### Authorship: We will follow [CRediT](https://www.elsevier.com/en-in/researcher/author/policies-and-guidelines/credit-author-statement) 
-At the start of a project, we will discuss and come to an agreement which is documented via an email. 
+At the start of a project, we will discuss and come to an agreement which is
+documented via an email. Starting the work in a topic does not guarantee an
+authorship! 
 
 ### Privacy (Photos & Videos): Please get explicit consent from lab members 
-Before taking their photo, and get consent again before posting on social media.
+Before taking their photo and get consent again before posting on social media.
 This is to foster an environment where everyone feels safe, privacy is respected
 and people are comfortable.
 
@@ -183,7 +187,6 @@ and people are comfortable.
 - In your first week, I will get you set up with settling in, lab tour etc. 
 We will also work together to create a clear project plan with initial goals 
 and a reading list.
-
 - Lab Meetings: We have a weekly centre meeting on all Mondays (3 PM IST),
 seminar on Fridays (9 AM IST) and Journal Clubs on Saturdays (9 AM IST).
 These are opportunities to listen to broader neuroscience topics and mandatory
@@ -206,7 +209,9 @@ you are proud of and what you learned from it.
 For example: Programming in Python/MATLAB/R, Inferential statistics, 
 Previous work with EEG, Have spend reviewing some papers on working memory 
 and have written a blog on this, Have taken a course on something etc etc.
-5. Start date and end date of internship, do you have any other commitments (say online class, some interim presentations etc) during the internship period?
+5. Start date and end date of internship, 
+do you have any other commitments (say online class, some interim presentations etc) 
+during the internship period?
 
 Point is, I do not know you and there are 5 other applications from people 
 like you. Unfortunately, I can take only handful. Make your case, show me 
@@ -216,15 +221,13 @@ Thank you for considering me as a potential mentor. I look forward to the
 possibility of exploring the mysteries of consciousness with you!
 
 ### What will I work on with you?
-At this point, there are three projects.
-1. Setting up the [peripersonal space](https://www.youtube.com/watch?v=elfbiCzUVSA)
-experiment
-2. High density Neuromodulation and perception. What are some perceptual phenomena which can be
-altered via electricity!
-3. [Neural speech tracking](https://cnspworkshop.net/index.html)
-4. We have TBs of EEG data sitting in our server and waiting a data wizard to unlock
-information hidden in them. We have two A100 wands as well!
+At this point in space-time, there are two projects (until end of 2026).
 
+1. Setting up and troubleshooting the [peripersonal space]
+(https://www.youtube.com/watch?v=elfbiCzUVSA) experiment.
+2. We have TBs of EEG data sitting in our server and waiting a data wizard to unlock
+information hidden in them. We have two A100 wands as well! I am starting an
+exploratory side project exploring brain criticality measures.
 
 It would be great if you can intern for your dissertation project. But, if you
 want to learn and get a good sense of broader works happening at our centre for

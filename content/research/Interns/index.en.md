@@ -19,6 +19,10 @@ but also survived my `Jack of all, Master of None` approach to supervision -
 a path that involves a heavy dose of rigorous discussion and the occasional
 hour-long tangential journey through science, life, and stories.
 
+You should reach out and talk to my mentees to get a first person perspective of
+my mentoring style, plus and minus. I think, I am doing awesome (but that's my 
+1-PP, cross check with 3-PP)
+
 
 <img src="sriya.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 

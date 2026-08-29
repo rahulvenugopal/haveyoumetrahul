@@ -9,7 +9,7 @@ images: []
 lightgallery: true
 resources:
 tags:
-title: Must read you are planning to work with me
+title: Cool Papers
 weight: 7
 ---
 

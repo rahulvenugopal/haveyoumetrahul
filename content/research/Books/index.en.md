@@ -13,4 +13,5 @@ title: Book Reviews
 weight: 7
 ---
 
-> The Antipodes of the Mind
+> The Antipodes of the Mind - Charting the Phenomenology of the Ayahuasca
+Experience 
