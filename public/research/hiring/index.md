@@ -211,8 +211,7 @@ possibility of exploring the mysteries of consciousness with you!
 ### What will I work on with you?
 At this point in space-time, there are two projects (until end of 2026).
 
-1. Setting up and troubleshooting the [peripersonal space]
-(https://www.youtube.com/watch?v=elfbiCzUVSA) experiment.
+1. Setting up and troubleshooting the [peripersonal space](https://www.youtube.com/watch?v=elfbiCzUVSA) experiment.
 2. We have TBs of EEG data sitting in our server and waiting a data wizard to unlock
 information hidden in them. We have two A100 wands as well! I am starting an
 exploratory side project exploring brain criticality measures.
@@ -223,4 +222,6 @@ consciouness studies, you may do an internship for 3 months.
 
 ### Formalities of the internship
 Internship application can be found [here](https://training.nimhans.ac.in/Training/index.jsp).
-There is a fee charged by NIMHANS. You may find the details in the previous page.
+There is a fee charged by NIMHANS. You may find the details in the previous page. Make sure, you apply
+well in advance so that the start date can be aligned better. Only apply for an
+internship once you clear our selection process.
