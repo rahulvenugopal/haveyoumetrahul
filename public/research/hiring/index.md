@@ -212,13 +212,12 @@ possibility of exploring the mysteries of consciousness with you!
 At this point in space-time, there are two projects (until end of 2026).
 
 1. Setting up and troubleshooting the [peripersonal space](https://www.youtube.com/watch?v=elfbiCzUVSA) experiment.
-2. We have TBs of EEG data sitting in our server and waiting a data wizard to unlock
-information hidden in them. We have two A100 wands as well! I am starting an
-exploratory side project exploring brain criticality measures.
+2. Brain criticality and manifold approaches across various data sets (meditation, sleep from our centre)
+and [Psiconnect](https://openneuro.org/datasets/ds006110/versions/1.2.1) dataset.
 
 It would be great if you can intern for your dissertation project. But, if you
 want to learn and get a good sense of broader works happening at our centre for
-consciouness studies, you may do an internship for 3 months.
+consciousness studies, you may do an internship for 3 months.
 
 ### Formalities of the internship
 Internship application can be found [here](https://training.nimhans.ac.in/Training/index.jsp).

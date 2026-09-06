@@ -189,15 +189,12 @@ these HEPs? Can we track meditative depth with HEPs? What is being captured by H
 We did a detailed literature survey (Manasa and Chinmayi) on this and an intern 
 is gearing up to pick this up for her master's dissertation.
 
-d) I am back to where it all began - BCI work in stroke. I am exploring imagined speech
-tracking with Dr. Subasree's team at Stroke lab, Dept. of Neurology, NIMHANS.
-I am tagging along Dr. Arun and Nahida to do some neural speech tracking.
-
-e) I am really inspired by this [work](https://www.biorxiv.org/content/10.64898/2026.08.07.743470v1) and
+d) I am really inspired by this [work](https://www.biorxiv.org/content/10.64898/2026.08.07.743470v1) and
 wrote a draft to study brain criticality measures from our larger EEG database 
 from expert meditators across four traditions. Hoping to rope in couple of 
-[MESEC](https://www.mesec.co/) friends for expert collab.
+[MESEC](https://www.mesec.co/) friends for expert collab. Manifold approaches
+make sense in this context. 
 
-f) Well, the `Sense of Self` readings are picking pace. Will take a shot at ANRF-
+e) Well, the `Sense of Self` readings are picking pace. Will take a shot at ANRF-
 ECR grant of 2026. Will cut down some breadth to go deep into `Sense of Self` 
-projects.
+projects from 1st of January, 2027.
