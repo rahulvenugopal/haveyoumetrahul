@@ -3,8 +3,11 @@
 // 自定义样式
 // ==============================
 
-/* Make text justification default for all blog posts */
-.single .content p {
+/* Make text justification default for all content */
+.single .content p,
+.single .content li,
+.single .content blockquote,
+.admonition-content {
     text-align: justify;
     text-justify: inter-word;
 }
