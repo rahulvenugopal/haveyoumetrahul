@@ -6,7 +6,8 @@ Hey, Hope you are having a good day.
 I am a `Cognitive Scientist` at the Centre for Consciousness Studies, NIMHANS,
 and an engineer-turned-neuroscientist. I enjoy continuous learning in general,
 reading, good food, and traveling occasionally to observe the changes in the world.
-Recently, I have developed an interest in physical fitness and breath work.
+Recently, I have developed an interest in physical fitness and breath work. I am
+fortunate to be in a position where what I do every day is what I love!
 
 I am establishing a research niche around **Sense of Self**, exploring how
 it emerges with a rich phenomenology and how it fragments in various states 

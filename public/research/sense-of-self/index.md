@@ -99,7 +99,7 @@ down that tree, get out of that cave, strike two stones against each other,
 jump on the log of wood and stand on the toes and jump out of the international 
 space station staring into the void!
 
-The contentless, objectless, well language is hitting its limits! The window 
+The content less, objectless, well language is hitting its limits (ineffability)! The window 
 without anything on the other side. The tunnel before the ego steps in. 
 BUT, what's there? THAT
 

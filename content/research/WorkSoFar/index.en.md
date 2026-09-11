@@ -185,12 +185,13 @@ c) By understanding how the brain responds to the heart's rhythmic signals,
 we can unlock new insights into interoception, cognitive load, and consciousness.
 Does the Heart Race with the Mind when we do a tough mental task? The brain doesn't
 stop listening to the heart when we fall asleep. How do sleep stages modulate
-these HEPs? Can we track meditative depth with HEPs? What is being captured by HEPs? Lot more in this direction
-We did a detailed literature survey (Manasa and Chinmayi) on this and an intern 
-is gearing up to pick this up for her master's dissertation.
+these HEPs? Can we track meditative depth with HEPs? What is being captured by HEPs?
+Lot more in this direction. We did a short literature survey (Manasa and Chinmayi) on this 
+and just started looking at HEP in various states (sleep. meditation) across varying
+heartrates as well.
 
-d) I am really inspired by this [work](https://www.biorxiv.org/content/10.64898/2026.08.07.743470v1) and
-wrote a draft to study brain criticality measures from our larger EEG database 
+d) This [work](https://www.biorxiv.org/content/10.64898/2026.08.07.743470v1) is cool
+and working on a side project to study brain criticality measures from our larger EEG database 
 from expert meditators across four traditions. Hoping to rope in couple of 
 [MESEC](https://www.mesec.co/) friends for expert collab. Manifold approaches
 make sense in this context. 
