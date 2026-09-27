@@ -2,7 +2,7 @@
 author: Rahul
 authorLink: 
 categories: ["Rubiks cube"]
-date: "2020-01-01T21:57:40+08:00"
+date: "2022-01-01T21:57:40+08:00"
 description: 
 draft: false
 images: []
