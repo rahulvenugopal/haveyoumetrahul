@@ -13,12 +13,12 @@ title: How to prepare for a masters or PhD in Neuroscience
 weight: 4
 ---
 
-Exam coverage is sufficient for a non-bio/medical person to pass with proper reading and effort
+The exam syllabus is manageable even for someone without a biology or medical background, provided you put in consistent reading and effort.
 
-1. Get `Instant notes in Neurosciences`. Read from page first to last. If you get lost and miserable, don't worry. Estimated completion time is 14 days
-2. Reread the Neuroscience/Physiology-focused section of the CBSE biology textbook. Estimated completion time is seven days
-3. Dale Purves' book Neuroscience is easy to read quickly to get the gist of the subject. Estimated completion time is one month
-4. Connect with individuals who have an MPhil/Masters/PhD from the same department. This is a simple trick. You will most likely receive 10 points for this practice. Many questions used to be repetitive
-5. Watch this course, MCB80x, the last week before the exam. Estimated completion time is seven days
+1. Get *Instant Notes in Neurosciences*. Read it from the first page to the last. If you feel lost, don't worry — that's normal. Estimated completion time: 14 days.
+2. Reread the neuroscience/physiology sections of the CBSE biology textbook. Estimated completion time: 7 days.
+3. Dale Purves' *Neuroscience* is an easy, quick read to build a high-level understanding of the subject. Estimated completion time: 1 month.
+4. Connect with people who have completed an MPhil/Masters/PhD from the same department. This is a simple but effective trick — you will likely gain 10 extra marks from this. Many questions tend to be repetitive.
+5. Watch the MCB80x course during the last week before the exam. Estimated completion time: 7 days.
 
-Two months of solid time is enough to crack the entrance. The topics, by nature is very volatile from an engineering point of view. It grows over you slowly. Consistent reading and revision are recommended. It's crucial to complete the preparation in the specified order. Take Professor White's course on Medical Neuroscience from Duke University on `Coursera` if there is still one month left
+Two months of solid preparation is enough to crack the entrance. The subject matter, by nature, feels volatile from an engineering perspective — it grows on you slowly. Consistent reading and revision are essential. It's important to follow the preparation steps in the specified order. If you still have a month to spare, take Professor White's Medical Neuroscience course from Duke University on `Coursera`.

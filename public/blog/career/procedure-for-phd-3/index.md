@@ -1,17 +1,17 @@
 # What is the procedure for getting a PhD in NIMHANS? Part 3
 
 
-During the first week of January every year, keep an eye on the NIMHANS website
+Starting the first week of January each year, watch the NIMHANS website closely.
 
-1. During the first week of January, the notification and online application are distributed
-2. The number of courses that one may apply for is subject to specific limitations
-3. Review the prospectus to learn about new courses, eligibility requirements, paperwork needed, etc
-4. Make an effort to contact current students to gain their input on the format of the courses and exams
-5. Prepare for the exam, which will be held in the final week of March. Download the admit card and have it on hand with the photo pasted. When you go for your exam, make sure you have a confirmation of identity with you. For some reason, PAN/Aadhar is sufficient instead of NIMHANS ID cards
-6. Be on time and contact a resource person if there are any software issues during tests. DON'T FREAK OUT
-7. One week after exam dates, results are released. It would be fantastic if you could visit NIMHANS in Bengaluru and have a discussion with the relevant department faculty and other researchers. Each lab in this setting has a specific focus and a short list of prerequisite knowledge. It's difficult for an outsider to understand this aspect. This, in my opinion, is the most crucial aspect. Due to `expectation vs. reality`, I have witnessed numerous folks who feel hopeless and pitiful. There is some high-level information on each department and professors on the website
-8. In the first week of June, interviews take place. Seats fill for MPhil interviews based on exam results, thus demand is not high. Interviews for PhD positions are weighted by applicants' research interests and add-on skill set
-9. The official website posts the final results one week after the interview. The admissions month is the first week of July
-10. Verify that you have all the necessary paperwork. To ensure a smooth joining procedure, obtain the migration/transfer certificates, course completion certificates, etc. on time. There is only one bond form, which you can get from any state. There is no requirement that it come from Karnataka. DO call the assistance number if there are any questions
+1. The notification and online application are released in the first week of January.
+2. There are limits on how many courses you can apply for.
+3. Review the prospectus for details on new courses, eligibility requirements, required documents, etc.
+4. Reach out to current students for insights on the course structure and exam format.
+5. Prepare for the exam, held in the last week of March. Download your admit card, paste a photo on it, and keep it ready. Carry valid ID proof (PAN/Aadhaar works; NIMHANS ID cards aren't required for some reason).
+6. Be on time and contact a resource person if there are any software issues during the test. DON'T FREAK OUT.
+7. Results are released about a week after the exam. If possible, visit NIMHANS in Bengaluru and meet with the relevant department faculty and researchers. Each lab has a specific focus and a set of prerequisite knowledge — this is hard to gauge from outside. In my opinion, this is the most crucial step. I have seen many people end up feeling disappointed due to an `expectation vs. reality` mismatch. There is some high-level information about each department and its professors on the website.
+8. Interviews take place in the first week of June. MPhil seats fill based on exam results, so demand isn't very high. PhD interviews weigh the applicant's research interests and additional skill set.
+9. Final results are posted on the official website a week after the interview. Admissions happen in the first week of July.
+10. Ensure you have all necessary documents ready. Obtain migration/transfer certificates and course completion certificates on time for a smooth joining process. There is one bond form, which you can get from any state — it does not need to be from Karnataka. Do call the helpline if you have any questions.
 
-Enjoy your time in the classroom. Graduate school or a DM/Mch are challenging programmes. Prepare to move. Best regards :rocket:
+Enjoy your time in the classroom. Graduate school or a DM/MCh are demanding programmes. Be prepared. Best regards :rocket:

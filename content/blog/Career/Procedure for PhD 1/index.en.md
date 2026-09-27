@@ -13,16 +13,16 @@ title: What is the procedure for getting a PhD in NIMHANS? Part 1
 weight: 1
 ---
 
-There are three ways to apply for a PhD admit
+There are three ways to gain PhD admission.
 
-**Path 1**: The institute itself funds the three seats in the department (Only some departments have these fellowship seats). Commonly referred to as an institution fellowship. To get this, you must pass both an exam and an interview. The hardest entry is this one. MCQ questions from the field of specific department are frequently found on entrance exams.
+**Path 1 — Institutional Fellowship**: The institute funds up to three fellowship seats per department (not all departments offer these). To get in, you must pass both an entrance exam and an interview. This is the most competitive route. Entrance exams typically consist of MCQs from the department's field.
 
-**Path 2**: Having one's own external fellowship (UGC, CSIR, ICMR, etc.) is the second option. For admission to a PhD program, one may apply twice in one year. You must first meet the faculty members and determine whether you can collaborate with one of them on an agreed-upon topic before moving on. Even then, passing exam cutoffs and an interview are requirements for admission.
+**Path 2 — External Fellowship**: Secure your own external fellowship (UGC, CSIR, ICMR, etc.). You may apply for PhD admission twice a year. First, meet faculty members and identify someone you can collaborate with on a mutually agreed topic. Even then, clearing exam cutoffs and an interview are required.
 
-**Path 3**: By way of research initiatives. A funded project can be joined as a JRF/SRF, and after passing an internal qualifying exam, the applicant will be admitted to a PhD programme. This is a simple method, but you must ensure that the project has sufficient money (minimum three years) and the support of the principal investigator. The research project's goals can be discussed and included in your PhD objectives. There will be less room to develop your own ideas because research programmes already have defined hypotheses.
+**Path 3 — Research Project Route**: Join a funded project as a JRF/SRF, and after passing an internal qualifying exam, you can be admitted to a PhD programme. This is the simplest route, but ensure the project has sufficient funding (at least three years) and the principal investigator's support. The project's goals can be aligned with your PhD objectives. However, there will be less room to develop your own ideas since these projects already have defined hypotheses.
 
-> The three routes are listed in decreasing order of admissions difficulty
+> The three routes are listed in decreasing order of difficulty.
 
-PS: Thanks to an institute fellowship, I began my PhD at the department of Neurophysiology. Since I am ineligible for any CSIR/ICMR fellowships due to my educational background and age, institute fellowship was an alternative for me.
+PS: I began my PhD at the Department of Neurophysiology through an institutional fellowship. Since I was ineligible for CSIR/ICMR fellowships due to my educational background and age, this was my best option.
 
-For everyone who is qualified for an external fellowship, I strongly advise *path 2*
+For anyone who qualifies for an external fellowship, I strongly recommend *Path 2*.
