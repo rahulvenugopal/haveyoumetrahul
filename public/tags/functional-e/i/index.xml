@@ -1,0 +1,20 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Functional E/I - Tag - Know Thyself</title>
+        <link>https://rahulvenugopal.github.io/haveyoumetrahul/tags/functional-e/i/</link>
+        <description>Functional E/I - Tag - Know Thyself</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>rhlvenugopal@gmail.com (xxxx)</managingEditor>
+            <webMaster>rhlvenugopal@gmail.com (xxxx)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/tags/functional-e/i/" rel="self" type="application/rss+xml" /><item>
+    <title>From Wiggly Lines to Deep Principles: A Neuroscientist&#39;s Guide to Scale-Free Dynamics, Chaos, and Criticality in EEG</title>
+    <link>https://rahulvenugopal.github.io/haveyoumetrahul/blog/neuroscience/brain-criticality/blog_criticality_and_chaos_for_neuroscientists/</link>
+    <pubDate>Mon, 28 Sep 2026 20:42:00 &#43;0530</pubDate>
+    <author>Rahul</author>
+    <guid>https://rahulvenugopal.github.io/haveyoumetrahul/blog/neuroscience/brain-criticality/blog_criticality_and_chaos_for_neuroscientists/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/haveyoumetrahul/criticality_demo_results.png" referrerpolicy="no-referrer">
+            </div><h2 id="1-the-question-hiding-inside-every-eeg-trace">1. The Question Hiding Inside Every EEG Trace</h2>
+<p>We have recorded a beautiful 64-channel EEG. We have cleaned the artifacts, re-referenced, maybe even source-localised. Now we stare at those wiggly lines and ask: <strong>What kind of system produced this?</strong></p>
+<p>That question sounds philosophical, but it is deeply practical. The answer determines which analysis tools make sense, which biomarkers are meaningful, and what &ldquo;abnormal brain activity&rdquo; even means.</p>]]></description>
+</item>
+</channel>
+</rss>

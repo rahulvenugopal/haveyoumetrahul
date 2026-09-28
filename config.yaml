@@ -204,9 +204,9 @@ params:
       blockLeftDelimiter: ''
       blockRightDelimiter: ''
       copyTex: yes
-      enable: no
-      inlineLeftDelimiter: ''
-      inlineRightDelimiter: ''
+      enable: yes
+      inlineLeftDelimiter: '$'
+      inlineRightDelimiter: '$'
       mhchem: yes
     rssFullText: no
     ruby: yes
@@ -362,6 +362,15 @@ markup:
       table: yes
       taskList: yes
       typographer: yes
+      passthrough:
+        enable: yes
+        delimiters:
+          block:
+            - ['\[', '\]']
+            - ['', '']
+          inline:
+            - ['\(', '\)']
+            - ['$', '$']
     renderer:
       unsafe: yes
   highlight:
