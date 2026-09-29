@@ -1,4 +1,4 @@
----title: "From Wiggly Lines to Deep Principles - A Neuroscientist's Guide to Scale-Free Dynamics, Chaos, and Criticality in EEG"
+---title: "Getting a grip on Scale-Free Dynamics, Chaos, Bifurcation and Criticality in EEG"
 subtitle: "An Intuitive Guide to State Space, DFA, Functional E/I, and Lyapunov Exponents"
 date: 2026-09-28T20:42:00+05:30
 draft: false
@@ -14,9 +14,8 @@ math:
 
 ## 1. The Question Hiding Inside Every EEG Trace
 
-We have recorded a beautiful 64-channel EEG. We have cleaned the artifacts, re-referenced, maybe even source-localised. Now we stare at those wiggly lines and ask **What kind of system produced this?**
-
-That question sounds philosophical, but it is deeply practical. The answer determines which analysis tools make sense, which biomarkers are meaningful, and what "abnormal brain activity" even means.
+We have recorded a clean 64-channel EEG. We have cleaned the artifacts, re-referenced, maybe even source-localised. 
+Now we stare at those wiggly lines and ask **What kind of system produced this?**
 
 <!--more-->
 

@@ -11,14 +11,14 @@
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Mon, 28 Sep 2026 20:42:00 +0530</lastBuildDate><atom:link href="https://rahulvenugopal.github.io/haveyoumetrahul/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>From Wiggly Lines to Deep Principles - A Neuroscientist&#39;s Guide to Scale-Free Dynamics, Chaos, and Criticality in EEG</title>
+      <title>Getting a grip on Scale-Free Dynamics, Chaos, Bifurcation and Criticality in EEG</title>
       <link>https://rahulvenugopal.github.io/haveyoumetrahul/blog/neuroscience/brain-criticality/</link>
       <pubDate>Mon, 28 Sep 2026 20:42:00 +0530</pubDate>
       <author>rhlvenugopal@gmail.com (xxxx)</author>
       <guid>https://rahulvenugopal.github.io/haveyoumetrahul/blog/neuroscience/brain-criticality/</guid>
       <description>&lt;h2 id=&#34;1-the-question-hiding-inside-every-eeg-trace&#34;&gt;1. The Question Hiding Inside Every EEG Trace&lt;/h2&gt;
-&lt;p&gt;We have recorded a beautiful 64-channel EEG. We have cleaned the artifacts, re-referenced, maybe even source-localised. Now we stare at those wiggly lines and ask &lt;strong&gt;What kind of system produced this?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;That question sounds philosophical, but it is deeply practical. The answer determines which analysis tools make sense, which biomarkers are meaningful, and what &amp;ldquo;abnormal brain activity&amp;rdquo; even means.&lt;/p&gt;</description>
+&lt;p&gt;We have recorded a clean 64-channel EEG. We have cleaned the artifacts, re-referenced, maybe even source-localised.
+Now we stare at those wiggly lines and ask &lt;strong&gt;What kind of system produced this?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
