@@ -92,7 +92,7 @@ Notice what happened: we took three separate time series from three monitors and
 Why can't we just plot position? If a pendulum ball is at the center position ($x = 0$), where will it be half a second from now? We have no idea unless we know whether it is swinging left, swinging right, or standing dead still! 
 
 To know where the system is going, we must know both its **configuration** ($x$) and its **momentum / velocity** ($v$). For a simple pendulum, the state space is a 2D plane:
-$$\text{State } \mathbf{s}(t) = [x(t),\, v(t)]$$
+$$\text{State } \mathbf{s}(t) = [x(t),~ v(t)]$$
 As the pendulum swings back and forth, the state $(x, v)$ traces a smooth oval loop around the origin. If friction slows it down, the oval spirals inward toward $(0, 0)$—a **fixed-point attractor**.
 
 ---
@@ -122,13 +122,13 @@ In electrophysiology, researchers define and reconstruct state spaces in **three
 
 ##### 1. The Multi-Channel Sensor State Space (Voltage Space & EEG Microstates)
 If we place a 64-channel EEG cap on a participant's head ($Fz, Cz, Pz, O1 \dots$), we are recording 64 simultaneous voltages every millisecond:
-$$\mathbf{V}(t) = [V_{Fz}(t),\, V_{Cz}(t),\, V_{Pz}(t),\, \dots,\, V_{O2}(t)] \in \mathbb{R}^{64}$$
+$$\mathbf{V}(t) = [V_{\text{Fz}}(t),~ V_{\text{Cz}}(t),~ V_{\text{Pz}}(t),~ \dots,~ V_{\text{O2}}(t)] \in \mathbb{R}^{64}$$
 
 In this framework, **state space is a 64-dimensional space where each electrode is one axis**.
 - At any single sample $t$ (say, $t = 12.450\text{ s}$), the entire scalp electrical field across the whole head is represented by **one single point** in this 64D space!
 - As cortical assemblies synchronize and desynchronize, this point flies through the 64-dimensional volume.
 - **Direct Connection to EEG Microstates:** When this 64D trajectory dwells inside a specific localized cluster for 80–120 ms before rapidly jumping to another cluster, those clusters are exactly the canonical **EEG Microstates (Classes A, B, C, D)**! Microstates are simply discrete "attractor basins" in 64-channel sensor state space.
-- By applying Principal Component Analysis (PCA) or manifold learning (UMAP/t-SNE), we can project this 64D trajectory down to the top 2 or 3 principal axes ($PC_1, PC_2, PC_3$) and watch the brain's multi-channel state orbit in 3D.
+- By applying Principal Component Analysis (PCA) or manifold learning (UMAP/t-SNE), we can project this 64D trajectory down to the top 2 or 3 principal axes ($PC_1$, $PC_2$, $PC_3$) and watch the brain's multi-channel state orbit in 3D.
 
 ##### 2. The Delay-Embedded State Space (Takens' Theorem on a Single 1D Trace)
 *"What if we only recorded a single EEG channel, or we are analyzing one source-localized dipole in the auditory cortex? Can we still build a state space from a single 1D wiggly line?"*
@@ -136,7 +136,7 @@ In this framework, **state space is a 64-dimensional space where each electrode 
 Yes—and this is one of the most remarkable mathematical discoveries of 20th-century physics: **Takens' Embedding Theorem ([Takens, 1981](#ref-10))**.
 
 Floris Takens proved that we can reconstruct the full multi-dimensional attractor of a complex system from a **single scalar time series $x(t)$** simply by creating pseudo-dimensions out of **time-delayed copies** of the signal:
-$$\mathbf{X}(t) = [x(t),\, x(t + \tau),\, x(t + 2\tau),\, \dots,\, x(t + (m-1)\tau)] \in \mathbb{R}^m$$
+$$\mathbf{X}(t) = [x(t),~ x(t + \tau),~ x(t + 2\tau),~ \dots,~ x(t + (m-1)\tau)] \in \mathbb{R}^m$$
 where:
 - $\tau$ is the **time delay** (e.g., 10 ms, often selected as the first minimum of the signal's mutual information or autocorrelation zero-crossing).
 - $m$ is the **embedding dimension** (e.g., $m = 3$ to $10$, chosen via false nearest neighbors).
@@ -149,6 +149,15 @@ For an intuitive 3D visualization ($m = 3$):
 **Why does this magic trick work?** Because cortical circuits are densely recurrent. The voltage recorded at electrode $Cz$ at this instant is not isolated; it was shaped by inputs from thalamic nuclei, inhibitory interneurons, and distant frontal regions that fired 10 ms and 20 ms ago. The delayed versions of $x(t)$ act as biological proxies for the "hidden" unmeasured variables of the network!
 
 Takens mathematically proved that this reconstructed "shadow attractor" shares the exact same topological invariants (the same **Lyapunov exponents $\lambda$**, the same **fractal dimension**) as the true unobserved system. **This delay-embedded space is precisely what non-linear toolboxes like `nolds` use to compute the maximal Lyapunov exponent from a 1D EEG trace** (as demonstrated in Section 12).
+
+![Takens' Delay Embedding: Reconstructing a 3D Attractor from a 1D EEG Trace](takens_delay_embedding.gif "Takens' Delay-Embedding: Reconstructing 3D Attractor Geometry from a Single 1D EEG Channel")
+
+{{< admonition type="tip" title="Pedagogical Deep Dive: Unfolding the Hidden Brain from One Channel" open=true >}}
+**How Takens' Theorem reconstructs high-dimensional cortical dynamics:**
+- **The 1D Problem (Left Panel):** A single EEG electrode (such as $Cz$) only records a scalar time series $x(t)$. At first glance, a 1D line looks messy and non-Markovian because the voltage at $t$ depends on countless unobserved recurrent loops across cortical columns, thalamic relay nuclei, and local interneurons.
+- **The Sliding Delay Vector (The 3 Tap Dots):** By sampling the signal at three discrete delay taps $[x(t),~ x(t + \tau),~ x(t + 2\tau)]$ separated by an optimal delay $\tau \approx 180\text{ ms}$ (selected at the first minimum of mutual information), the delayed coordinates act as biological stand-ins for the unmeasured state variables!
+- **Attractor Reconstruction (Right Panel):** As time advances, the 3D coordinate vector $\mathbf{X}(t) \in \mathbb{R}^3$ traces out the system's topological attractor. Takens (1981) proved that if the embedding dimension $m > 2 d_{\text{attractor}}$, this reconstructed geometry preserves the fundamental invariant properties of the real brain—including its **fractal dimension** and **maximal Lyapunov exponent ($\lambda$)**!
+{{< /admonition >}}
 
 ##### 3. The Feature / Spectral State Space (Macroscopic Brain States)
 Instead of millisecond-by-millisecond voltages, electrophysiologists often define a state space whose axes are **continuous summary biomarkers** computed in sliding windows (e.g., every 2 seconds):
@@ -234,7 +243,7 @@ Nonlinear dynamics contains a vast taxonomy of bifurcations ([Strogatz, 2015](#r
 
 How does a silent, quiescent neuronal population suddenly burst into rhythmic oscillations? 
 
-In mathematical terms, an equilibrium fixed point has eigenvalues $\lambda = \alpha \pm i\omega$ describing how perturbations decay or oscillate. If the real part $\alpha < 0$, any disturbance spirals inward to rest (a stable focus).
+In mathematical terms, an equilibrium fixed point has eigenvalues $\lambda = \alpha \pm i\omega$ describing how perturbations decay or oscillate. If the real part $\alpha \lt 0$, any disturbance spirals inward to rest (a stable focus).
 
 As we crank up a control parameter $\mu$ (for instance, background thalamic sensory drive or recurrent synaptic gain), the real part crosses zero:
 $$\alpha(\mu_c) = 0, \quad \omega \neq 0$$
@@ -249,6 +258,19 @@ There are two primary flavors:
 - **The Alpha Rhythm:** When a subject closes their eyes, thalamocortical loop gain crosses a supercritical Hopf bifurcation, transitioning the occipital cortex from asynchronous low-voltage activity into robust ~10 Hz alpha oscillations.
 - **Whole-Brain Connectome Models:** In large-scale computational neuroscience (e.g., The Virtual Brain; [Deco et al., 2011](#ref-15); Breakspear, 2017), each cortical region is often modeled as a Stuart-Landau or Wilson-Cowan oscillator tuned **right to the edge of a supercritical Hopf bifurcation** ($\mu \approx 0$). At this exact operating point, regional nodes retain maximal sensitivity to incoming structural connectome signals without locking permanently into rigid, unresponsive rhythms.
 
+![Supercritical Hopf Bifurcation: State Space Orbit and Neural Oscillation Genesis](hopf_bifurcation.gif "Supercritical Hopf Bifurcation: Transition from Damped Quiescence (Eyes Open) to Synchronized Limit Cycle Rhythms (Eyes Closed)")
+
+{{< admonition type="tip" title="Visualizing the Hopf Bifurcation: From Damped Rest to Limit Cycle" open=true >}}
+The animation above visualizes the **Supercritical Hopf Bifurcation** in real time:
+- **Left Panel (State Space Phase Portrait $[x, y]$):**
+  - **Sub-critical ($\mu \lt 0$):** The origin $(0, 0)$ is a **stable focus** ($\text{Re}(\lambda) \lt 0$, solid green dot). Perturbations spiral inwards and damp out to baseline rest.
+  - **Bifurcation Point ($\mu = 0$):** The critical boundary ($\text{Re}(\lambda) = 0$). The resting equilibrium loses stability.
+  - **Super-critical ($\mu \gt 0$):** The origin flips into an **unstable focus** ($\text{Re}(\lambda) \gt 0$, open red circle). Trajectories spiral outwards until captured by the **stable limit cycle** of radius $r = \sqrt{\mu}$, orbiting steadily.
+- **Right Panel (Simulated Scalp EEG Time Series $x(t)$):**
+  - Demonstrates the classic **soft onset** of neural rhythms. In the eyes-open asynchronous regime ($\mu \lt 0$), voltage fluctuations decay rapidly.
+  - As thalamocortical gain crosses $\mu = 0$ (e.g., closing the eyes), coherent ~10 Hz alpha oscillations bloom spontaneously, tracking an expanding amplitude envelope proportional to $\sqrt{\mu}$ without discontinuous jumps or hysteresis.
+{{< /admonition >}}
+
 ---
 
 #### 2. The Saddle-Node (Fold) Bifurcation: Tipping Points, Bistability & Hysteresis
@@ -259,13 +281,13 @@ Consider the canonical mathematical model of a fold bifurcation in a state varia
 $$\frac{dx}{dt} = \mu - x^2$$
 
 Setting $\frac{dx}{dt} = 0$ reveals the equilibria:
-$$x^* = \pm \sqrt{\mu}$$
+$$x^\ast = \pm \sqrt{\mu}$$
 
 Let's trace what happens as $\mu$ decreases:
-1. **When $\mu > 0$:** There are two equilibria: a **stable node** at $x^* = +\sqrt{\mu}$ (a protective valley where the system rests) and an **unstable saddle** at $x^* = -\sqrt{\mu}$ (the mountain peak separating this valley from the rest of the world).
+1. **When $\mu \gt 0$:** There are two equilibria: a **stable node** at $x^\ast = +\sqrt{\mu}$ (a protective valley where the system rests) and an **unstable saddle** at $x^\ast = -\sqrt{\mu}$ (the mountain peak separating this valley from the rest of the world).
 2. **As $\mu \to 0$:** The mountain peak and the valley floor slide toward each other. The barrier gets shallower and narrower.
 3. **At $\mu = 0$ (The Tipping Point):** The stable valley and the unstable barrier collide and annihilate each other!
-4. **When $\mu < 0$:** There are **zero equilibria**. The valley has literally ceased to exist. 
+4. **When $\mu \lt 0$:** There are **zero equilibria**. The valley has literally ceased to exist. 
 
 ```
    μ > 0 (Two States: Stable + Saddle)           μ < 0 (Post-Bifurcation: Tipping Point)
@@ -289,6 +311,21 @@ This is the mathematical definition of **hysteresis**: the state of the brain de
 - **Anesthetic Induction vs. Emergence:** The concentration of propofol required to extinguish consciousness during induction is significantly higher than the concentration at which consciousness re-emerges during wake-up (a phenomenon known as **neural inertia**; Luppi et al., 2021).
 - **The Wake-Sleep Transition:** Falling asleep is not a smooth, reversible rheostat.
 
+![Saddle-Node (Fold) Bifurcation: Dynamic Landscape Collapse, Tipping Points, and Hysteresis](saddle_node_bifurcation.gif "Saddle-Node (Fold) Bifurcation: Landscape Annihilation and Catastrophic Brain State Transitions")
+
+{{< admonition type="tip" title="Visualizing the Saddle-Node Bifurcation: Landscape Collapse & Hysteresis" open=true >}}
+The animation above captures the **Saddle-Node (Fold) Bifurcation** across five sequential stages:
+- **Left Panel (Potential Energy Landscape $V(x)$ — The Malleable Bowl):**
+  - **Stage 1 (Safe Waking Basin, $\mu \gt 0$):** The brain state (amber marble) rests at the stable waking node ($x^\ast = +\sqrt{\mu}$), shielded by the unstable saddle barrier ($x^\ast = -\sqrt{\mu}$).
+  - **Stage 2 (Critical Slowing Down, $\mu \to 0^+$):** As sleep pressure or anesthesia builds, the valley flattens out ($\lambda = -2\sqrt{\mu} \to 0$). Internal synaptic perturbations cause wide oscillations (surging signal variance and autocorrelation).
+  - **Stage 3 (Tipping Point, $\mu = 0$):** The saddle and node collide and annihilate each other into a flat inflection point. The waking attractor ceases to exist.
+  - **Stage 4 (Catastrophic Plunge, $\mu \lt 0$):** With zero remaining equilibria in the waking zone, the brain state plunges rapidly down the steep slide into the deep alternative attractor basin (Slow-Wave Sleep Delta state or Seizure).
+  - **Stage 5 (Hysteresis & Neural Inertia):** When $\mu$ is nudged back above zero, the waking well reforms, but the marble remains trapped in the deep sleep basin behind a high potential barrier. The brain cannot spontaneously return without a substantial reverse drive.
+- **Right Panel (Bifurcation S-Curve & Cortical LFP/EEG Trace):**
+  - Top subplot tracks the state moving along the fold curve: from the upper green branch ($x^\ast = +\sqrt{\mu}$), down the dashed red tipping plunge at $\mu = 0$, onto the lower blue sleep branch.
+  - Bottom subplot displays the accompanying EEG: fast waking activity $\to$ Critical Slowing Down (swelling variance) $\to$ sharp, irreversible transition into high-amplitude slow-wave delta rhythms.
+{{< /admonition >}}
+
 ---
 
 ### 3.3 Critical Slowing Down (CSD): The Universal Early-Warning Siren
@@ -298,8 +335,8 @@ Here is where dynamical systems theory hands electrophysiologists a superpower.
 Before a system reaches a fold or continuous bifurcation tipping point, **the curvature of its attractor valley flattens out**. 
 
 Recall that the restoring force pulling a system back to equilibrium is governed by the derivative of the flow:
-$$\lambda = \left.\frac{d}{dx}\left(\frac{dx}{dt}\right)\right|_{x^*}$$
-For our fold model $\frac{dx}{dt} = \mu - x^2$, the stable equilibrium is $x^* = +\sqrt{\mu}$. Evaluating the slope:
+$$\lambda = \left.\frac{d}{dx}\left(\frac{dx}{dt}\right)\right|_{x^\ast}$$
+For our fold model $\frac{dx}{dt} = \mu - x^2$, the stable equilibrium is $x^\ast = +\sqrt{\mu}$. Evaluating the slope:
 $$\lambda = -2\sqrt{\mu}$$
 
 As the control parameter approaches the tipping point ($\mu \to 0^+$), this restoring slope approaches zero:
@@ -328,6 +365,15 @@ In recorded electrophysiological time series, Critical Slowing Down leaves **two
 2. **Variance Explodes (Fluctuation Amplitude Balloons):** Because the walls of the attractor bowl are practically flat, ordinary baseline synaptic noise can shove the system much farther across state space. The variance $\sigma^2$ and power spectral amplitude of the signal swell dramatically.
 
 Whenever we observe autocorrelation and variance simultaneously escalating in a physiological signal, the dynamical system is crying out: **a bifurcation tipping point is imminent!**
+
+![Critical Slowing Down: Early-Warning Dynamics](critical_slowing_down.gif "Critical Slowing Down (CSD): Valley Flattening, Perturbation Lingering, and Early-Warning Surges in Variance and Autocorrelation")
+
+{{< admonition type="warning" title="Early-Warning Sirens in Action: Decoding Critical Slowing Down" open=true >}}
+**How CSD manifests mechanically and statistically across brain states:**
+- **Mechanical Fluctuation (Left Panel):** Far from the tipping point (Stage 1), the attractor well $V(x)$ is steep. The restoring force $F = -kx$ is strong, snapping state perturbations back to equilibrium in milliseconds ($\tau \approx 0.3\text{ s}$). As the system approaches the bifurcation (Stage 3), the attractor floor flattens out ($k \to 0$). The restoring force vanishes, causing perturbations to linger indefinitely ($\tau \to \infty$) and ambient synaptic noise to shove the state marble across wide swings.
+- **Electrophysiological Trace $x(t)$ (Top-Right):** In healthy stable states, cortical voltages fluctuate in a narrow band. Near the tipping point, the variance explodes—the signal balloons into sluggish, high-amplitude excursions as seen prior to epileptic seizures or sudden sleep onset.
+- **The Early-Warning Dashboard (Bottom-Right):** By computing sliding-window **Variance ($\sigma^2$)** and **Lag-1 Autocorrelation ($r_1$)**, electrophysiologists can monitor the approaching catastrophe in real time. When both metrics climb past threshold, the system triggers the early-warning siren—proving that tipping points in the brain cast measurable physical shadows before they occur!
+{{< /admonition >}}
 
 ---
 
@@ -373,7 +419,7 @@ A landmark study published in *Nature Neuroscience* by **Li, Ilina, Peach et al.
    As participants drifted toward sleep, their EEG exhibited classic **Critical Slowing Down**: both autocorrelation (temporal persistence) and signal variance escalated markedly across channels as the waking basin of attraction flattened.
 4. **The Tipping Point & Real-Time Prediction:**
    When the control parameter reaches the bifurcation point, the waking state is extinguished. The brain crosses an irreversible tipping point and drops into the sleep basin. Because fold bifurcations obey universal mathematical scaling laws, Li et al. were able to fit a predictive dynamical model that:
-   - **Tracked sleep progression in real time** with seconds-level resolution, achieving an average prediction accuracy **$>0.95$**.
+   - **Tracked sleep progression in real time** with seconds-level resolution, achieving an average prediction accuracy **$\gt 0.95$**.
    - **Detected the impending tipping point ~4.5 minutes before** traditional AASM visual sleep scoring identified the first epoch of N1 or N2 sleep!
 
 {{< admonition type="tip" title="Why Li et al. (2025) Is a Paradigm Shift for Electrophysiologists" open=true >}}
@@ -509,6 +555,16 @@ For each window, compute the root-mean-square (RMS) of the detrended residuals. 
 **Step 5 — Plot and fit.**
 Plot log(*F(n)*) versus log(*n*). If the signal is scale-free, this plot is a straight line. The **slope** of that line is the **DFA exponent, α**.
 
+![Detrended Fluctuation Analysis (DFA) Step-by-Step Algorithm](dfa_step_by_step.gif "Detrended Fluctuation Analysis (DFA) Step-by-Step: Windowed Detrending and Power-Law Scaling")
+
+{{< admonition type="note" title="Visualizing DFA: From Windowed Residuals to the Scaling Exponent" open=true >}}
+**Step-by-step mechanics of Detrended Fluctuation Analysis:**
+- **Step 1 — Cumulative Integration (Top-Left):** The mean-subtracted raw signal is integrated into a profile $Y(k) = \sum_{i=1}^k (x_i - \langle x \rangle)$, transforming oscillation amplitude fluctuations into a bounded random-walk-like landscape.
+- **Step 2 & 3 — Window Partitioning & Polynomial Detrending (Top & Bottom-Left):** As the animation sweeps across scales ($n = 16, 24, 32, 48, 80, 120$), the profile is sliced into windows of size $n$. In each window, an ordinary least-squares line $y_n(k)$ (coral red) is fitted and subtracted, leaving behind only the true intrinsic fluctuations $\epsilon(k) = Y(k) - y_n(k)$ (emerald green). Notice how non-stationary slow drifts are cleanly removed!
+- **Step 4 & 5 — Measuring Fluctuation $F(n)$ & Log-Log Scaling (Right Panel):** For each window size $n$, the root-mean-square fluctuation $F(n) = \sqrt{\frac{1}{N}\sum \epsilon(k)^2}$ is computed and plotted as a point on the $\log_{10} F(n)$ versus $\log_{10} n$ coordinate plane.
+- **The Exponent $\alpha$ (Slope):** The linear regression slope across scales yields the DFA exponent $\alpha$. An exponent of $\alpha \approx 0.81\text{--}0.85$ (as demonstrated above) is the hallmark of **long-range temporal correlations (LRTC)**, confirming that neural assemblies possess scale-free temporal memory near a critical operating regime.
+{{< /admonition >}}
+
 ### 6.3 What Does the DFA Exponent (α) Tell Us?
 
 | α value | Interpretation |
@@ -585,8 +641,8 @@ Take the amplitude envelope of, say, alpha oscillations. Compute how its varianc
 $$\text{fE/I} = \frac{\text{Observed Variance Accumulation Rate}}{\text{Variance Accumulation Expected at Criticality}}$$
 
 - **$\text{fE/I} \approx 1.0$**: The system is near the critical point. Excitation and inhibition are balanced.
-- **$\text{fE/I} > 1.0$**: Variance grows faster than critical prediction $\rightarrow$ **super-critical** (excitation-dominated, runaway persistence).
-- **$\text{fE/I} < 1.0$**: Variance grows slower than critical prediction $\rightarrow$ **sub-critical** (inhibition-dominated, premature dampening).
+- **$\text{fE/I} \gt 1.0$**: Variance grows faster than critical prediction $\rightarrow$ **super-critical** (excitation-dominated, runaway persistence).
+- **$\text{fE/I} \lt 1.0$**: Variance grows slower than critical prediction $\rightarrow$ **sub-critical** (inhibition-dominated, premature dampening).
 {{< /admonition >}}
 
 ### 7.3 Why Is fE/I Better Than DFA Alone?
@@ -642,11 +698,20 @@ Imagine we could create a perfect copy of a brain — every neuron, every synaps
 
 The Lyapunov exponent, **λ**, measures the *rate* of this exponential divergence:
 
-> *distance between trajectories at time t* ≈ *initial distance* × e^(λt)
+$$\Delta(t) \approx \Delta_0 \, e^{\lambda t} \iff \ln \Delta(t) \approx \ln \Delta_0 + \lambda t$$
 
 - **λ < 0**: Perturbations shrink. Stable. Predictable.
 - **λ = 0**: Perturbations neither grow nor shrink. Edge of chaos.
 - **λ > 0**: Perturbations grow exponentially. Chaotic. Short-term predictable, long-term unpredictable.
+
+![Maximal Lyapunov Exponent: Sensitive Dependence and Exponential Trajectory Divergence](lyapunov_divergence.gif "Maximal Lyapunov Exponent: Demonstrating Exponential Separation Between Nearly Identical Neural States")
+
+{{< admonition type="warning" title="Intuition in Action: The Butterfly Effect in Cortical Dynamics" open=true >}}
+**Tracking two nearly identical brains over time:**
+- **Phase 1 — Apparent Identity ($t < 2.0\text{ s}$):** Brain A (cyan) and Brain B (dashed coral) start with a microscopic separation of just $\Delta_0 = 10^{-4}$ (a $1\ \mu\text{V}$ perturbation). In state space (left) and the raw voltage traces (top-right), the two brains appear indistinguishable to standard linear analysis.
+- **Phase 2 — Exponential Divergence ($2.0\text{ s} \le t \le 4.8\text{ s}$):** Because the system has a positive maximal Lyapunov exponent ($\lambda = +1.088\text{ s}^{-1} > 0$), the separation grows exponentially: $\Delta(t) \approx \Delta_0 e^{\lambda t}$. On the logarithmic separation plot (bottom-right), this appears as a steady linear ascent with slope $\lambda$.
+- **Phase 3 — Macroscopic Desynchrony ($t > 4.8\text{ s}$):** The trajectories completely peel apart and orbit on opposite wings of the attractor. This is **deterministic chaos**: the system obeys exact mathematical laws, yet tiny perturbations destroy long-term predictability while preserving dynamic flexibility!
+{{< /admonition >}}
 
 ### 8.3 An Everyday Analogy
 
@@ -748,7 +813,7 @@ This is one of the most common stumbling blocks in electrophysiological critical
 
 If we plot the power spectral density of an EEG channel on log-log axes (using a technique like Welch's PSD or tools like FOOOF / `specparam`), we notice two distinct phenomena:
 
-1. **The Aperiodic Background ($1/f^\chi$):** A continuous, smooth downward slope that spans all frequencies from 0.1 Hz to $>100\text{ Hz}$. There is no single frequency here; it is a broadband power law.
+1. **The Aperiodic Background ($1/f^\chi$):** A continuous, smooth downward slope that spans all frequencies from 0.1 Hz to $\gt 100\text{ Hz}$. There is no single frequency here; it is a broadband power law.
 2. **The Periodic Oscillations (Narrowband Peaks):** Prominent "bumps" or peaks that rise above that $1/f$ floor—most notably in the delta (1–4 Hz), theta (4–8 Hz), alpha (8–12 Hz), and beta (13–30 Hz) ranges.
 
 Both of these components carry crucial information about excitation and inhibition, but they reflect **completely different biophysical processes operating at different spatial and temporal scales**.
@@ -759,8 +824,8 @@ What does the broadband background actually mean?
 
 Pioneering work by Gao, Peterson, & Voytek ([2017](#ref-7)) demonstrated that the slope ($\chi$) of the broadband $1/f^\chi$ decay directly reflects the **aggregate ratio of excitatory (AMPA) to inhibitory (GABA) synaptic currents** across millions of synapses:
 
-- **AMPA-mediated excitatory postsynaptic currents (EPSCs)** have very rapid decay kinetics ($\tau \approx 2–5\text{ ms}$). Because they turn on and off so quickly, they contribute substantial power to higher frequencies, resulting in a **flatter $1/f$ spectral slope**.
-- **GABA-mediated inhibitory postsynaptic currents (IPSCs)** have substantially slower decay kinetics ($\tau \approx 10–50\text{ ms}$). They act as an organic low-pass filter, attenuating higher frequencies and causing a **steeper $1/f$ spectral slope**.
+- **AMPA-mediated excitatory postsynaptic currents (EPSCs)** have very rapid decay kinetics ($\tau \approx 2\text{--}5\text{ ms}$). Because they turn on and off so quickly, they contribute substantial power to higher frequencies, resulting in a **flatter $1/f$ spectral slope**.
+- **GABA-mediated inhibitory postsynaptic currents (IPSCs)** have substantially slower decay kinetics ($\tau \approx 10\text{--}50\text{ ms}$). They act as an organic low-pass filter, attenuating higher frequencies and causing a **steeper $1/f$ spectral slope**.
 
 Thus, broadband $1/f$ power decay provides an elegant readout of **global synaptic background conductance**—the tonic "hum" of cortical computation.
 
@@ -769,7 +834,7 @@ Thus, broadband $1/f$ power decay provides an elegant readout of **global synapt
 Given this, why not just compute DFA or fE/I on the raw broadband voltage trace? There are two fatal pitfalls:
 
 1. **Zero-Mean Phase Cancellation:** Raw EEG voltage is an alternating electric field that oscillates rapidly around zero microvolts. When DFA performs its first step—cumulative integration—the positive and negative deflections cancel each other out destructively. The cumulative sum ends up tracking the rapid zero-crossings of the dominant oscillation rather than the slow, scale-free accumulation of network states.
-2. **Volume Conduction Smearing:** Scalp electrodes record the linear superposition of currents from large swaths of cortex ($>10\text{ cm}^2$). Broadband raw voltage blends dozens of functionally unrelated brain regions together. Any subtle, localized criticality signature is hopelessly diluted by volume-conducted background noise.
+2. **Volume Conduction Smearing:** Scalp electrodes record the linear superposition of currents from large swaths of cortex ($\gt 10\text{ cm}^2$). Broadband raw voltage blends dozens of functionally unrelated brain regions together. Any subtle, localized criticality signature is hopelessly diluted by volume-conducted background noise.
 
 ### 10.3 The Narrowband Aspect: Circuit Pacemakers and the Amplitude Envelope
 
@@ -786,7 +851,7 @@ However, if we apply the **Hilbert transform** to extract the **amplitude envelo
 - When the envelope is high, millions of pyramidal cells are firing in lockstep with thalamocortical interneurons.
 - When the envelope dips, the assembly desynchronizes.
 
-It is this slow, emergent envelope fluctuation that displays **long-range temporal correlations (LRTC)** extending across tens to hundreds of seconds ($\alpha \approx 0.7–1.0$). The envelope reflects the collective stability of the self-organizing neuronal avalanche.
+It is this slow, emergent envelope fluctuation that displays **long-range temporal correlations (LRTC)** extending across tens to hundreds of seconds ($\alpha \approx 0.7\text{--}1.0$). The envelope reflects the collective stability of the self-organizing neuronal avalanche.
 
 ### 10.4 Neurobiological and Clinical Importance: Why Frequency-Specificity Matters
 
@@ -799,13 +864,13 @@ The brain is not an isotropic bowl of soup; it is an interconnected federation o
 - **Beta (13–30 Hz):** Maintained by sensorimotor cortico-basal ganglia loops.
 
 In neurodevelopmental and psychiatric conditions, genetic mutations and synaptic lesions frequently strike **one circuit selectively**:
-- In **Autism Spectrum Disorder (ASD)** and monogenic syndromes like **$GRIN2B$ or Rett syndrome**, recent clinical studies ([Bruining et al., 2020](#ref-6); [Diachenko et al., 2024](#ref-8)) discovered that functional E/I (fE/I) is often **markedly elevated specifically in the alpha band**, reflecting hyper-excitable thalamocortical sensory gating, while theta fE/I or broadband measures remain relatively normal!
+- In **Autism Spectrum Disorder (ASD)** and monogenic syndromes like **_GRIN2B_ or Rett syndrome**, recent clinical studies ([Bruining et al., 2020](#ref-6); [Diachenko et al., 2024](#ref-8)) discovered that functional E/I (fE/I) is often **markedly elevated specifically in the alpha band**, reflecting hyper-excitable thalamocortical sensory gating, while theta fE/I or broadband measures remain relatively normal!
 - In **epilepsy**, focal onset seizures frequently begin with narrowband frequency hypersynchrony (e.g., theta or low gamma bursts) before generalizing.
 
 #### 2. The Danger of Broadband Dilution
 If we only measure a single broadband index, a severe excitation imbalance in thalamocortical alpha circuits will be averaged together with normal frontal theta and parietal beta. The critical biomarker gets washed out in the global average:
 
-$$\text{Broadband Average} \approx \frac{\text{fE/I}_{\theta}\,(1.0) + \text{fE/I}_{\alpha}\,(1.45) + \text{fE/I}_{\beta}\,(1.0)}{3} \approx 1.15 \quad (\text{"Mild / Subclinical?"})$$
+$$\text{Broadband Average} \approx \frac{\text{fE/I}_\theta(1.0) + \text{fE/I}_\alpha(1.45) + \text{fE/I}_\beta(1.0)}{3} \approx 1.15 \quad [\text{Mild / Subclinical?}]$$
 
 Meanwhile, the patient's alpha circuit is actually suffering massive super-critical runaway ($\text{fE/I} = 1.45$)! Narrowband analysis prevents this clinical camouflage.
 
@@ -1010,7 +1075,7 @@ Look closely at the **Resting-State $\alpha$** row:
 In the **Seizure (Ictal)** simulation, recurrent excitation outpaces local feedback inhibition ($E \gg I$):
 - DFA $\alpha$ explodes to **$1.370$** (broadband), **$1.846$** (theta), and **$1.886$** (alpha).
 - The functional E/I ratio skyrockets to **$1.737$** (broadband), **$1.819$** (theta), and **$1.859$** (alpha).
-- When $\alpha > 1.0$, the signal becomes ultra-persistent: any positive excursion does not dissipate, but instead triggers further runaway amplification. Both DFA and fE/I cleanly identify this hypersynchronous breakdown across the entire spectrum.
+- When $\alpha \gt 1.0$, the signal becomes ultra-persistent: any positive excursion does not dissipate, but instead triggers further runaway amplification. Both DFA and fE/I cleanly identify this hypersynchronous breakdown across the entire spectrum.
 
 #### 4. Noise vs. Deterministic Chaos: The Decisive Disambiguation of the Lyapunov Exponent
 Compare **Pink ($1/f$) Noise** and the **Lorenz Attractor**:
