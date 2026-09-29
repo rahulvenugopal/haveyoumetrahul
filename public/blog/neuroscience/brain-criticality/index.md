@@ -4,19 +4,22 @@
 ## 1. The Question Hiding Inside Every EEG Trace
 
 We have recorded a clean 64-channel EEG. We have cleaned the artifacts, re-referenced, maybe even source-localised. 
-Now we stare at those wiggly lines and ask **What kind of system produced this?**
+Now we stare at those wiggly lines and ask: **What kind of system produced this?**
 
 <!--more-->
 
-Over the next several sections we will build, brick by brick, the vocabulary and intuition we need to engage with several foundational ideas
+Over the next several sections we will build, brick by brick, the vocabulary and intuition we need to engage with several foundational ideas:
 
-1. **Dynamical systems & chaos** — the language for talking about things that evolve over time.
-2. **Scale-free dynamics** — a specific *fingerprint* that many natural systems leave in their data.
-3. **Detrended Fluctuation Analysis (DFA)** — a tool that reads that fingerprint from the data.
-4. **The functional Excitation/Inhibition ratio (fE/I)** — a newer, sharper lens on the balance that keeps the brain at its sweet spot.
-5. **Lyapunov exponents** — a way to measure how sensitive a system is to tiny nudges.
-6. **Broadband vs. Narrowband dynamics** — why critical dynamics are rhythm-specific and where long-range temporal correlations truly live.
-7. **Empirical 1D Time-Series Benchmark** — hands-on testing of these metrics across 6 neurodynamical regimes with smooth Welch power spectra.
+1. **Dynamical systems & state space** — the language and geometry for mapping how brain states evolve over time.
+2. **Bifurcations & tipping points** — how continuous biological parameter shifts (like sleep pressure or neuromodulation) abruptly flip the brain's dynamical landscape, giving birth to oscillations (Hopf) or triggering sudden state transitions (saddle-node/fold).
+3. **Chaos: sensitive dependence, not randomness** — why deterministic unpredictability is a cognitive feature, not a bug.
+4. **Scale-free dynamics** — the power-law fingerprint that critical natural systems leave in their fluctuations.
+5. **Detrended Fluctuation Analysis (DFA)** — reading long-range temporal correlations from neural time series.
+6. **The functional Excitation/Inhibition ratio (fE/I)** — a sharper lens on the critical balance of variance accumulation.
+7. **Lyapunov exponents** — quantifying sensitivity to tiny perturbations and diagnosing the edge of chaos.
+8. **Broadband vs. Narrowband dynamics** — why critical dynamics are rhythm-specific and where long-range temporal correlations truly live.
+9. **Criticality & bifurcations across brain states** — how the operating point moves from quiet wakefulness to task engagement, sleep, anesthesia, and seizures.
+10. **Empirical 1D Time-Series Benchmark** — hands-on testing of these metrics across 6 neurodynamical regimes with smooth Welch power spectra.
 
 ---
 
@@ -134,7 +137,7 @@ For an intuitive 3D visualization ($m = 3$):
 
 **Why does this magic trick work?** Because cortical circuits are densely recurrent. The voltage recorded at electrode $Cz$ at this instant is not isolated; it was shaped by inputs from thalamic nuclei, inhibitory interneurons, and distant frontal regions that fired 10 ms and 20 ms ago. The delayed versions of $x(t)$ act as biological proxies for the "hidden" unmeasured variables of the network!
 
-Takens mathematically proved that this reconstructed "shadow attractor" shares the exact same topological invariants (the same **Lyapunov exponents $\lambda$**, the same **fractal dimension**) as the true unobserved system. **This delay-embedded space is precisely what non-linear toolboxes like `nolds` use to compute the maximal Lyapunov exponent from a 1D EEG trace** (as demonstrated in Section 11).
+Takens mathematically proved that this reconstructed "shadow attractor" shares the exact same topological invariants (the same **Lyapunov exponents $\lambda$**, the same **fractal dimension**) as the true unobserved system. **This delay-embedded space is precisely what non-linear toolboxes like `nolds` use to compute the maximal Lyapunov exponent from a 1D EEG trace** (as demonstrated in Section 12).
 
 ##### 3. The Feature / Spectral State Space (Macroscopic Brain States)
 Instead of millisecond-by-millisecond voltages, electrophysiologists often define a state space whose axes are **continuous summary biomarkers** computed in sliding windows (e.g., every 2 seconds):
@@ -167,11 +170,228 @@ Once we grasp that the axes are measurable variables, the concept of an **attrac
 3. **Feature Space ($\mathbb{R}^k$):** Dynamic trajectory across sliding-window spectral and criticality biomarkers.
 {{< /admonition >}}
 
+We now understand what state space is, and we have met the three classic attractors: fixed points, limit cycles, and strange attractors. But here is the critical question:
+*What happens when the underlying biology slowly changes? What happens when a person becomes progressively sleepier, when an anesthetic is slowly infused, or when neuromodulatory acetylcholine surges during arousal?*
+
+The attractors themselves do not stay frozen in stone. Valleys flatten, hills emerge, and stable paths can suddenly vanish into thin air.
+That brings us directly to **bifurcations**.
+
 ---
 
-## 3. Chaos: Sensitive Dependence, Not Randomness
+## 3. Bifurcations: When the Landscape Flips Under Our Feet
 
-### 3.1 What Chaos Actually Means
+### 3.1 What Is a Bifurcation? (The Tipping Point in the Landscape)
+
+So far, we have imagined attractors as fixed, permanent valleys in state space: roll a marble, and it settles reliably into the bottom of the bowl.
+
+In a living brain, however, **the bowl itself is malleable**. The physical shape of the state space landscape is dynamically sculpted by biological parameters:
+- Synaptic excitation-to-inhibition (E/I) balance,
+- Neuromodulators like acetylcholine, noradrenaline, and dopamine,
+- Corticothalamic feedback gain,
+- Homeostatic sleep pressure (adenosine accumulation).
+
+As long as a parameter shifts slightly within a safe physiological envelope, the attractor deforms smoothly: the valley might shift a millimeter or become slightly shallower, but the marble stays comfortably trapped inside.
+
+A **bifurcation** occurs when a continuous change in a control parameter reaches a critical threshold that **qualitatively alters the topological structure of state space**. Fixed points can appear, collide, split, lose stability, or vanish entirely. A single valley can split into two, or a stationary resting point can suddenly begin to oscillate.
+
+{{< admonition type="note" title="Definition: Bifurcation" open=true >}}
+A **bifurcation** is a qualitative change in the long-term dynamical behavior, stability, or geometric topology of a system's attractors as one or more control parameters cross a critical threshold. It is the deterministic dynamical systems counterpart of a **phase transition**.
+{{< /admonition >}}
+
+---
+
+### 3.2 The Two Essential Bifurcations Every Neuroscientist Must Know
+
+Nonlinear dynamics contains a vast taxonomy of bifurcations ([Strogatz, 2015](#ref-11)), but for electrophysiologists, two fundamental forms govern the overwhelming majority of neural phenomena:
+
+```
+               ┌────────────────────────────────────────────────────────┐
+               │         CANONICAL NEUROSCIENCE BIFURCATIONS            │
+               └───────────────────────────┬────────────────────────────┘
+                                           │
+             ┌─────────────────────────────┴─────────────────────────────┐
+             ▼                                                           ▼
+┌───────────────────────────────┐               ┌────────────────────────────────┐
+│      1. HOPF BIFURCATION      │               │ 2. SADDLE-NODE (FOLD) BIFURC.  │
+│ Fixed Point <──> Limit Cycle  │               │ Equilibrium Collision & Drop   │
+│ Emergence of Rhythms (Alpha)  │               │ Tipping Points & Hysteresis    │
+│ (Wilson-Cowan, Whole-Brain)   │               │ (Seizures, Sleep Onset)        │
+└───────────────────────────────┘               └────────────────────────────────┘
+```
+
+#### 1. The Hopf Bifurcation: The Genesis of Neural Oscillations
+
+How does a silent, quiescent neuronal population suddenly burst into rhythmic oscillations? 
+
+In mathematical terms, an equilibrium fixed point has eigenvalues $\lambda = \alpha \pm i\omega$ describing how perturbations decay or oscillate. If the real part $\alpha < 0$, any disturbance spirals inward to rest (a stable focus).
+
+As we crank up a control parameter $\mu$ (for instance, background thalamic sensory drive or recurrent synaptic gain), the real part crosses zero:
+$$\alpha(\mu_c) = 0, \quad \omega \neq 0$$
+
+At this critical threshold $\mu_c$, the fixed point loses stability, and the spiraling trajectories expand outwards until they are captured by a stable, repeating closed orbit: a **limit cycle**. This is a **Hopf bifurcation**.
+
+There are two primary flavors:
+1. **Supercritical Hopf (Soft Onset):** The oscillation emerges continuously. Right past the bifurcation, the amplitude of the rhythm grows smoothly from zero in proportion to $\sqrt{\mu - \mu_c}$, without any abrupt jump or hysteresis.
+2. **Subcritical Hopf (Hard Onset):** The system abruptly jumps from silence into a large-amplitude, runaway oscillation, often exhibiting bistability and hysteresis.
+
+**Why electrophysiologists care:**
+- **The Alpha Rhythm:** When a subject closes their eyes, thalamocortical loop gain crosses a supercritical Hopf bifurcation, transitioning the occipital cortex from asynchronous low-voltage activity into robust ~10 Hz alpha oscillations.
+- **Whole-Brain Connectome Models:** In large-scale computational neuroscience (e.g., The Virtual Brain; [Deco et al., 2011](#ref-15); Breakspear, 2017), each cortical region is often modeled as a Stuart-Landau or Wilson-Cowan oscillator tuned **right to the edge of a supercritical Hopf bifurcation** ($\mu \approx 0$). At this exact operating point, regional nodes retain maximal sensitivity to incoming structural connectome signals without locking permanently into rigid, unresponsive rhythms.
+
+---
+
+#### 2. The Saddle-Node (Fold) Bifurcation: Tipping Points, Bistability & Hysteresis
+
+What happens when an entire brain state disappears?
+
+Consider the canonical mathematical model of a fold bifurcation in a state variable $x$ driven by parameter $\mu$:
+$$\frac{dx}{dt} = \mu - x^2$$
+
+Setting $\frac{dx}{dt} = 0$ reveals the equilibria:
+$$x^* = \pm \sqrt{\mu}$$
+
+Let's trace what happens as $\mu$ decreases:
+1. **When $\mu > 0$:** There are two equilibria: a **stable node** at $x^* = +\sqrt{\mu}$ (a protective valley where the system rests) and an **unstable saddle** at $x^* = -\sqrt{\mu}$ (the mountain peak separating this valley from the rest of the world).
+2. **As $\mu \to 0$:** The mountain peak and the valley floor slide toward each other. The barrier gets shallower and narrower.
+3. **At $\mu = 0$ (The Tipping Point):** The stable valley and the unstable barrier collide and annihilate each other!
+4. **When $\mu < 0$:** There are **zero equilibria**. The valley has literally ceased to exist. 
+
+```
+   μ > 0 (Two States: Stable + Saddle)           μ < 0 (Post-Bifurcation: Tipping Point)
+
+             Unstable Saddle                               No Equilibrium Points!
+               (Threshold)                                 Trajectory drops rapidly...
+                   /\
+                  /  \     Stable Node                             \
+                 /    \   (Waking Valley)                           \
+                /      \     O                                       \
+               /        \___/                                         \_________
+```
+
+The trajectory can no longer stay where it was. It has no choice but to plunge rapidly and irreversibly toward another distant attractor basin.
+
+**The Crucial Consequence: Hysteresis**
+Once the system tumbles off the cliff, nudging the parameter slightly back to $\mu = 0.01$ will **not** bring it back! The old valley was annihilated. To climb back to the original state, the parameter must be pushed far in the opposite direction until a second bifurcation creates an alternative return path.
+
+This is the mathematical definition of **hysteresis**: the state of the brain depends not only on the current inputs, but on the history of how it arrived there. We see this daily in:
+- **Epileptic Seizures:** The sudden explosive transition into an ictal seizure and the abrupt, delayed termination (seizure offset) follow fold/homoclinic bifurcations.
+- **Anesthetic Induction vs. Emergence:** The concentration of propofol required to extinguish consciousness during induction is significantly higher than the concentration at which consciousness re-emerges during wake-up (a phenomenon known as **neural inertia**; Luppi et al., 2021).
+- **The Wake-Sleep Transition:** Falling asleep is not a smooth, reversible rheostat.
+
+---
+
+### 3.3 Critical Slowing Down (CSD): The Universal Early-Warning Siren
+
+Here is where dynamical systems theory hands electrophysiologists a superpower.
+
+Before a system reaches a fold or continuous bifurcation tipping point, **the curvature of its attractor valley flattens out**. 
+
+Recall that the restoring force pulling a system back to equilibrium is governed by the derivative of the flow:
+$$\lambda = \left.\frac{d}{dx}\left(\frac{dx}{dt}\right)\right|_{x^*}$$
+For our fold model $\frac{dx}{dt} = \mu - x^2$, the stable equilibrium is $x^* = +\sqrt{\mu}$. Evaluating the slope:
+$$\lambda = -2\sqrt{\mu}$$
+
+As the control parameter approaches the tipping point ($\mu \to 0^+$), this restoring slope approaches zero:
+$$\lambda \to 0^-$$
+
+Because the restoring force weakens toward zero, any perturbation pushed by internal synaptic noise takes longer and longer to recover. The recovery time diverges toward infinity:
+$$\tau_{\text{recovery}} = -\frac{1}{\lambda} \to \infty$$
+
+This universal physical phenomenon is called **Critical Slowing Down (CSD)** ([Scheffer et al., 2012](#ref-14)).
+
+```
+        STEEP VALLEY (Far from Tipping Point)          FLAT VALLEY (Near Tipping Point: CSD)
+        
+                  \       /                                      \                   /
+                   \  O  /                                        \        O        /
+                    \___/                                          \_______________/
+             Restoring force: STRONG                        Restoring force: WEAK
+             Perturbations: Damped quickly                  Perturbations: Linger indefinitely
+             Autocorrelation: LOW                           Autocorrelation: SURGES HIGH
+             Variance: COMPACT                              Variance: EXPLODES BROADLY
+```
+
+In recorded electrophysiological time series, Critical Slowing Down leaves **two distinct, measurable fingerprints**:
+
+1. **Autocorrelation Surges (Memory Lengthens):** Because the system takes much longer to return to baseline after a random synaptic fluctuation, the state at time $t$ becomes heavily dependent on its state at $t - \Delta t$. The lag-1 autocorrelation $r_1$ climbs toward 1.0, and the **DFA scaling exponent $\alpha$ increases** as long-range temporal correlations stretch out.
+2. **Variance Explodes (Fluctuation Amplitude Balloons):** Because the walls of the attractor bowl are practically flat, ordinary baseline synaptic noise can shove the system much farther across state space. The variance $\sigma^2$ and power spectral amplitude of the signal swell dramatically.
+
+Whenever we observe autocorrelation and variance simultaneously escalating in a physiological signal, the dynamical system is crying out: **a bifurcation tipping point is imminent!**
+
+---
+
+### 3.4 Landmark Discovery: Falling Asleep Follows a Predictable Bifurcation Dynamic
+
+For nearly a century, clinical neurology and sleep medicine have classified the onset of sleep using the Rechtschaffen & Kales (R&K) and American Academy of Sleep Medicine (AASM) standards: breaking sleep into discrete 30-second epoch bins (**Wake $\to$ Stage N1 $\to$ Stage N2 $\to$ Stage N3**).
+
+This created a fundamental conceptual paradox: **Does human consciousness actually switch off in discrete 30-second jumps, or does the brain slide down a continuous slope?**
+
+A landmark study published in *Nature Neuroscience* by **Li, Ilina, Peach et al. (2025)** ([#ref-13](#ref-13)) answered this question decisively using the exact dynamical systems framework we have just developed.
+
+```
+       ┌────────────────────────────────────────────────────────────────────────┐
+       │   LI ET AL. (2025) NATURE NEUROSCIENCE BIFURCATION SLEEP MODEL         │
+       └───────────────────────────────────┬────────────────────────────────────┘
+                                           │
+         ┌─────────────────────────────────┴─────────────────────────────────┐
+         ▼                                                                   ▼
+┌─────────────────────────────────┐                 ┌─────────────────────────────────┐
+│     CONTINUOUS STATE SPACE      │                 │     FOLD (SADDLE-NODE) BIFURC.  │
+│ Multi-channel EEG projected     │                 │ Waking attractor basin flattens │
+│ into normalized feature space   │                 │ as homeostatic sleepiness rises;│
+│ (Spectral balance trajectories) │                 │ CSD triggers variance/AC surge. │
+└────────────────┬────────────────┘                 └────────────────┬────────────────┘
+                 │                                                   │
+                 └─────────────────────────┬─────────────────────────┘
+                                           │
+                                           ▼
+                 ┌───────────────────────────────────────────────────┐
+                 │       EARLY WARNING & REAL-TIME PREDICTION        │
+                 │ Tipping point detected ~4.5 minutes before N1/N2  │
+                 │ Real-time trajectory prediction accuracy > 0.95   │
+                 └───────────────────────────────────────────────────┘
+```
+
+#### What Li et al. (2025) Discovered
+
+1. **The Trajectory in Feature State Space:**
+   Analyzing continuous high-density scalp EEG from over **1,000 human participants** across two independent datasets, the researchers mapped the multi-channel EEG signals into a normalized low-dimensional feature state space (incorporating spectral power redistribution across frequency bands). Rather than jumping between discrete states, each individual traced a smooth, continuous trajectory toward sleep.
+2. **A Universal Fold (Saddle-Node) Bifurcation:**
+   The authors proved that this continuous trajectory is governed by a **fold bifurcation dynamic**. As a person becomes drowsy, biological sleep drive acts as a slowing control parameter $\mu$. The stable waking attractor well flattens out, and the stable waking equilibrium approaches an unstable saddle threshold.
+3. **Critical Slowing Down Precedes Sleep Onset:**
+   As participants drifted toward sleep, their EEG exhibited classic **Critical Slowing Down**: both autocorrelation (temporal persistence) and signal variance escalated markedly across channels as the waking basin of attraction flattened.
+4. **The Tipping Point & Real-Time Prediction:**
+   When the control parameter reaches the bifurcation point, the waking state is extinguished. The brain crosses an irreversible tipping point and drops into the sleep basin. Because fold bifurcations obey universal mathematical scaling laws, Li et al. were able to fit a predictive dynamical model that:
+   - **Tracked sleep progression in real time** with seconds-level resolution, achieving an average prediction accuracy **$>0.95$**.
+   - **Detected the impending tipping point ~4.5 minutes before** traditional AASM visual sleep scoring identified the first epoch of N1 or N2 sleep!
+
+{{< admonition type="tip" title="Why Li et al. (2025) Is a Paradigm Shift for Electrophysiologists" open=true >}}
+The Li et al. (2025) study provides definitive, large-scale empirical evidence that:
+1. **Sleep onset is a deterministic dynamical bifurcation, not an arbitrary discrete classification.**
+2. **Critical slowing down is not just a theoretical curiosity in toy models—it is actively measurable in human scalp EEG and serves as a clinical early-warning signal.**
+3. **By modeling EEG as a trajectory through state space toward a bifurcation, we can predict state changes minutes before clinical behavioral manifestations appear.**
+{{< /admonition >}}
+
+---
+
+### 3.5 The Gateway to Chaos: Bifurcation Cascades
+
+Bifurcations don't just birth simple static equilibria or clean circular limit cycles. What happens when a parameter is pushed even further?
+
+In many nonlinear dynamical systems, as a control parameter continues to increase, a stable limit cycle of period $T$ can become unstable and split into an orbit that takes twice as long to repeat ($2T$). This is a **period-doubling bifurcation**.
+
+As the parameter increases further, it splits again into period $4T$, then $8T$, $16T$, and so on. These successive bifurcation intervals become progressively tighter, converging at a universal geometric rate discovered by Mitchell Feigenbaum:
+$$\delta = \lim_{k \to \infty} \frac{\mu_k - \mu_{k-1}}{\mu_{k+1} - \mu_k} \approx 4.6692016\dots$$
+
+Beyond this infinite cascade of period-doubling bifurcations lies a threshold parameter $\mu_\infty$. Past this point, the system never repeats. The trajectory remains bounded, but loops and folds indefinitely without ever intersecting itself.
+
+The system has entered **deterministic chaos**.
+
+---
+
+## 4. Chaos: Sensitive Dependence, Not Randomness
+
+### 4.1 What Chaos Actually Means
 
 The word "chaos" has a precise technical meaning that is very different from everyday English. A chaotic system is:
 
@@ -181,11 +401,11 @@ The word "chaos" has a precise technical meaning that is very different from eve
 
 Think of it this way: chaos is *deterministic unpredictability*. The rules are fixed, but any tiny error in measuring the current state gets amplified so fast that long-term prediction becomes practically impossible. This is the famous "butterfly effect."
 
-### 3.2 Why Should a Neuroscientist Care?
+### 4.2 Why Should a Neuroscientist Care?
 
 Because the brain might be *mildly* chaotic — and that would be a feature, not a bug. A mildly chaotic system is exquisitely sensitive to inputs (good for detecting faint stimuli), generates a rich repertoire of activity patterns (good for flexible cognition), yet remains bounded (we don't plunge into a seizure every time a neuron fires an extra spike). Later, we'll meet the Lyapunov exponent, which puts a number on "how chaotic."
 
-### 3.3 Chaos vs. Noise: An Important Distinction
+### 4.3 Chaos vs. Noise: An Important Distinction
 
 When we look at EEG, it looks "noisy." But noise and chaos are very different:
 
@@ -200,9 +420,9 @@ EEG is almost certainly a mixture of both. The art is in teasing apart the deter
 
 ---
 
-## 4. Scale-Free Dynamics: The Signature of Something Interesting
+## 5. Scale-Free Dynamics: The Signature of Something Interesting
 
-### 4.1 Scales and the Lack Thereof
+### 5.1 Scales and the Lack Thereof
 
 Most things in everyday life have a **characteristic scale**. Adult human heights cluster around 170 cm. The duration of a heartbeat is about 0.8 seconds. If we measure these things and plot a histogram, we get a bell curve (Gaussian distribution) with a clear peak.
 
@@ -212,7 +432,7 @@ But some phenomena are different. Earthquakes, for example: there is no "typical
 
 On a log-log plot, this is a straight line. There is no bump, no peak, no characteristic scale — just a smooth, unbroken slope from the smallest events to the largest. This is what **scale-free** means: the statistical pattern looks the same no matter how much we zoom in or out.
 
-### 4.2 Scale-Free Dynamics in Time Series
+### 5.2 Scale-Free Dynamics in Time Series
 
 When we say an EEG signal has "scale-free dynamics," we mean something analogous but applied to *fluctuations over time*. Instead of event sizes, we look at how the *variability* of the signal changes as we look at longer and longer time windows.
 
@@ -225,7 +445,7 @@ Here's the core intuition:
 
 The rate of growth is captured by a single number — the **scaling exponent** — and DFA is the tool that estimates it.
 
-### 4.3 Why Would the Brain Be Scale-Free?
+### 5.3 Why Would the Brain Be Scale-Free?
 
 A popular hypothesis — the **criticality hypothesis** ([Beggs & Plenz, 2003](#ref-1)) — proposes that the brain operates near a **critical point**: a special configuration where the system is poised between two qualitatively different regimes.
 
@@ -245,15 +465,15 @@ Scale-free dynamics in EEG, then, are a potential *signature* of a brain operati
 
 ---
 
-## 5. Detrended Fluctuation Analysis (DFA): Reading the Fingerprint
+## 6. Detrended Fluctuation Analysis (DFA): Reading the Fingerprint
 
-### 5.1 The Problem DFA Solves
+### 6.1 The Problem DFA Solves
 
 We want to measure scale-free temporal correlations in EEG. Why not just compute the autocorrelation function? Because EEG signals are **non-stationary** — their statistical properties drift over time. Classical autocorrelation assumes stationarity and gives misleading results when that assumption is violated.
 
 DFA was invented precisely to handle this ([Peng et al., 1995](#ref-3)). It is *robust to non-stationarities* like slow trends, and gradual changes in arousal.
 
-### 5.2 How DFA Works — Step by Step
+### 6.2 How DFA Works — Step by Step
 
 Let's walk through it with an everyday analogy first, then in EEG terms.
 
@@ -278,7 +498,7 @@ For each window, compute the root-mean-square (RMS) of the detrended residuals. 
 **Step 5 — Plot and fit.**
 Plot log(*F(n)*) versus log(*n*). If the signal is scale-free, this plot is a straight line. The **slope** of that line is the **DFA exponent, α**.
 
-### 5.3 What Does the DFA Exponent (α) Tell Us?
+### 6.3 What Does the DFA Exponent (α) Tell Us?
 
 | α value | Interpretation |
 | --- | --- |
@@ -290,7 +510,7 @@ Plot log(*F(n)*) versus log(*n*). If the signal is scale-free, this plot is a st
 
 For resting-state EEG, **α values in the range 0.6–0.9 for the amplitude envelope of oscillations** (particularly alpha and beta bands) are commonly reported, suggesting the brain does indeed sit somewhere in the long-range correlated, near-critical regime.
 
-### 5.4 DFA in Practice: What We Actually Compute on EEG
+### 6.4 DFA in Practice: What We Actually Compute on EEG
 
 Typically, we don't run DFA on the raw EEG voltage trace directly. Instead:
 
@@ -300,7 +520,7 @@ Typically, we don't run DFA on the raw EEG voltage trace directly. Instead:
 
 Why the amplitude envelope? Because the *amplitude fluctuations* of neural oscillations — how the power of alpha waves waxes and wanes over seconds to minutes — are where the long-range temporal correlations live ([Linkenkaer-Hansen et al., 2001](#ref-2); [Hardstone et al., 2012](#ref-4)). The fast oscillation itself is too rapid; it's the slow modulation of that oscillation that carries the scale-free signature.
 
-### 5.5 Strengths and Limitations of DFA
+### 6.5 Strengths and Limitations of DFA
 
 **Strengths:**
 
@@ -319,9 +539,9 @@ This is where fE/I comes in — a measure designed to do more.
 
 ---
 
-## 6. The fE/I Ratio: A Sharper Lens on the Critical Balance
+## 7. The fE/I Ratio: A Sharper Lens on the Critical Balance
 
-### 6.1 Excitation, Inhibition, and the Tightrope
+### 7.1 Excitation, Inhibition, and the Tightrope
 
 Every moment, our cortex is balancing two opposing forces:
 
@@ -334,7 +554,7 @@ The criticality hypothesis maps directly onto this: the critical point *is* the 
 
 But how do we measure E/I balance from a scalp EEG electrode, which can't see individual synaptic currents?
 
-### 6.2 The Clever Insight Behind fE/I
+### 7.2 The Clever Insight Behind fE/I
 
 The **functional E/I (fE/I)** metric, introduced by Bruining and colleagues ([Bruining et al., 2020](#ref-6); and related to foundational work by [Hardstone et al., 2012](#ref-4) and [Poil et al., 2012](#ref-5)), takes a fundamentally different approach. Instead of trying to measure excitation and inhibition directly, it asks:
 
@@ -358,7 +578,7 @@ $$\text{fE/I} = \frac{\text{Observed Variance Accumulation Rate}}{\text{Variance
 - **$\text{fE/I} < 1.0$**: Variance grows slower than critical prediction $\rightarrow$ **sub-critical** (inhibition-dominated, premature dampening).
 {{< /admonition >}}
 
-### 6.3 Why Is fE/I Better Than DFA Alone?
+### 7.3 Why Is fE/I Better Than DFA Alone?
 
 Let's compare them head-to-head:
 
@@ -372,7 +592,7 @@ Let's compare them head-to-head:
 
 The directionality is the killer feature. DFA can tell us the brain's dynamics are "less scale-free than healthy controls," but it cannot tell us *which direction* things went wrong. fE/I can. And in clinical contexts — epilepsy (too much E), disorders of consciousness (possibly too much I), autism (altered E/I) — knowing the direction is everything.
 
-### 6.4 fE/I in Practice
+### 7.4 fE/I in Practice
 
 Computing fE/I from EEG typically involves:
 
@@ -384,7 +604,7 @@ Computing fE/I from EEG typically involves:
 
 The computation is accessible — if we can run DFA, we can run fE/I. Several open-source toolboxes now implement it.
 
-### 6.5 A Unifying Picture
+### 7.5 A Unifying Picture
 
 Think of DFA and fE/I as two different views of the same underlying reality:
 
@@ -395,13 +615,13 @@ Both are computed from the amplitude envelope. Both relate to the same underlyin
 
 ---
 
-## 7. Lyapunov Exponents: Quantifying Sensitivity to Perturbation
+## 8. Lyapunov Exponents: Quantifying Sensitivity to Perturbation
 
-### 7.1 Back to Chaos: How Sensitive Is Too Sensitive?
+### 8.1 Back to Chaos: How Sensitive Is Too Sensitive?
 
 We said earlier that chaotic systems are "sensitive to initial conditions." But how sensitive? Is there a way to put a number on it? Yes — that number is the **Lyapunov exponent** (LE), named after the Russian mathematician Aleksandr Lyapunov.
 
-### 7.2 The Intuition: Two Nearly Identical Brains
+### 8.2 The Intuition: Two Nearly Identical Brains
 
 Imagine we could create a perfect copy of a brain — every neuron, every synapse, every ion in the same place — but shift the membrane potential of a single neuron by one microvolt. Now let both brains run forward in time.
 
@@ -417,7 +637,7 @@ The Lyapunov exponent, **λ**, measures the *rate* of this exponential divergenc
 - **λ = 0**: Perturbations neither grow nor shrink. Edge of chaos.
 - **λ > 0**: Perturbations grow exponentially. Chaotic. Short-term predictable, long-term unpredictable.
 
-### 7.3 An Everyday Analogy
+### 8.3 An Everyday Analogy
 
 Imagine two kayaks on a river:
 
@@ -427,7 +647,7 @@ Imagine two kayaks on a river:
 
 The brain, it appears, paddles in the gently branching delta — at or near λ ≈ 0. This is the **edge of chaos**, and it's closely related to the critical point we discussed earlier.
 
-### 7.4 Lyapunov Exponents from EEG: The Practical Challenge
+### 8.4 Lyapunov Exponents from EEG: The Practical Challenge
 
 Computing Lyapunov exponents from experimental data is considerably harder than computing DFA or fE/I. Here's why:
 
@@ -445,7 +665,7 @@ Despite these challenges, the MLE has been estimated from EEG in various context
 - It tends to be **higher during wakefulness** and **cognitive tasks** (more chaotic, more complex).
 - It can be **altered in epilepsy**, sometimes decreasing before a seizure (the brain becomes more predictable/periodic just before it breaks into a seizure).
 
-### 7.5 How the Lyapunov Exponent Connects to Everything Else
+### 8.5 How the Lyapunov Exponent Connects to Everything Else
 
 Here's the beautiful convergence:
 
@@ -460,7 +680,7 @@ These three metrics are not measuring the same thing — they are measuring *rel
 
 ---
 
-## 8. Tying It All Together: A Day in the Life of an EEG Analysis
+## 9. Tying It All Together: A Day in the Life of an EEG Analysis
 
 Let's make this concrete. Imagine we are analyzing resting-state EEG from a group of patients with epilepsy and healthy controls.
 
@@ -486,19 +706,26 @@ We estimate the maximal Lyapunov exponent from longer EEG segments. Controls sho
 
 **What this tells us:** The brain's sensitivity to perturbation changes dynamically. Before a seizure, the system *loses* its chaotic richness and becomes trapped in a more predictable, lower-dimensional attractor — the runaway oscillation of the seizure.
 
+### Step 5: Bifurcation Early-Warning Signals — Is a Tipping Point Approaching?
+
+We track sliding-window autocorrelation and fluctuation variance in the minutes leading up to state shifts. In healthy subjects entering sleep ([Li et al., 2025](#ref-13)) or pre-ictal epilepsy patients approaching seizure onset ([Maturana et al., 2020](#ref-86)), the system exhibits **Critical Slowing Down**: variance swells and lag-1 autocorrelation climbs steadily as the current attractor well flattens out.
+
+**What this tells us:** The brain is not merely drifting—it is actively approaching a catastrophic fold or Hopf bifurcation tipping point, sounding an early warning minutes before the macroscopic state change occurs.
+
 ### The Full Story
 
 No single metric tells us everything. But together:
 
 - **DFA** says: "The temporal structure has changed."
 - **fE/I** says: "It changed in the direction of excitation."
-- **The Lyapunov exponent** says: "And the system's sensitivity dynamics shift before and during seizures."
+- **The Lyapunov exponent** says: "And the system's sensitivity dynamics shift before and during state transitions."
+- **Bifurcation Early-Warning Signals (CSD)** say: "The basin of stability is flattening, heralding an impending catastrophic tipping point."
 
 This is the power of thinking about EEG through the lens of dynamical systems.
 
 ---
 
-## 9. Broadband vs. Narrowband: Where Does Criticality Actually Live?
+## 10. Broadband vs. Narrowband: Where Does Criticality Actually Live?
 
 When neuroscientists first encounter scale-free dynamics and power laws, an immediate and completely natural question arises:
 
@@ -506,7 +733,7 @@ When neuroscientists first encounter scale-free dynamics and power laws, an imme
 
 This is one of the most common stumbling blocks in electrophysiological criticality research. The answer gets to the very heart of how electrical potentials are generated in the human brain, why raw voltages deceive us, and why frequency-specific dynamics are biologically indispensable.
 
-### 9.1 The Two Faces of the EEG Spectrum: Aperiodic Background vs. Rhythmic Peaks
+### 10.1 The Two Faces of the EEG Spectrum: Aperiodic Background vs. Rhythmic Peaks
 
 If we plot the power spectral density of an EEG channel on log-log axes (using a technique like Welch's PSD or tools like FOOOF / `specparam`), we notice two distinct phenomena:
 
@@ -515,7 +742,7 @@ If we plot the power spectral density of an EEG channel on log-log axes (using a
 
 Both of these components carry crucial information about excitation and inhibition, but they reflect **completely different biophysical processes operating at different spatial and temporal scales**.
 
-### 9.2 The Broadband Aspect: The Global Synaptic "Chatter"
+### 10.2 The Broadband Aspect: The Global Synaptic "Chatter"
 
 What does the broadband background actually mean?
 
@@ -533,7 +760,7 @@ Given this, why not just compute DFA or fE/I on the raw broadband voltage trace?
 1. **Zero-Mean Phase Cancellation:** Raw EEG voltage is an alternating electric field that oscillates rapidly around zero microvolts. When DFA performs its first step—cumulative integration—the positive and negative deflections cancel each other out destructively. The cumulative sum ends up tracking the rapid zero-crossings of the dominant oscillation rather than the slow, scale-free accumulation of network states.
 2. **Volume Conduction Smearing:** Scalp electrodes record the linear superposition of currents from large swaths of cortex ($>10\text{ cm}^2$). Broadband raw voltage blends dozens of functionally unrelated brain regions together. Any subtle, localized criticality signature is hopelessly diluted by volume-conducted background noise.
 
-### 9.3 The Narrowband Aspect: Circuit Pacemakers and the Amplitude Envelope
+### 10.3 The Narrowband Aspect: Circuit Pacemakers and the Amplitude Envelope
 
 This brings us to the breakthrough insight established by [Linkenkaer-Hansen et al. (2001)](#ref-2) and formalized by [Hardstone et al. (2012)](#ref-4):
 
@@ -550,7 +777,7 @@ However, if we apply the **Hilbert transform** to extract the **amplitude envelo
 
 It is this slow, emergent envelope fluctuation that displays **long-range temporal correlations (LRTC)** extending across tens to hundreds of seconds ($\alpha \approx 0.7–1.0$). The envelope reflects the collective stability of the self-organizing neuronal avalanche.
 
-### 9.4 Neurobiological and Clinical Importance: Why Frequency-Specificity Matters
+### 10.4 Neurobiological and Clinical Importance: Why Frequency-Specificity Matters
 
 Why is it so vital to analyze criticality within specific frequency bands (theta, alpha, beta) rather than relying exclusively on a single broadband metric?
 
@@ -579,7 +806,7 @@ Different frequency bands correspond to distinct cognitive modes:
 
 Evaluating criticality band-by-band allows us to ask: *Is the patient's sensory gating system operating at the edge of chaos, or has their working memory engine slipped into sub-critical damping?*
 
-### 9.5 Broadband vs. Narrowband: A Head-to-Head Comparison
+### 10.5 Broadband vs. Narrowband: A Head-to-Head Comparison
 
 | Dimension | Broadband Dynamics ($1/f$ / Raw) | Narrowband Amplitude Envelopes ($\theta, \alpha, \beta$) |
 | :--- | :--- | :--- |
@@ -594,11 +821,11 @@ Evaluating criticality band-by-band allows us to ask: *Is the patient's sensory 
 
 ---
 
-## 10. Criticality Across Brain States: Does the Operating Point Move?
+## 11. Criticality & Bifurcations Across Brain States: Does the Operating Point Move?
 
 One of the most compelling reasons to care about criticality is that **the brain does not sit at one fixed operating point**. It moves — and it moves in ways that align beautifully with what we know about consciousness, arousal, and cognitive demand. Let's walk through the major brain states that every EEG researcher encounters and ask: where does the brain sit on the sub-critical ↔ critical ↔ super-critical continuum?
 
-### 10.1 Quiet Wakefulness (Resting-State, Eyes Closed)
+### 11.1 Quiet Wakefulness (Resting-State, Eyes Closed)
 
 This is the "home base" — the state most criticality studies use as their reference. During relaxed, eyes-closed wakefulness:
 
@@ -608,7 +835,7 @@ This is the "home base" — the state most criticality studies use as their refe
 
 This is the state where the brain appears *closest to criticality*. It makes intuitive sense: at rest, the brain isn't committed to any particular computation. It's in a "ready for anything" mode — exactly what criticality theory predicts would be optimal for a system that needs to respond flexibly to unpredictable inputs.
 
-### 10.2 Active Task Performance (Eyes Open, Cognitive Load)
+### 11.2 Active Task Performance (Eyes Open, Cognitive Load)
 
 Now ask someone to do a demanding task — mental arithmetic, a working-memory challenge, a visual search. What happens?
 
@@ -620,13 +847,15 @@ Now ask someone to do a demanding task — mental arithmetic, a working-memory c
 
 This is a subtle but important point. **Criticality isn't always "best."** It's optimal for flexibility and sensitivity, but actual computation may require the brain to temporarily depart from it.
 
-### 10.3 Sleep: A Journey Through Dynamical Regimes
+### 11.3 Sleep: A Journey Through Dynamical Regimes
 
 Sleep is not one state — it's a progression through several, and each has a distinct dynamical signature. This is where things get really interesting for EEG researchers, because we can watch the operating point move in real time across a single night.
 
 #### NREM Sleep (Stages N1 → N2 → N3 / Slow-Wave Sleep)
 
-As the brain descends into deeper non-REM sleep:
+Before the cortex settles into deep slow-wave slumber, it must navigate the boundary between waking awareness and sleep. For decades, clinical practice scored this transition in arbitrary 30-second bins (Wake $\to$ Stage N1 $\to$ Stage N2). But as established empirically by [Li et al. (2025)](#ref-13) in *Nature Neuroscience*, the descent into sleep is governed by a **fold (saddle-node) bifurcation**. In the minutes leading up to sleep onset, rising homeostatic sleep drive acts as a control parameter that flattens the waking attractor basin, generating pronounced **Critical Slowing Down (CSD)**—a measurable surge in EEG variance and autocorrelation that heralds the transition ~4.5 minutes before traditional visual staging criteria are satisfied.
+
+As the brain crosses the tipping point and descends into deeper non-REM sleep:
 
 - **DFA exponents drop substantially**, especially in the alpha and beta bands. By deep slow-wave sleep (N3), α can fall toward 0.5 — approaching the "no memory" regime of uncorrelated fluctuations.
 - **fE/I shifts below 1** — the brain becomes **sub-critical**, inhibition-dominated. Neural activity organises into the large, slow, highly synchronised waves that dominate the EEG (the delta waves of slow-wave sleep).
@@ -648,7 +877,7 @@ The brain during REM looks, dynamically speaking, *a lot like the waking brain*.
 
 This is why REM EEG is sometimes called "paradoxical sleep" — the EEG looks awake, but the person is deeply asleep. The criticality framework gives this paradox a coherent explanation: **the dynamics are near-critical because the brain is doing complex information processing (dreaming), even though it's disconnected from the outside world.**
 
-### 10.4 Anaesthesia: Pharmacologically Pushing Away from Criticality
+### 11.4 Anaesthesia: Pharmacologically Pushing Away from Criticality
 
 General anaesthesia provides perhaps the most dramatic demonstration of criticality shifts, because we can *control* the departure pharmacologically.
 
@@ -666,7 +895,7 @@ This has profound clinical implications:
 - **Recovery from anaesthesia**: As the drug wears off, criticality metrics recover — DFA exponents climb back up, fE/I returns toward 1, Lyapunov exponents approach zero. The brain "reboots" by re-approaching the critical point.
 - **Disorders of consciousness**: Patients in vegetative states or minimally conscious states show criticality metrics intermediate between deep anaesthesia and full wakefulness, potentially helping to differentiate these states.
 
-### 10.5 The Big Picture: A Landscape of Brain States
+### 11.5 The Big Picture: A Landscape of Brain States
 
 Here's a summary table that puts it all together:
 
@@ -683,7 +912,7 @@ Here's a summary table that puts it all together:
 
 *(Arrows indicate direction of change relative to quiet wakefulness. Values are approximate and depend on frequency band, brain region, and specific anaesthetic agent.)*
 
-### 10.6 What This Means for Our EEG Studies
+### 11.6 What This Means for Our EEG Studies
 
 When we design experiments or analyse electrophysiological data, this landscape offers clear practical guidelines for our studies:
 
@@ -699,13 +928,13 @@ When we design experiments or analyse electrophysiological data, this landscape 
 
 ---
 
-## 11. Hands-On Benchmark: 1D Time Series Across 6 Dynamical Regimes
+## 12. Hands-On Benchmark: 1D Time Series Across 6 Dynamical Regimes
 
 Theory is powerful, but in experimental electrophysiology, **ground truth is almost never known**. When an EEG recording from an autistic child or an epilepsy patient yields an anomalous DFA or fE/I value, how can we be confident what dynamical regime generated it?
 
 To answer this, we constructed a **rigorous hands-on benchmark**. We synthesized **six canonical 1D time series** where the underlying dynamical rules, degree of feedback, and presence of chaos are known *by mathematical design*. We then decomposed each signal using **Welch's Power Spectral Density (PSD)** and subjected them to our non-linear triad: **DFA ($\alpha$)**, **functional E/I (fE/I)**, and the **maximal Lyapunov exponent ($\lambda$)**.
 
-### 11.1 Simulation Architecture & Methodology
+### 12.1 Simulation Architecture & Methodology
 
 All signals were generated using standard electrophysiological recording standards:
 
@@ -722,7 +951,7 @@ All signals were generated using standard electrophysiological recording standar
     3. *Alpha band* (8–12 Hz Hilbert amplitude envelope)
   - **Lyapunov Exponents ($\lambda$):** Computed via [`nolds`](https://github.com/CSchoel/nolds) using Rosenstein's algorithm for reconstructed phase-space divergence ([Rosenstein et al., 1993](#ref-9)).
 
-### 11.2 Visualizing the Regimes: Waveforms, Welch PSDs, and Criticality Scorecards
+### 12.2 Visualizing the Regimes: Waveforms, Welch PSDs, and Criticality Scorecards
 
 Below is the complete multi-panel benchmark output generated directly by our analysis pipeline:
 
@@ -733,7 +962,7 @@ The figure organizes each dynamical regime into three informative columns:
 2. **Middle Column (Welch Power Spectral Density):** Smooth log-log power spectra (0.1–50 Hz) revealing $1/f$ aperiodic decay vs. discrete resonant harmonic peaks.
 3. **Right Column (Criticality & Chaos Scorecard):** Complete quantitative breakdown of Broadband, Theta (4–8 Hz), Alpha (8–12 Hz), and Lyapunov parameters.
 
-### 11.3 Multi-Band Benchmark Results Table
+### 12.3 Multi-Band Benchmark Results Table
 
 Here is the complete empirical scorecard comparing all six dynamical regimes:
 
@@ -746,7 +975,7 @@ Here is the complete empirical scorecard comparing all six dynamical regimes:
 | **Seizure (Ictal)** | Super-critical | **1.370** | **1.737** | **1.846** | **1.819** | **1.886** | **1.859** | **+0.0772** | Super-critical runaway; extreme excitation dominance ($E \gg I$); hypersynchronous burst cascade. |
 | **Lorenz Attractor** | Deterministic Chaos | **0.588** | **N/A** | **0.537** | **N/A** | **0.464** | **N/A** | **+0.1571** | Deterministic chaos; highest divergence rate ($\lambda = +0.1571$); sensitive dependence on initial conditions. |
 
-### 11.4 Four Core Insights for the Electrophysiologist
+### 12.4 Four Core Insights for the Electrophysiologist
 
 Analyzing these empirical benchmarks yields four indispensable takeaways:
 
@@ -783,7 +1012,7 @@ This is where the **maximal Lyapunov exponent ($\lambda$)** proves its irreplace
 - The Lorenz Attractor exhibits **$\lambda = \mathbf{+0.1571}$**—over **twenty times higher** than pink noise!
 - The Lorenz system contains **zero external noise**. Its unpredictability stems entirely from internal deterministic trajectory divergence on a strange attractor. The Lyapunov exponent unmasks this low-dimensional deterministic chaos with total clarity.
 
-## 12. Common Pitfalls and Honest Caveats
+## 13. Common Pitfalls and Honest Caveats
 
 Because this blog would be irresponsible without them:
 
@@ -791,21 +1020,21 @@ Because this blog would be irresponsible without them:
 Everything we compute from scalp EEG is a property of the *recorded macroscopic signal*, not directly of the *unadulterated brain*. Volume conduction, reference montage, recording duration (< 2–3 minutes), and filtering artifacts can all distort DFA exponents and fE/I estimates. Always report preprocessing pipelines transparently, control rigorously for behavioral/arousal state, and interpret metrics as dynamical descriptors rather than literal cellular truths.
 {{< /admonition >}}
 
-### 12.1 Criticality Is a Hypothesis, Not a Fact
+### 13.1 Criticality Is a Hypothesis, Not a Fact
 
 The evidence that the brain operates near a critical point is substantial and growing — but it is not conclusive. Alternative explanations for scale-free dynamics exist (e.g., superposition of many independent processes with different time constants). Be enthusiastic but honest.
 
-### 12.2 EEG Is a Very Indirect Measurement
+### 13.2 EEG Is a Very Indirect Measurement
 
 Everything we compute from EEG is a property of the *signal*, not directly of the *brain*. Volume conduction, reference choice, and filtering can all affect DFA exponents and fE/I. We should always control for these carefully and report our preprocessing.
 
-### 12.3 DFA and fE/I Are Sensitive to Data Quality
+### 13.3 DFA and fE/I Are Sensitive to Data Quality
 
 - **Artifacts** (blinks, muscle, movement) can destroy long-range correlation structure. Clean thoroughly, but be aware that over-cleaning (e.g., aggressive ICA rejection) can also introduce artifacts in the correlation structure.
 - **Recording length matters.** DFA needs enough data to estimate fluctuations at long time scales. Short recordings (< 2 minutes) may not provide reliable estimates. fE/I has similar requirements.
 - **Window range selection** in DFA affects the exponent estimate. Always report the window range used, and check that the log-log plot is genuinely linear (free of bends or plateaus).
 
-### 12.4 Lyapunov Exponents from EEG Are Controversial
+### 13.4 Lyapunov Exponents from EEG Are Controversial
 
 Many researchers are cautious about Lyapunov exponent estimates from EEG because:
 
@@ -815,13 +1044,20 @@ Many researchers are cautious about Lyapunov exponent estimates from EEG because
 
 Some studies have found positive Lyapunov exponents in EEG and interpreted this as evidence of chaos; others have argued that these results are artifacts of noise and finite sample size. Use these estimates as one piece of evidence, not as definitive proof of chaos.
 
-### 12.5 The Map Is Not the Territory
+### 13.5 The Map Is Not the Territory
 
 DFA, fE/I, and Lyapunov exponents are all *descriptors* of the dynamical system, not the dynamical system itself. The brain doesn't "know" about its DFA exponent any more than we "know" our BMI. These are summaries we compute because they are useful, but they are lossy compressions of a staggeringly complex reality.
 
+### 13.6 Distinguishing True Bifurcations from Noise-Induced Transitions
+
+When evaluating critical transitions, sleep onset, or seizure dynamics:
+- **Bifurcation-Induced Tipping (B-tipping):** Driven by the slow, continuous variation of a biological control parameter (e.g., homeostatic sleep pressure, metabolic exhaustion, anesthetic concentration). The existing attractor well progressively flattens, triggering unambiguous **Critical Slowing Down** (rising autocorrelation and variance; [Scheffer et al., 2012](#ref-14); [Li et al., 2025](#ref-13)) before the system falls off the cliff.
+- **Noise-Induced Tipping (N-tipping):** Occurs in a system with *static, fixed* multistable attractors, where an uncharacteristically large stochastic fluctuation kicks the trajectory over a barrier without any prior flattening of the potential well. N-tipping happens spontaneously without warning and does *not* exhibit critical slowing down.
+- **Electrophysiological Lesson:** Never infer a bifurcation solely from the suddenness of an EEG change. Always verify whether the transition was heralded by the diagnostic early-warning markers of critical slowing down (autocorrelation and variance escalation) in sliding analysis windows.
+
 ---
 
-## 13. A Glossary for the Journey
+## 14. A Glossary for the Journey
 
 | Term | Plain-English Meaning |
 | --- | --- |
@@ -844,10 +1080,15 @@ DFA, fE/I, and Lyapunov exponents are all *descriptors* of the dynamical system,
 | **Broadband vs. Narrowband** | Broadband captures global aperiodic synaptic current decay ($1/f^\chi$); Narrowband tracks circuit-specific rhythmic pacemakers. |
 | **Aperiodic exponent ($\chi$)** | The slope of the background $1/f^\chi$ power spectrum, indexing the aggregate balance of fast AMPA vs. slow GABA conductances. |
 | **Welch's PSD** | A spectral estimation method averaging overlapping windowed segments to reveal true continuous power spectra without grass-like variance. |
+| **Bifurcation** | A qualitative, topological transformation in the number, stability, or geometric nature of attractors as one or more control parameters cross a critical threshold. |
+| **Hopf bifurcation** | The transition where a stable fixed point gives birth to a stable periodic orbit (limit cycle); the primary mechanism for the genesis of neural oscillations like alpha or gamma rhythms. |
+| **Fold (Saddle-Node) bifurcation** | The collision and annihilation of a stable equilibrium and an unstable saddle point, extinguishing the attractor valley and precipitating a rapid tipping point to an alternate state; the canonical model for sleep onset and seizure transitions. |
+| **Critical slowing down (CSD)** | The slowing down of recovery from perturbations near a bifurcation tipping point, manifested empirically in time series by a dramatic concurrent surge in autocorrelation and variance. |
+| **Early warning signals (EWS)** | Statistical time-series biomarkers (elevated variance, rising lag-1 autocorrelation, and increased DFA scaling) that herald an impending bifurcation tipping point before the macroscopic transition occurs. |
 
 ---
 
-## 14. References & Citations (with Annotations)
+## 15. References & Citations (with Annotations)
 
 <a id="ref-1"></a>
 1. **Beggs, J. M., & Plenz, D. (2003).** Neuronal avalanches in neocortical circuits. *Journal of Neuroscience*, 23(35), 11167–11177.  
@@ -909,9 +1150,24 @@ DFA, fE/I, and Lyapunov exponents are all *descriptors* of the dynamical system,
     [DOI: 10.1017/CBO9780511755798](https://doi.org/10.1017/CBO9780511755798)  
     *Significance:* The definitive, rigorous practical reference for analyzing nonlinear experimental data, estimating embedding dimensions, computing Lyapunov spectra, and applying surrogate data testing.
 
+<a id="ref-13"></a>
+13. **Li, J., Ilina, A., Peach, R., Wei, T., Rhodes, E., Jaramillo, V., Violante, I. R., Barahona, M., Dijk, D.-J., & Grossman, N. (2025).** Falling asleep follows a predictable bifurcation dynamic. *Nature Neuroscience*, 28(12), 2515–2525.  
+    [DOI: 10.1038/s41593-025-02091-1](https://doi.org/10.1038/s41593-025-02091-1)  
+    *Significance:* Demonstrates in >1,000 human participants that the transition from wakefulness to sleep is fundamentally a fold (saddle-node) bifurcation dynamic preceded by measurable critical slowing down (increased autocorrelation and variance), allowing real-time trajectory tracking and early-warning prediction ~4.5 minutes before traditional clinical sleep staging.
+
+<a id="ref-14"></a>
+14. **Scheffer, M., Carpenter, S. R., Lenton, T. M., Bascompte, J., Brock, W., Dakos, V., van de Koppel, J., van de Leemput, I. A., Levin, S. A., van Nes, E. H., Pascual, M., & Vandermeer, J. (2012).** Anticipating critical transitions. *Science*, 338(6105), 344–348.  
+    [DOI: 10.1126/science.1225244](https://doi.org/10.1126/science.1225244) | [PMID: 23087241](https://pubmed.ncbi.nlm.nih.gov/23087241/)  
+    *Significance:* Synthesizes the universal theory of early warning signals (critical slowing down, expanding variance, and rising lag-1 autocorrelation) preceding catastrophic regime shifts and bifurcations across physical, ecological, and physiological complex systems.
+
+<a id="ref-15"></a>
+15. **Deco, G., Jirsa, V. K., & McIntosh, A. R. (2011).** Emerging concepts for the dynamical organization of resting-state activity in the brain. *Nature Reviews Neuroscience*, 12(1), 43–56.  
+    [DOI: 10.1038/nrn2961](https://doi.org/10.1038/nrn2961) | [PMID: 21170073](https://pubmed.ncbi.nlm.nih.gov/21170073/)  
+    *Significance:* Articulates the whole-brain modeling framework demonstrating that large-scale brain networks operate optimally at the edge of a supercritical Hopf bifurcation, maximizing the repertoire of resting-state functional connectivity.
+
 ---
 
-## 15. Parting Thought
+## 16. Parting Thought
 
 The wiggly lines on our EEG screens are not just pretty pictures or annoyances to be averaged away. They are the shadow of a vast dynamical system — a system that may be poised at the edge of chaos, balanced between excitation and inhibition, generating scale-free fluctuations that span seconds to minutes.
 
