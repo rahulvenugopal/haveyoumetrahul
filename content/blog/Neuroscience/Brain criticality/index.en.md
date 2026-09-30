@@ -870,7 +870,7 @@ In neurodevelopmental and psychiatric conditions, genetic mutations and synaptic
 #### 2. The Danger of Broadband Dilution
 If we only measure a single broadband index, a severe excitation imbalance in thalamocortical alpha circuits will be averaged together with normal frontal theta and parietal beta. The critical biomarker gets washed out in the global average:
 
-$$\text{Broadband Average} \approx \frac{\text{fE/I}_\theta(1.0) + \text{fE/I}_\alpha(1.45) + \text{fE/I}_\beta(1.0)}{3} \approx 1.15 \quad [\text{Mild / Subclinical?}]$$
+$$ \\text{Broadband Average} \\approx \\frac{\\text{fE/I}\\theta(1.0) + \\text{fE/I}\\alpha(1.45) + \\text{fE/I}\\_\\beta(1.0)}{3} \\approx 1.15 \\quad [\\text{Mild / Subclinical?}] $$
 
 Meanwhile, the patient's alpha circuit is actually suffering massive super-critical runaway ($\text{fE/I} = 1.45$)! Narrowband analysis prevents this clinical camouflage.
 
