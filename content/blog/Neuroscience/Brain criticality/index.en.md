@@ -1,6 +1,5 @@
 ---
 title: "Getting a grip on Scale-Free Dynamics, Chaos, Bifurcation and Criticality in EEG"
-subtitle: "An Intuitive Guide to State Space, Bifurcations, DFA, Functional E/I, and Lyapunov Exponents"
 date: 2026-09-28T20:42:00+05:30
 draft: false
 author: Rahul
@@ -12,17 +11,18 @@ math:
   enable: true
 ---
 
-## 1. The Question Hiding Inside Every EEG Trace
+## 1. The Pattern Hiding Inside Every EEG Trace
 
-We have recorded a clean 64-channel EEG. We have cleaned the artifacts, re-referenced, maybe even source-localised. 
-Now we stare at those wiggly lines and ask: **What kind of system produced this?**
+We have recorded a clean 64-channel EEG. Now we stare at those wiggly lines
+and ask: **What kind of system produced this?**
 
 <!--more-->
 
 Over the next several sections we will build, brick by brick, the vocabulary and intuition we need to engage with several foundational ideas:
 
 1. **Dynamical systems & state space** — the language and geometry for mapping how brain states evolve over time.
-2. **Bifurcations & tipping points** — how continuous biological parameter shifts (like sleep pressure or neuromodulation) abruptly flip the brain's dynamical landscape, giving birth to oscillations (Hopf) or triggering sudden state transitions (saddle-node/fold).
+2. **Bifurcations & tipping points** — how continuous biological parameter shifts (like sleep pressure or neuromodulation) abruptly flip the brain's dynamical landscape, giving birth to oscillations (Hopf)
+or triggering sudden state transitions (saddle-node/fold).
 3. **Chaos: sensitive dependence, not randomness** — why deterministic unpredictability is a cognitive feature, not a bug.
 4. **Scale-free dynamics** — the power-law fingerprint that critical natural systems leave in their fluctuations.
 5. **Detrended Fluctuation Analysis (DFA)** — reading long-range temporal correlations from neural time series.
@@ -1133,7 +1133,7 @@ When evaluating critical transitions, sleep onset, or seizure dynamics:
 
 ---
 
-## 14. A Glossary for the Journey
+## 14. Glossary
 
 | Term | Plain-English Meaning |
 | --- | --- |
@@ -1164,83 +1164,66 @@ When evaluating critical transitions, sleep onset, or seizure dynamics:
 
 ---
 
-## 15. References & Citations (with Annotations)
+## 15. References
 
 <a id="ref-1"></a>
-1. **Beggs, J. M., & Plenz, D. (2003).** Neuronal avalanches in neocortical circuits. *Journal of Neuroscience*, 23(35), 11167–11177.  
-   [DOI: 10.1523/JNEUROSCI.23-35-11167.2003](https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003) | [PMID: 14657152](https://pubmed.ncbi.nlm.nih.gov/14657152/)  
+1. **Beggs, J. M., & Plenz, D. (2003).** [Neuronal avalanches in neocortical circuits](https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003). *Journal of Neuroscience*
+
    *Significance:* The seminal paper demonstrating that spontaneous cortical activity propagates in scale-free avalanches whose size and duration distributions follow power laws with a critical branching parameter $\sigma \approx 1$.
-
 <a id="ref-2"></a>
-2. **Linkenkaer-Hansen, K., Nikouline, V. V., Palva, J. M., & Ilmoniemi, R. J. (2001).** Long-range temporal correlations and scale-free oscillations in human brain activity. *Journal of Neuroscience*, 21(4), 1370–1377.  
-   [DOI: 10.1523/JNEUROSCI.21-04-01370.2001](https://doi.org/10.1523/JNEUROSCI.21-04-01370.2001) | [PMID: 11160408](https://pubmed.ncbi.nlm.nih.gov/11160408/)  
+2. **Linkenkaer-Hansen, K., Nikouline, V. V., Palva, J. M., & Ilmoniemi, R. J. (2001).** [Long-range temporal correlations and scale-free oscillations in human brain activity](https://doi.org/10.1523/JNEUROSCI.21-04-01370.2001). *Journal of Neuroscience*
+  
    *Significance:* Proves that power-law scale-free memory in human electrophysiology lives in the slow amplitude envelopes of narrowband alpha and beta oscillations (over seconds to minutes) rather than in raw voltage phase.
-
 <a id="ref-3"></a>
-3. **Peng, C.-K., Havlin, S., Stanley, H. E., & Goldberger, A. L. (1995).** Quantification of scaling exponents and crossover phenomena in nonstationary physiological signals. *Chaos: An Interdisciplinary Journal of Nonlinear Science*, 5(1), 82–87.  
-   [DOI: 10.1063/1.166141](https://doi.org/10.1063/1.166141) | [PMID: 11538314](https://pubmed.ncbi.nlm.nih.gov/11538314/)  
+3. **Peng, C.-K., Havlin, S., Stanley, H. E., & Goldberger, A. L. (1995).** [Quantification of scaling exponents and crossover phenomena in nonstationary physiological signals](https://doi.org/10.1063/1.166141). *Chaos: An Interdisciplinary Journal of Nonlinear Science*
+ 
    *Significance:* Introduces Detrended Fluctuation Analysis (DFA) as a robust, non-stationary-resilient mathematical tool to estimate long-range temporal correlations (LRTC) in physiological time series.
-
 <a id="ref-4"></a>
-4. **Hardstone, R., Poil, S.-S., Schiavone, G., Jansen, R., Nikulin, V. V., Mansvelder, H. D., & Linkenkaer-Hansen, K. (2012).** Detrended fluctuation analysis: a scale-free view on neuronal oscillations. *Frontiers in Physiology*, 3, 450.  
-   [DOI: 10.3389/fphys.2012.00450](https://doi.org/10.3389/fphys.2012.00450) | [PMC3518176](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3518176/)  
+4. **Hardstone, R., Poil, S.-S., Schiavone, G., Jansen, R., Nikulin, V. V., Mansvelder, H. D., & Linkenkaer-Hansen, K. (2012).** [Detrended fluctuation analysis: a scale-free view on neuronal oscillations](https://doi.org/10.3389/fphys.2012.00450). *Frontiers in Physiology*
+
    *Significance:* The cornerstone methodological tutorial for electrophysiologists applying DFA to neural oscillations, establishing recording duration standards and window-fitting criteria.
-
 <a id="ref-5"></a>
-5. **Poil, S.-S., Hardstone, R., Mansvelder, H. D., & Linkenkaer-Hansen, K. (2012).** Critical-state dynamics of avalanches and oscillations jointly emerge from balanced excitation/inhibition in neuronal networks. *Journal of Neuroscience*, 32(29), 9817–9823.  
-   [DOI: 10.1523/JNEUROSCI.5990-11.2012](https://doi.org/10.1523/JNEUROSCI.5990-11.2012) | [PMID: 22815516](https://pubmed.ncbi.nlm.nih.gov/22815516/)  
+5. **Poil, S.-S., Hardstone, R., Mansvelder, H. D., & Linkenkaer-Hansen, K. (2012).** [Critical-state dynamics of avalanches and oscillations jointly emerge from balanced excitation/inhibition in neuronal networks](https://doi.org/10.1523/JNEUROSCI.5990-11.2012). *Journal of Neuroscience*
+  
    *Significance:* Demonstrates that scale-free neuronal avalanches and power-law amplitude envelope fluctuations jointly emerge when recurrent excitation and feedback inhibition are strictly balanced.
-
 <a id="ref-6"></a>
-6. **Bruining, H., Hardstone, R., Juarez-Martinez, E. L., Sprengers, J., Avramiea, A. E., Simpraga, S., Houtman, S. J., Poil, S.-S., Dallares, E., Palva, S., Oranje, B., Palva, J. M., Mansvelder, H. D., & Linkenkaer-Hansen, K. (2020).** Measurement of excitation-inhibition ratio in autism spectrum disorder using critical brain dynamics. *Science Translational Medicine*, 12(531), eabb0404.  
-   [DOI: 10.1126/scitranslmed.abb0404](https://doi.org/10.1126/scitranslmed.abb0404) | [PMID: 32161103](https://pubmed.ncbi.nlm.nih.gov/32161103/)  
+6. **Bruining, H., Hardstone, R., Juarez-Martinez, E. L., Sprengers, J., Avramiea, A. E., Simpraga, S., Houtman, S. J., Poil, S.-S., Dallares, E., Palva, S., Oranje, B., Palva, J. M., Mansvelder, H. D., & Linkenkaer-Hansen, K. (2020).** [Measurement of excitation-inhibition ratio in autism spectrum disorder using critical brain dynamics](https://doi.org/10.1126/scitranslmed.abb0404). *Science Translational Medicine*, 12(531), eabb0404. [PMID: 32161103](https://pubmed.ncbi.nlm.nih.gov/32161103/)  
    *Significance:* Introduces the functional E/I (fE/I) metric based on critical variance accumulation; shows that autistic individuals exhibit bimodal deviations from E/I balance and predicts therapeutic response to bumetanide.
-
 <a id="ref-7"></a>
-7. **Gao, R., Peterson, E. J., & Voytek, B. (2017).** Inferring synaptic excitation/inhibition balance from aperiodic electrophysiological 1/f slope. *NeuroImage*, 158, 70–78.  
-   [DOI: 10.1016/j.neuroimage.2017.06.078](https://doi.org/10.1016/j.neuroimage.2017.06.078) | [PMID: 28676297](https://pubmed.ncbi.nlm.nih.gov/28676297/)  
+7. **Gao, R., Peterson, E. J., & Voytek, B. (2017).** [Inferring synaptic excitation/inhibition balance from aperiodic electrophysiological 1/f slope](https://doi.org/10.1016/j.neuroimage.2017.06.078). *NeuroImage*
+  
    *Significance:* Establishes that the slope of the broadband $1/f^\chi$ aperiodic background reflects the physiological ratio of fast AMPA-mediated excitation to slower GABA-mediated inhibition.
-
 <a id="ref-8"></a>
-8. **Diachenko, M., Houtman, S. J., Juarez-Martinez, E. L., Ramautar, J. R., Linkenkaer-Hansen, K., & Bruining, H. (2024).** Measuring functional excitation-inhibition ratio (fE/I) in neurodevelopmental conditions. *Translational Psychiatry*, 14, 182.  
-   [DOI: 10.1038/s41398-024-02888-2](https://doi.org/10.1038/s41398-024-02888-2) | [PMC10995180](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10995180/)  
+8. **Diachenko, M., Houtman, S. J., Juarez-Martinez, E. L., Ramautar, J. R., Linkenkaer-Hansen, K., & Bruining, H. (2024).** [Measuring functional excitation-inhibition ratio (fE/I) in neurodevelopmental conditions](https://doi.org/10.1038/s41398-024-02888-2). *Translational Psychiatry*
+ 
    *Significance:* Validates multi-band fE/I algorithms across multi-site clinical datasets and establishes test-retest reliability and age-related trajectories in neurodevelopmental cohorts.
-
 <a id="ref-9"></a>
-9. **Rosenstein, M. T., Collins, J. J., & De Luca, C. J. (1993).** A practical method for calculating largest Lyapunov exponents from small data sets. *Physica D: Nonlinear Phenomena*, 65(1–2), 117–134.  
-   [DOI: 10.1016/0167-2789(93)90009-P](https://doi.org/10.1016/0167-2789(93)90009-P)  
+9. **Rosenstein, M. T., Collins, J. J., & De Luca, C. J. (1993).** [A practical method for calculating largest Lyapunov exponents from small data sets](https://doi.org/10.1016/0167-2789(93)90009-P). *Physica D: Nonlinear Phenomena*
+  
    *Significance:* The benchmark algorithm implemented in `nolds` for computing the maximal Lyapunov exponent from noisy, finite-length time series via nearest-neighbor phase-space reconstruction.
-
 <a id="ref-10"></a>
-10. **Takens, F. (1981).** Detecting strange attractors in turbulence. In D. Rand & L.-S. Young (Eds.), *Dynamical Systems and Turbulence, Warwick 1980* (Lecture Notes in Mathematics, Vol. 898, pp. 366–381). Springer, Berlin, Heidelberg.  
-    [DOI: 10.1007/BFb0091924](https://doi.org/10.1007/BFb0091924)  
+10. **Takens, F. (1981).** [Detecting strange attractors in turbulence](https://doi.org/10.1007/BFb0091924). In D. Rand & L.-S. Young (Eds.), *Dynamical Systems and Turbulence, Warwick 1980*
+ 
     *Significance:* The mathematical foundation of state-space reconstruction, proving that the full topological dynamics of a multi-variable attractor can be reconstructed from a single observed time series using time-delay embedding.
-
 <a id="ref-11"></a>
-11. **Strogatz, S. H. (2015).** *Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering* (2nd ed.). Westview Press / CRC Press.  
-    [ISBN: 978-0813349107](https://www.routledge.com/Nonlinear-Dynamics-and-Chaos-With-Applications-to-Physics-Biology-Chemistry-and-Engineering/Strogatz/p/book/9780813349107)  
+11. **Strogatz, S. H. (2015).** [*Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering*](https://www.routledge.com/Nonlinear-Dynamics-and-Chaos-With-Applications-to-Physics-Biology-Chemistry-and-Engineering/Strogatz/p/book/9780813349107) (2nd ed.)
+ 
     *Significance:* The classic, highly intuitive introductory textbook on dynamical systems, attractors, bifurcations, limit cycles, and chaos theory written for scientists without formal advanced mathematics training.
-
 <a id="ref-12"></a>
-12. **Kantz, H., & Schreiber, T. (2004).** *Nonlinear Time Series Analysis* 2nd ed. Cambridge University Press.  
-    [DOI: 10.1017/CBO9780511755798](https://doi.org/10.1017/CBO9780511755798)  
+12. **Kantz, H., & Schreiber, T. (2004).** [*Nonlinear Time Series Analysis*](https://doi.org/10.1017/CBO9780511755798) (2nd ed.). Cambridge University Press.  
     *Significance:* The definitive, rigorous practical reference for analyzing nonlinear experimental data, estimating embedding dimensions, computing Lyapunov spectra, and applying surrogate data testing.
-
 <a id="ref-13"></a>
-13. **Li, J., Ilina, A., Peach, R., Wei, T., Rhodes, E., Jaramillo, V., Violante, I. R., Barahona, M., Dijk, D.-J., & Grossman, N. (2025).** Falling asleep follows a predictable bifurcation dynamic. *Nature Neuroscience*, 28(12), 2515–2525.  
-    [DOI: 10.1038/s41593-025-02091-1](https://doi.org/10.1038/s41593-025-02091-1)  
+13. **Li, J., Ilina, A., Peach, R., Wei, T., Rhodes, E., Jaramillo, V., Violante, I. R., Barahona, M., Dijk, D.-J., & Grossman, N. (2025).** [Falling asleep follows a predictable bifurcation dynamic](https://doi.org/10.1038/s41593-025-02091-1). *Nature Neuroscience*
+ 
     *Significance:* Demonstrates in >1,000 human participants that the transition from wakefulness to sleep is fundamentally a fold (saddle-node) bifurcation dynamic preceded by measurable critical slowing down (increased autocorrelation and variance), allowing real-time trajectory tracking and early-warning prediction ~4.5 minutes before traditional clinical sleep staging.
-
 <a id="ref-14"></a>
-14. **Scheffer, M., Carpenter, S. R., Lenton, T. M., Bascompte, J., Brock, W., Dakos, V., van de Koppel, J., van de Leemput, I. A., Levin, S. A., van Nes, E. H., Pascual, M., & Vandermeer, J. (2012).** Anticipating critical transitions. *Science*, 338(6105), 344–348.  
-    [DOI: 10.1126/science.1225244](https://doi.org/10.1126/science.1225244) | [PMID: 23087241](https://pubmed.ncbi.nlm.nih.gov/23087241/)  
+14. **Scheffer, M., Carpenter, S. R., Lenton, T. M., Bascompte, J., Brock, W., Dakos, V., van de Koppel, J., van de Leemput, I. A., Levin, S. A., van Nes, E. H., Pascual, M., & Vandermeer, J. (2012).** [Anticipating critical transitions](https://doi.org/10.1126/science.1225244). *Science*
+ 
     *Significance:* Synthesizes the universal theory of early warning signals (critical slowing down, expanding variance, and rising lag-1 autocorrelation) preceding catastrophic regime shifts and bifurcations across physical, ecological, and physiological complex systems.
-
 <a id="ref-15"></a>
-15. **Deco, G., Jirsa, V. K., & McIntosh, A. R. (2011).** Emerging concepts for the dynamical organization of resting-state activity in the brain. *Nature Reviews Neuroscience*, 12(1), 43–56.  
-    [DOI: 10.1038/nrn2961](https://doi.org/10.1038/nrn2961) | [PMID: 21170073](https://pubmed.ncbi.nlm.nih.gov/21170073/)  
+15. **Deco, G., Jirsa, V. K., & McIntosh, A. R. (2011).** [Emerging concepts for the dynamical organization of resting-state activity in the brain](https://doi.org/10.1038/nrn2961). *Nature Reviews Neuroscience*
+ 
     *Significance:* Articulates the whole-brain modeling framework demonstrating that large-scale brain networks operate optimally at the edge of a supercritical Hopf bifurcation, maximizing the repertoire of resting-state functional connectivity.
-
 ---
 
 ## 16. Parting Thought
