@@ -176,7 +176,7 @@ stop listening to the heart when we fall asleep. How do sleep stages modulate
 these HEPs? Can we track meditative depth with HEPs? What is being captured by HEPs?
 Lot more in this direction. We did a short literature survey (Manasa and Chinmayi) on this 
 and just started looking at HEP in various states (sleep. meditation) across varying
-heartrates as well.
+heart rates as well.
 
 d) This [work](https://www.biorxiv.org/content/10.64898/2026.08.07.743470v1) is cool
 and working on a side project to study brain criticality measures from our larger EEG database 

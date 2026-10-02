@@ -223,10 +223,11 @@ possibility of exploring the mysteries of consciousness with you!
 ### What will I work on with you?
 At this point in space-time, there are two projects (until end of 2026).
 
-1. Setting up and troubleshooting the [peripersonal space](https://www.youtube.com/watch?v=elfbiCzUVSA) experiment.
-2. Brain criticality and manifold approaches across various data sets (meditation, sleep from our centre)
-and [Psiconnect](https://openneuro.org/datasets/ds006110/versions/1.2.1) dataset.
-
+1. Setting up and troubleshooting the [peripersonal space](https://www.youtube.com/watch?v=elfbiCzUVSA)
+experiment in virtual reality.
+2. A infographic review on the experimental approaches to study various dimensions
+of `Sense of Self`. This involves reading a pile of papers, thinking a lot,
+synthesising the knowledge and converting those to accessible illustrations.
 It would be great if you can intern for your dissertation project. But, if you
 want to learn and get a good sense of broader works happening at our centre for
 consciousness studies, you may do an internship for 3 months.
