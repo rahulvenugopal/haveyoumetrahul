@@ -10,26 +10,27 @@ Recently, I have developed an interest in physical fitness and breath work. I am
 fortunate to be in a position where what I do every day is what I love!
 
 I am establishing a research niche around **Sense of Self**, exploring how
-it emerges with a rich phenomenology and how it fragments in various states 
-such as schizophrenia, autism, depression, perceptual symptoms associated with some neurological conditions
-and lucid dreaming. This work integrates neuroscience, psychiatry, neurology, technology, and contemplative
-science to understand the shifts of selfhood and their impact on mental health.
-A whirlwind tour of my research so far can be found [here](https://rahulvenugopal.github.io/haveyoumetrahul/research/worksofar/).
+it emerges with a rich phenomenology and how it alters in various states 
+such as schizophrenia, autism, depression, certain advanced meditative states in tantric
+traditions, non-dual practices, perceptual symptoms associated with some neurological conditions
+and lucid dreaming. This work integrates neuroscience, psychiatry, neurology, technology, 
+and contemplative science to understand the shifts of selfhood and their impact
+on mental health. A whirlwind tour of my research so far can be found [here](https://rahulvenugopal.github.io/haveyoumetrahul/research/worksofar/).
 
 On a typical day, I spend half my time on Sense of Self research.
 The other half is spread across multiple cool projects happening at the
 [Centre for Consciousness Studies](https://www.ccsnimhans.com) mostly tackling
 conceptual, technical, signal processing, statistical and other blocks scholars run into.
 
-I also mentor and lead a handful of intern-led [projects](https://rahulvenugopal.github.io/haveyoumetrahul/research/interns/), where we play around
-with datasets exploring new methods and concepts. Ah, I love teaching.
-I teach core fundamentals that I believe can have meaningful impact across
+I also mentor and lead a handful of intern-led [projects](https://rahulvenugopal.github.io/haveyoumetrahul/research/interns/), 
+where we play around with data sets exploring new methods and concepts. 
+Ah, I love teaching. I teach core fundamentals that I believe can have meaningful impact across
 lab members and contribute to broader upskilling beyond academia. I taught 
 [this](https://rahulvenugopal.github.io/LinearModelsTut/) and teaching
 [this](https://rahulvenugopal.github.io/EEGOdyssey/) now.
 
 I care deeply about how science is conducted and loathe the obsession with
-impact factors and pseudo-prestige in academia. I believe in flat hierarchies,
+impact factors and pseudo-prestige in academia. I believe and practice flat hierarchies,
 open science and the elimination of subtle "-isms". I am a proponent of
 [deep work](https://calnewport.com/some-notes-on-deep-working/) and highly value
 physical-mental health, relationships, and core [values](https://rahulvenugopal.github.io/haveyoumetrahul/blog/career/whoami/).

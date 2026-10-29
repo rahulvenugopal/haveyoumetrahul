@@ -29,6 +29,6 @@ Ultimately, the true puzzles of Ayahuasca pertain to the human psyche and the ph
 ![](1.png)
 {{< /admonition >}}
 
-{{< admonition note "Next Book" false >}}
+{{< admonition note "Vajrayana: An Essential Guide to Practice" false >}}
 Content
 {{< /admonition >}}

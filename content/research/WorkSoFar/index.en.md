@@ -176,7 +176,7 @@ a) Phase 1 of predicting brain age index (chronological age minus brain age) fro
 EEG is completed. Siddharth and Deepshik was heading this work and we publsihed
 the [preprint](https://www.biorxiv.org/content/10.64898/2026.08.04.742735v1).
 An ex-intern would extend this work to predict cognitive scores from EEG
-(December 2026 onwards)
+(December 2026 on wards)
 
 b) Srinivasan and Aparna troubleshooted and ported `Sense of Agency` paradigms
 to Python and integrated the timing markers with the LiveAmp EEG setup.
@@ -192,10 +192,9 @@ heart rates as well.
 
 d) This [work](https://www.biorxiv.org/content/10.64898/2026.08.07.743470v1) is cool
 and working on a side project to study brain criticality measures from our larger EEG database 
-from expert meditators across four traditions. Hoping to rope in couple of 
-[MESEC](https://www.mesec.co/) friends for expert collab. Manifold approaches
-make sense in this context. 
+from expert meditators across four traditions. Delna has picked this up.
 
-e) Well, the `Sense of Self` readings are picking pace. Will take a shot at ANRF-
-ECR grant of 2026. Will cut down some breadth to go deep into `Sense of Self` 
+e) Well, the `Sense of Self` readings and some good intro to tantric meditation
+are picking pace. Will take a shot at ANRF-ECR grant of 2026. 
+Will cut down some breadth to go deep into `Sense of Self` 
 projects from 1st of January, 2027.

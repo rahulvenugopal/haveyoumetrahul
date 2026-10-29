@@ -126,3 +126,52 @@ content.
 
 PS: The theatrical abuse of em dashes? 
 That is pure, unfiltered human agency at work.
+
+So, two lines of work - One on methods development and then an area of work.
+
+1. A deep synthesis of tantric meditative practices and `Sense of Self`.
+
+For those who are new to this, read on.
+
+Sutric Buddhism works by subtraction. You sit still, quiet the mind, and peel 
+away the layers of delusion until the enlightened core shows up. Tantra, or 
+Vajrayana, flips this: the layers are the fruit. Instead of suppressing our wild
+emotions and runaway thoughts, it uses them as fuel.
+
+Two ideas sit at the base of the tradition. Emptiness: subjects and objects are 
+interdependent constructs, not solid realities. Buddha-nature: an uncorrupted 
+potential for awakening beneath the confusion. Tantra fuses them into the “clear 
+light of bliss,” a non-conceptual field of pure cognition. But you can’t order 
+an agitated, ego-bound mind to simply go there.
+
+Tantra builds an elaborate mental game to trick the ego out of its own loop.
+The deities aren’t sky-gods or private daydreams. They are constructed 
+representations of the mind’s own latent wisdom. Doing this without self-deception 
+rests on five principles:
+
+Clarity: the deity is rainbow-translucent, inseparable from emptiness.
+Purity: toxic impulses are rechanneled, not repressed. Hence the wrathful figures.
+Stability: sustained focus on fine details counters agitation and drowsiness.
+Divine pride: firm conviction that your nature is the deity’s, which overrides 
+the ordinary self.
+Bliss: a somatic release as dualistic thinking stops and prana flows through the
+central channel.
+
+This isn’t paperback material. It requires a qualified master and four escalating
+empowerments: vase (body), secret (speech and energy channels), wisdom-knowledge 
+(heart and mind), and word (no symbols at all, just the mind’s natural state, mahamudra).
+Without them, the machinery stays dormant.
+
+After building this vast architecture, the completion stage demolishes all of it.
+The complexity was never the point. It was a tool for exhausting the dualistic mind’s
+appetite for concepts and stories. When it collapses, what remains isn’t a void 
+but pure, non-conceptual presence.
+
+That’s Tantra’s inversion: use the ego’s hunger for complexity to overload the ego,
+and leave only clear light.
+
+2. Understanding sense of self (peripersonal space, sense of agency and ownership,
+first person perspective and narrative self) across various non-ordinary states 
+of consciousness (Schizophrenia, Depression, Dissociative Identity Disorders,
+Anaesthesia, Deep sleep, Lucid dreaming, certain meditative states, Autism, 
+Disorders of Consciousness, Neurological conditions etc.)
