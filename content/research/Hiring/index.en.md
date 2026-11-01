@@ -221,16 +221,7 @@ Thank you for considering me as a potential mentor. I look forward to the
 possibility of exploring the mysteries of consciousness with you!
 
 ### What will I work on with you?
-At this point in space-time, there are two projects (until end of 2026).
-
-1. Setting up and troubleshooting the [peripersonal space](https://www.youtube.com/watch?v=elfbiCzUVSA)
-experiment in virtual reality.
-2. A infographic review on the experimental approaches to study various dimensions
-of `Sense of Self`. This involves reading a pile of papers, thinking a lot,
-synthesising the knowledge and converting those to accessible illustrations.
-It would be great if you can intern for your dissertation project. But, if you
-want to learn and get a good sense of broader works happening at our centre for
-consciousness studies, you may do an internship for 3 months.
+Slots are full until January 2027
 
 ### Formalities of the internship
 Internship application can be found [here](https://training.nimhans.ac.in/Training/index.jsp).
