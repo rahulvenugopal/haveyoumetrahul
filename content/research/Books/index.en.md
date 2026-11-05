@@ -2,7 +2,7 @@
 author: Rahul
 authorLink: https://rahulvenugopal.github.io/haveyoumetrahul/
 categories: ["Books"]
-date: "2026-07-06T21:57:40+08:00"
+date: "2025-07-06T21:57:40+08:00"
 description: 
 draft: false
 images: []

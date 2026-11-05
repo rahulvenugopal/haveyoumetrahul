@@ -19,11 +19,13 @@ fortunate to be in a position where what I do every day is what I love!
 
 I am establishing a research niche around **Sense of Self**, exploring how
 it emerges with a rich phenomenology and how it alters in various states 
-such as schizophrenia, autism, depression, certain advanced meditative states in tantric
-traditions, non-dual practices, perceptual symptoms associated with some neurological conditions
-and lucid dreaming. This work integrates neuroscience, psychiatry, neurology, technology, 
-and contemplative science to understand the shifts of selfhood and their impact
-on mental health. A whirlwind tour of my research so far can be found [here](https://rahulvenugopal.github.io/haveyoumetrahul/research/worksofar/).
+such as Schizophrenia, Autism, Depression, certain advanced meditative states in tantric
+traditions, non-dual practices, perceptual phenomena seein along
+some neurological conditions (hemineglect to Cotard's) and lucid dreaming.
+This work integrates neuroscience, psychiatry, neurology, technology, 
+and contemplative sciences to understand the shifts of selfhood and their impact
+on mental health. 
+A whirlwind tour of my research so far can be found [here](https://rahulvenugopal.github.io/haveyoumetrahul/research/worksofar/).
 
 On a typical day, I spend half my time on Sense of Self research.
 The other half is spread across multiple cool projects happening at the
@@ -43,9 +45,11 @@ open science and the elimination of subtle "-isms". I am a proponent of
 [deep work](https://calnewport.com/some-notes-on-deep-working/) and highly value
 physical-mental health, relationships, and core [values](https://rahulvenugopal.github.io/haveyoumetrahul/blog/career/whoami/).
 I enjoy working with people who are self driven, possess a 
-growth mindset and are reflective and collaborative. If you are someone with
-a similar thought process and/or want to work with me,please send an email 
-to me at `rhlvenugopal@gmail.com`
+growth mindset and are reflective and collaborative. I am ideating building from
+ground up a community for Consciousness researchers in India with some cool folks.
+
+If you are someone with a similar thought process and/or want to work with me, 
+please email me at `rhlvenugopal@gmail.com`
 
 I had lots of fun, learnt a lot and made great friends at
 [BAMB2024](https://www.bambschool.org/) at Barcelona, Spain,

@@ -25,14 +25,14 @@ They are measurable, manipulable and mutated in certain neuro-psychiatric condit
 non-ordinary states of Consciousness.
 
 But that leaves a deeper question open. These components — ownership, agency, 
-peripersonal space etc. are the contents of self-experience. 
-What is the container that holds them? What is the underlying structure that 
-makes something feel like experience at all, rather than just information processing?
+peripersonal space etc. are the contents of self-experience. What is the container
+that holds them? What is the underlying structure that makes something feel like
+experience at all, rather than just information processing?
 And what happens when you start removing the contents, one by one? How does it feel
-when stripped of thoughts, body-sense, time, space and ego? Damn, is there a way 
-to do this? I see two precision instruments - pharmacological 
-(Anaesthesia, Psychedelics) and non-pharmacological (Yoga, Meditation and other
-mind-body practices).
+when stripped of thoughts, body-sense, time, space and ego? Where do we see these
+contents getting stripped off (neuro-psychiatric conditions!) and what about
+Disorders of Consciousness, Anaesthesia, non-ordinary states in certain
+mind-body practices.
 
 > The Self as a Model, Not a Thing
 
@@ -42,8 +42,7 @@ entity does not exist. What exists instead is a model — a phenomenal self-mode
 (PSM as called by Prof Metzinger).
 
 Here is the key idea. The living body (with the brain where the bulk of computation
-is concentrated) is a prediction machine. It is constantly building models of the
-world to anticipate what comes next. One of the things it models is itself 
+is concentrated) is a prediction machine. One of the things it models is itself 
 (the organism it is running). The PSM is the brain's model of you — your body, 
 your location in space, your sense of ownership, your sense of agency. This model
 is then embedded in a wider model of reality, giving you the felt sense of being 
@@ -58,12 +57,12 @@ self-model constructs, and you experience the end of that tunnel as the world/re
 
 This is not a depressing idea. It is a liberating one. It means the self is a process,
 not a substance. It means it is dynamic, plastic and crucially decomposable. 
-We can break it down.
+We can break it down and reconstruct in varying ways.
 
 The rubber hand illusion you have read about here is a beautiful demonstration of 
 this. Our brain updates the PSM to include a rubber hand when the sensory evidence
 supports it. The ownership feels utterly real because the model runs transparently.
-The sense of agency measured, the invisible bubble mapped by audio-tactile 
+The sense of agency, the invisible bubble mapped by audio-tactile 
 facilitation - each of these is a component layer of that model and the lab paradigms
 we use are essentially ways to poke and probe it.
 
@@ -77,14 +76,13 @@ about how experiences are generated with brain/body as the structure and
 experiences popping into our awareness? Where does it start? I am reminded 
 of `turtles all the way` [story](https://en.wikipedia.org/wiki/Turtles_all_the_way_down).
 
-What are the structures that organise experience normally 
-(routinely is a better word) — structures so habitual and so transparent that we
-can only see them when they begin to alter. Think of it this way, we do not notice
-the walls of a room when we are inside it. But watch someone/something carefully
-remove one wall, then another and we start to understand what the room actually was.
+What are the structures that organise experience routinely — structures so habitual
+and so transparent that we can only see them when they begin to alter. 
+Think of it this way, we do not notice the walls of a room when we are inside it.
+But watch someone/something carefully remove one wall, then another and we start
+to understand what the room actually was.
 
-
-No sense of ownership. No sense of agency. No peripersonal space to speak of. No
+No sense of ownership. No sense of agency. No peripersonal space to reach to. No
 inner narrative, no temporal flow, no boundary between self and other. 
 And yet — something is happening. Something is here. What remains when you strip
 PSM of all its content layers? The Minimal Phenomenal Experience project, arguably
@@ -101,19 +99,13 @@ being someone — the storyline of "I am Rahul and I am frantically typing this"
 — falls away.
 
 And yet there is a thereness, a quality of presence without an object. 
-It is not unconsciousness. It is not dreamless sleep. It is something that 
-contemplative traditions across cultures have pointed to for millennia under
-different names — rigpa, turiya, witness consciousness, pure awareness — and 
-that is worth studying. It could offer a lot of therapeutic value, reduce suffering
+It is not unconsciousness. It is not dreamless sleep. It is worth studying.
+It could offer a lot of therapeutic value, reduce suffering
 and nudge humanity towards a culture of consciousness (Bewusstseinskultur).
 I assume to some extent avenge that itch which pushed our species to climb 
 down that tree, get out of that cave, strike two stones against each other, 
 jump on the log of wood and stand on the toes and jump out of the international 
 space station staring into the void!
-
-The content less, objectless, well language is hitting its limits (ineffability)! The window 
-without anything on the other side. The tunnel before the ego steps in. 
-BUT, what's there? THAT
 
 The most profound thing about this topic of research for me is what it 
 implies about the relationship between selfhood and awareness. 
@@ -126,5 +118,3 @@ content.
 
 PS: The theatrical abuse of em dashes? 
 That is pure, unfiltered human agency at work.
-
-So, two lines of work - One on methods development and then an area of work.

@@ -2,7 +2,7 @@
 author: Rahul
 authorLink: https://rahulvenugopal.github.io/haveyoumetrahul/
 categories: ["Career"]
-date: "2025-07-14T21:57:40+08:00"
+date: "2026-06-14T21:57:40+08:00"
 description: 
 draft: false
 images: []
@@ -46,7 +46,7 @@ focused on Brain-Computer Interface (BCI) applications for clinical rehabilitati
 specifically investigating the feasibility of using Motor Imagery (MI) based EEG features to
 predict movement intentions in patients with hemiplegia. By collecting EEG data
 during left versus right-hand motor imagery, the study demonstrated that 
-imagery-related desynchronization from central sensors could reliably predict 
+imagery-related desynchronization from central EEG sensors could reliably predict 
 intended hand movement. I got into Accenture via campus placement with a good package and ended up
 working on SAP software. That job sucked after 6 months! I locked myself in and cleared NIMHANS 
 entrance exam and joined for an MPhil Neuroscience program. I resigned a month before results,
@@ -55,7 +55,7 @@ saw some movies, tried all restaurants from one end of Marathahalli
 
 > The Quiet Mind: Contemplative Science & Non-Linear Dynamics
 
-During my MPhil research at NIMHANS and subsequent collaborations, I moved
+During my MPhil research at NIMHANS and subsequent side projects, I moved
 beyond conventional EEG analysis to understand the "texture" of a meditating mind.
 Standard analysis approaches often misses the nuance of multiple meditative states in
 [Vipassana meditation](https://www.sciencedirect.com/science/article/abs/pii/S0301051118301728).
@@ -83,7 +83,7 @@ as reliable markers for [sleep stability](https://onlinelibrary.wiley.com/doi/ab
 
 We also explored how [microstates dynamics](https://www.researchgate.net/publication/386099241_EEG_Microstate_Dynamics_in_Schizophrenia_During_Wake_and_Sleep)
 shift during sleep in both healthy brains and those affected by Schizophrenia. 
-I also co-supervised interns who developing machine learning classifiers to 
+I also co-supervised interns who wrote machine learning classifiers to 
 decode dream states from high-density PSG data using serial awakening protocols.
 we prototyped [MVPA pipelines](https://www.researchgate.net/publication/369790692_Dream_Detector_Decoding_Multivariate_EEG_pattern_between_dream_recall_and_no_recall_from_High-density_PSG_data) to decode dream states from sleep data using machine learning
 classifiers. We also developed pipelines to capture sleep stage transitions and 
@@ -95,12 +95,12 @@ for Sleep Research. You can read these two papers [1](https://www.cell.com/trend
 know more about the field.
 
 Recent [works](https://www.researchgate.net/publication/398435603_Biomarkers_in_Mild_Cognitive_Impairment_using_Resting_State_EEG_Spectral_Aperiodic_Connectivity_and_Microstate_Analyses)
-(PhD projects) have moved to developing real time [protocols](https://www.researchgate.net/publication/382083761_Effect_of_Open-Loop_Auditory_Stimulus_during_NREM_sleep_among_youth_geriatric_subjects_A_comparative_Nap_Study) to
+(Other PhD projects at CCS) have moved to developing real time [protocols](https://www.researchgate.net/publication/382083761_Effect_of_Open-Loop_Auditory_Stimulus_during_NREM_sleep_among_youth_geriatric_subjects_A_comparative_Nap_Study) to
 modulate sleep spindles during sleep with oscillatory pink noise.
 
 > Can we enhance our cognitive skills: Cognition & Neuromodulation
 
-Calenday shows 2018 and I joined for PhD bagging the institute fellowship. 
+Calendar shows 2018 and I joined for PhD bagging the institute fellowship. 
 By the way, I got married in 2017! My PhD work focused on the "executive" of the
 brain: Working Memory.
 I wanted to know if we could map its limits and push the capacity limits using transcranial
@@ -173,9 +173,9 @@ seizure prediction.
 ### What's happening now?
 
 a) Phase 1 of predicting brain age index (chronological age minus brain age) from
-EEG is completed. Siddharth and Deepshik was heading this work and we publsihed
+EEG is completed. Siddharth and Deepshik were heading this work and we publsihed
 the [preprint](https://www.biorxiv.org/content/10.64898/2026.08.04.742735v1).
-An ex-intern would extend this work to predict cognitive scores from EEG
+Srinivasan would extend this work to predict cognitive scores from EEG
 (December 2026 on wards)
 
 b) Srinivasan and Aparna troubleshooted and ported `Sense of Agency` paradigms
@@ -194,7 +194,6 @@ d) This [work](https://www.biorxiv.org/content/10.64898/2026.08.07.743470v1) is 
 and working on a side project to study brain criticality measures from our larger EEG database 
 from expert meditators across four traditions. Delna has picked this up.
 
-e) Well, the `Sense of Self` readings and some good intro to tantric meditation
-are picking pace. Will take a shot at ANRF-ECR grant of 2026. 
-Will cut down some breadth to go deep into `Sense of Self` 
-projects from 1st of January, 2027.
+e) Some cool eye tracking experiments are on their way in December, 2026.
+
+2027 onwards, the whole work will point towards "Sense of Self"

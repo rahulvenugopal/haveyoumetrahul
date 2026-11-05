@@ -2,7 +2,7 @@
 author: Rahul
 authorLink: https://rahulvenugopal.github.io/haveyoumetrahul/
 categories: ["Career"]
-date: "2025-12-14T21:57:40+08:00"
+date: "2026-07-14T21:57:40+08:00"
 description: 
 draft: false
 images: []
@@ -199,6 +199,45 @@ and data analysis to study biological systems.
 Srinivasan is an engineering graduate (CS) and pursuing his masters in Cognitive Sciences.
 
 *Srinivasan implemented three paradigms in PsychoPy to estimate Sense of Agency and incorporated the same with EEG using LSL framework*
+
+<div style="clear: both;"></div>
+
+---
+
+<img src="nahida.jpeg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
+
+##### [Nahida Jabin]() `2026` BSMS Graduate IISER Mohali `Omnivisor`
+
+I completed an integrated BS-MS degree in Biology, with a minor in Data Science,
+at IISER Mohali. My research experiences have allowed me to explore different areas
+of neuroscience, from experimental biology to computational approaches.
+I first joined CCS to work on dreaming. During my second internship, I explored EEG
+functional connectivity and compared different connectivity measures. 
+Most recently, during my third internship, I worked on neural speech tracking and
+EEG-based auditory attention decoding. Each time I returned to CCS, there was 
+something new to learn and explore. The research, the people, and the welcoming
+environment made it a place I genuinely enjoyed being part of and looked forward 
+to returning to.
+
+*Nahida played Sherlock Holmes and Harry Potter audio books to either ears and
+instructed participants to focus on one and decoded that from EEG*
+
+<div style="clear: both;"></div>
+
+---
+
+<img src="delna.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
+
+##### [Delna Kuriyakose](https://www.linkedin.com/in/delna-kuriyakose-5064a5306) `2026` Ph.D. scholar in the Department of Mathematics at VIT 
+University `Omnivisor`
+
+Delna is wrapping up her Ph.D. scholar in the Department of Mathematics at VIT 
+University with a strong foundation in statistics and mathematics. Her research 
+focuses on computational neuroscience, leveraging explainable AI, deep learning,
+and stochastic modeling for EEG-based biosignal analysis and neurological disorder
+assessment, backed by a robust publication record.
+
+*She is exploring brain criticality and psychedelic neurodynamics using the open-source PsiConnect dataset*
 
 <div style="clear: both;"></div>
 
