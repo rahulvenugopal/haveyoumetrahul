@@ -216,8 +216,7 @@ instructed participants to focus on one and decoded that from EEG*
 
 <img src="delna.jpg" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Delna Kuriyakose](https://www.linkedin.com/in/delna-kuriyakose-5064a5306) `2026` Ph.D. scholar in the Department of Mathematics at VIT 
-University `Omnivisor`
+##### [Delna Kuriyakose](https://www.linkedin.com/in/delna-kuriyakose-5064a5306) `2026` Ph.D. scholar in the Dept of Mathematics at VIT University `Omnivisor`
 
 Delna is wrapping up her Ph.D. scholar in the Department of Mathematics at VIT 
 University with a strong foundation in statistics and mathematics. Her research 
