@@ -46,7 +46,7 @@ using YASA module.*
 
 <img src="sruthi.JPG" style="float: left; height: 100px; border-radius: 50%; margin-right: 20px; margin-bottom: 10px;">
 
-##### [Sruthi Kuriakose](https://www.linkedin.com/in/sruthikuriakose/) `2022` B.Tech CSE and MS, UCL, London `Co-mentored with Dr. Arun`
+##### [Sruthi Kuriakose](https://www.linkedin.com/in/sruthikuriakose/) `2022` B.Tech CSE and MS, UCL, London `Co-mentored with Dr. Arun` currently, AI Strategy Analyst at Rethink Priorities
 
 CS, ML
 
