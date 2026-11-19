@@ -1,0 +1,26 @@
+<style>
+  .loveit-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 12px;
+    align-items: start;
+  }
+  .loveit-gallery a,
+  .loveit-gallery figure {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+  .loveit-gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .loveit-gallery figcaption,
+  .lg-sub-html {
+    display: none;
+  }
+</style>
+<div class="loveit-gallery">
+  {{ .Inner }}
+</div>

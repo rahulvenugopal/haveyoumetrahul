@@ -17,6 +17,20 @@ weight: 7
 What is `this` entity having these experiences? Why is there always someone having 
 the experiences? Well, let us understand `The Architecture of the Experiencing Self`
 
+{{< gallery >}}
+  {{< image src="Slide1.PNG" >}}
+  {{< image src="Slide2.PNG" >}}
+  {{< image src="Slide3.PNG" >}}
+  {{< image src="Slide4.PNG" >}}
+  {{< image src="Slide5.PNG" >}}
+  {{< image src="Slide6.PNG" >}}
+  {{< image src="Slide7.PNG" >}}
+  {{< image src="Slide8.PNG" >}}
+  {{< image src="Slide9.PNG" >}}
+  {{< image src="Slide10.PNG" >}}
+  {{< image src="Slide11.PNG" >}}
+{{< /gallery >}}
+
 What is it that makes you **you**? Our sense of owning our hand, initiating our 
 actions, the invisible bubble of space close to the body that feels like ours, 
 the sense that our **self** is located somewhere within our body even when we are
