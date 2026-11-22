@@ -303,13 +303,3 @@ This paper asks a question that medicine has traditionally answered too hastily 
 The paper develops a gradualist and multidimensional account: consciousness emerges along a developmental trajectory — not suddenly at birth, not suddenly at some privileged developmental milestone, but gradually, as different consciousness-relevant capacities come online. What arrives first is likely some form of affective experience — valenced states that matter, that hurt or comfort — consistent with evidence that subcortical structures supporting hedonic evaluation mature earlier than the cortical systems supporting narrative self-representation. What arrives later is the autobiographical subject: the temporally extended self who can remember the past and anticipate the future, who has a name and a story. Together with the "islands of awareness" paper, this creates a temporal and clinical frame around the retreat's central question. Consciousness is not an all-or-nothing threshold that is either crossed or not. It is a capacity that admits of degrees — degrees that vary across species, across developmental stages, across clinical states, and across the spectrum from ordinary wakefulness to the deepest meditative absorption. By the final day of the retreat, the assumption that consciousness is, roughly, the kind of thing that happens when a healthy adult human brain is awake has been systematically dismantled — not by dismissing human adult consciousness but by insisting that it is only one point in a vastly larger space.
 
 ---
-
-In summary,
-
-- The Measurement Problem Is A Core Problem
-- The Body Is Not Optional
-- Altered States Are Empirical Gifts
-- Theory Wars Require Better Collaboration
-- The Edges Define the Centre
-- First-Person Methodology Is Indispensable
-- The Hard Problem Remains
